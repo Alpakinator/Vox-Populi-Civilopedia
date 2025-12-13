@@ -414,12 +414,17 @@ function ExportCivilizations()
                 if override.UnitType then
                     local unit = GameInfo.Units[override.UnitType]
                     if unit then
-                        table.insert(civData.UniqueUnits, {
+                        local unitData = {
                             Type = unit.Type,
                             Name = Locale.ConvertTextKey(unit.Description),
+                            IsGreatPerson = false,
                             IconAtlas = safeGet(unit, "IconAtlas"),
                             PortraitIndex = safeGet(unit, "PortraitIndex")
-                        })
+                        }
+                        if (unit.PrereqTech == nil and unit.Special ~= nil) then
+                            unitData.IsGreatPerson = true;
+                        end
+                        table.insert(civData.UniqueUnits, unitData)
                     end
                 end
             end

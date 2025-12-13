@@ -2354,12 +2354,15 @@
             }
         }
 
-        function showUnit(unitType) {
+        function showUnit(unitType, isGreatPerson) {
             const currentPage = window.location.pathname.split('/').pop();
-            if (currentPage === 'units.html') {
+            const targetPage = isGreatPerson ? 'greatPeople.html' : 'units.html';
+
+            if (currentPage === targetPage) {
+                // Stay on same page, update hash to trigger proper history entry
                 window.location.hash = '#item-' + unitType;
             } else {
-                window.location.href = 'units.html#item-' + unitType;
+                window.location.href = targetPage + '#item-' + unitType;
             }
         }
 

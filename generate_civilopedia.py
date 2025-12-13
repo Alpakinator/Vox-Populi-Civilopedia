@@ -1067,7 +1067,7 @@ SIDEBAR_TEMPLATE = """<!DOCTYPE html>
                                 <div class="summary">
                                     <h3>{{ labels.get('generatesGreatPersonHeader') }}</h3>
                                     <div class="text-box">
-                                        <a href="#" onclick="showUnit('{{ item.GreatPeopleUnit.Type }}'); return false;">{{ item.GreatPeopleUnit.Name }}</a>
+                                        <a href="#" onclick="showUnit('{{ item.GreatPeopleUnit.Type }}', 'true'); return false;">{{ item.GreatPeopleUnit.Name }}</a>
                                     </div>
                                 </div>
                                 {% endif %}
@@ -1204,7 +1204,7 @@ SIDEBAR_TEMPLATE = """<!DOCTYPE html>
                                 <div class="text-box">
                                     <ul class="item-list">
                                         {% for unit in item.UnlockedUnits %}
-                                        <li><a href="#" onclick="showUnit('{{ unit.Type }}'); return false;">{{ unit.Name }}</a></li>
+                                        <li><a href="#" onclick="showUnit('{{ unit.Type }}', {{ 'true' if unit.IsGreatPerson else 'false' }}); return false;">{{ unit.Name }}</a></li>
                                         {% endfor %}
                                     </ul>
                                 </div>
@@ -1339,7 +1339,7 @@ SIDEBAR_TEMPLATE = """<!DOCTYPE html>
                                     <div class="text-box">
                                         <ul class="item-list">
                                             {% for unit in item.UniqueUnits %}
-                                            <li><a href="#" onclick="showUnit('{{ unit.Type }}'); return false;">{{ unit.Name }}</a></li>
+                                            <li><a href="#" onclick="showUnit('{{ unit.Type }}', {{ 'true' if unit.IsGreatPerson else 'false' }}); return false;">{{ unit.Name }}</a></li>
                                             {% endfor %}
                                         </ul>
                                     </div>
@@ -1550,12 +1550,15 @@ SIDEBAR_TEMPLATE = """<!DOCTYPE html>
             }
         }
 
-        function showUnit(unitType) {
+        function showUnit(unitType, isGreatPerson) {
             const currentPage = window.location.pathname.split('/').pop();
-            if (currentPage === 'units.html') {
+            const targetPage = isGreatPerson ? 'greatPeople.html' : 'units.html';
+
+            if (currentPage === targetPage) {
+                // Stay on same page, update hash to trigger proper history entry
                 window.location.hash = '#item-' + unitType;
             } else {
-                window.location.href = 'units.html#item-' + unitType;
+                window.location.href = targetPage + '#item-' + unitType;
             }
         }
 
