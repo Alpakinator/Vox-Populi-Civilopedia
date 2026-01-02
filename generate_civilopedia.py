@@ -713,16 +713,19 @@ footer {
     .main-nav {
         display: none;
         flex-direction: column;
+        flex-wrap: nowrap;
         position: fixed;
         top: 150px;
         left: 0;
         right: 0;
         width: 100%;
-        max-height: calc(100vh - 150px);
+        height: auto;
+        max-height: calc(100vh - 250px);
         background: #34495e;
         z-index: 999;
         box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
         overflow-y: auto;
+        overflow-x: hidden;
     }
 
     .main-nav.open {
@@ -941,7 +944,7 @@ SIDEBAR_TEMPLATE = """<!DOCTYPE html>
             </aside>
 
             <div class="pediapage-content" id="itemContent">
-                <button class="sidebar-toggle" id="sidebarToggle" aria-label="Toggle sidebar"><span class="toggle-icon">☰</span> <span class="toggle-text">Show contents</span></button>
+                <button class="sidebar-toggle" id="sidebarToggle" aria-label="Toggle sidebar"><span class="toggle-icon">☰</span> <span class="toggle-text">Show all {{ title }}</span></button>
                 <div class="placeholder">
                     <section class="welcome">
                         <h2>{{ title }}</h2>
@@ -1926,9 +1929,9 @@ SIDEBAR_TEMPLATE = """<!DOCTYPE html>
                 const toggleText = sidebarToggle.querySelector('.toggle-text');
                 if (toggleText) {
                     if (pediaSidebar.classList.contains('open')) {
-                        toggleText.textContent = 'Hide contents';
+                        toggleText.textContent = 'Hide all {{ title }}';
                     } else {
-                        toggleText.textContent = 'Show contents';
+                        toggleText.textContent = 'Show all {{ title }}';
                     }
                 }
             });
