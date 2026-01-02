@@ -15,6 +15,7 @@
                 <input type="text" id="globalSearch" placeholder="Search Civilopedia... (Press S)" autocomplete="off">
                 <div id="searchResults" class="search-results"></div>
             </div>
+            <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation menu">☰</button>
         </header>
 
         <nav class="main-nav">
@@ -143,6 +144,7 @@
             </aside>
 
             <div class="pediapage-content" id="itemContent">
+                <button class="sidebar-toggle" id="sidebarToggle" aria-label="Toggle sidebar"><span class="toggle-icon">☰</span> <span class="toggle-text">Show contents</span></button>
                 <div class="placeholder">
                     <section class="welcome">
                         <h2>Civilizations and Leaders</h2>
@@ -7590,7 +7592,7 @@ Nebuchadnezzar II died in Babylon in 562 BC. He is remembered as a successful mi
         </main>
 
         <footer>
-            <p>Vox Populi Civilopedia - Version 5.0</p>
+            <p>Vox Populi Civilopedia - Version 5.0.1</p>
         </footer>
     </div>
 
@@ -7919,6 +7921,72 @@ Nebuchadnezzar II died in Babylon in 562 BC. He is remembered as a successful mi
             div.textContent = text;
             return div.innerHTML;
         }
+
+        // Mobile navigation toggle
+        const navToggle = document.getElementById('navToggle');
+        const mainNav = document.querySelector('.main-nav');
+
+        if (navToggle) {
+            navToggle.addEventListener('click', function(e) {
+                e.preventDefault();
+                mainNav.classList.toggle('open');
+                document.body.classList.toggle('nav-open');
+            });
+        }
+
+        // Close main nav when clicking a link
+        if (mainNav) {
+            const navLinks = mainNav.querySelectorAll('a');
+            navLinks.forEach(link => {
+                link.addEventListener('click', function() {
+                    mainNav.classList.remove('open');
+                    document.body.classList.remove('nav-open');
+                });
+            });
+        }
+
+        // Mobile sidebar toggle
+        const sidebarToggle = document.getElementById('sidebarToggle');
+        const pediaSidebar = document.querySelector('.pediapage-sidebar');
+
+        if (sidebarToggle) {
+            sidebarToggle.addEventListener('click', function(e) {
+                e.preventDefault();
+                pediaSidebar.classList.toggle('open');
+
+                // Toggle button text
+                const toggleText = sidebarToggle.querySelector('.toggle-text');
+                if (toggleText) {
+                    if (pediaSidebar.classList.contains('open')) {
+                        toggleText.textContent = 'Hide contents';
+                    } else {
+                        toggleText.textContent = 'Show contents';
+                    }
+                }
+            });
+        }
+
+        // Close sidebar when clicking a link on mobile
+        if (pediaSidebar) {
+            const sidebarLinks = pediaSidebar.querySelectorAll('a');
+            sidebarLinks.forEach(link => {
+                link.addEventListener('click', function() {
+                    if (window.innerWidth < 768) {
+                        pediaSidebar.classList.remove('open');
+                    }
+                });
+            });
+        }
+
+        // Close main nav when clicking outside
+        document.addEventListener('click', function(e) {
+            if (mainNav && mainNav.classList.contains('open')) {
+                if (!e.target.closest('.main-nav') && !e.target.closest('.nav-toggle')) {
+                    mainNav.classList.remove('open');
+                    document.body.classList.remove('nav-open');
+                }
+            }
+        });
     </script>
 </body>
 </html>

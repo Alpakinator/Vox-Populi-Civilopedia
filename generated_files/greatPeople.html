@@ -15,6 +15,7 @@
                 <input type="text" id="globalSearch" placeholder="Search Civilopedia... (Press S)" autocomplete="off">
                 <div id="searchResults" class="search-results"></div>
             </div>
+            <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation menu">☰</button>
         </header>
 
         <nav class="main-nav">
@@ -79,6 +80,7 @@
             </aside>
 
             <div class="pediapage-content" id="itemContent">
+                <button class="sidebar-toggle" id="sidebarToggle" aria-label="Toggle sidebar"><span class="toggle-icon">☰</span> <span class="toggle-text">Show contents</span></button>
                 <div class="placeholder">
                     <section class="welcome">
                         <h2>Specialists and Great People</h2>
@@ -206,7 +208,7 @@
                             <div class="summary">
                                 <h3>Game Info:</h3>
                                 <div class="text-box">
-                                    👣 Moves: 6<br>----------------<br>Free Promotions:<br>• Naval Leadership<br>• Military Tradition<br>Voyage of Discovery: +2 Random Luxury Resources<br>----------------<br>The Great Admiral can immediately cross oceans for free, making it a useful (if vulnerable) exploration vessel. Furthermore, while in owned territory, the Great Admiral can be sent on a <span class="positive">Voyage of Discovery</span> that expends the Unit and gives you two copies of a Luxury Resource not available on the current map.<br><br>The Great Admiral has the ability to instantly <span class="positive">Repair</span> every Naval and Embarked Unit in the same hex, as well as in adjacent hexes. The Great Admiral is consumed when performing this action. The Great Admiral also provides +15% ⚔️ Combat Strength to all player-owned Naval Units within 2 tiles. The Great Admiral is NOT consumed when he provides this bonus. When the Great Admiral is expended for a <span class="positive">Voyage of Discovery</span> or <span class="positive">Repair</span>, it increases your Military Unit Supply Cap by 1.
+                                    👣 Moves: 6<br>----------------<br>Free Promotions:<br>• Naval Leadership<br>• Military Tradition<br>Improvements:<br>• Tersane<br>Voyage of Discovery: +2 Random Luxury Resources
                                 </div>
                             </div>
                             <div class="summary">
@@ -231,7 +233,7 @@
                             <div class="summary">
                                 <h3>Game Info:</h3>
                                 <div class="text-box">
-                                    👣 Moves: 2<br>----------------<br>Start a Golden Age<br>----------------<br>A Great Artist can create a  Great Work of Art (generates both 🎵 Culture and 🗿 Tourism) that is placed in the nearest city that has an appropriate building with an empty slot (like the Palace, a Museum, or a Cathedral). A Great Artist can also generate a large sum of Golden Age Points, scaling with 🌟 Golden Age Point output, 🗿 Tourism output, and the number of <span class="positive">themed</span> sets of  Great Works. Great Artists are expended when used either of these ways.
+                                    👣 Moves: 2<br>----------------<br>Start a Golden Age
                                 </div>
                             </div>
                             <div class="summary">
@@ -256,7 +258,7 @@
                             <div class="summary">
                                 <h3>Game Info:</h3>
                                 <div class="text-box">
-                                    👣 Moves: 5<br>----------------<br>Free Promotions:<br>• Master Diplomat<br>When Expended: +1  Paper<br>Conduct Diplomatic Mission: +30 Resting  Influence with Target  City-State<br>----------------<br>Diplomatic Missions of this Unit grant 100 base  Influence with the target  City-State, plus 15 extra  Influence per Era passed, and reduce the same amount of  Influence of the target  City-State with all other Civilizations.
+                                    👣 Moves: 5<br>----------------<br>Free Promotions:<br>• Master Diplomat<br>Improvements:<br>• Embassy<br>When Expended: +1  Paper<br>Conduct Diplomatic Mission: +30 Resting  Influence with Target  City-State<br>----------------<br>Diplomatic Missions of this Unit grant 100 base  Influence with the target  City-State, plus 15 extra  Influence per Era passed, and reduce the same amount of  Influence of the target  City-State with all other Civilizations.
                                 </div>
                             </div>
                             <div class="summary">
@@ -281,7 +283,7 @@
                             <div class="summary">
                                 <h3>Game Info:</h3>
                                 <div class="text-box">
-                                    👣 Moves: 2<br>----------------<br>Hurry Production<br>----------------<br>Great Engineers can construct the special Manufactory improvement. It counts as every type of improvement for adjacency bonuses, and when worked, it provides a lot of 🔨 Production for a city. The Great Engineer can also hurry the production of a unit, building or Wonder in a city, increased by 10% per Manufactory created and owned. The Great Engineer is expended when used in either of these ways.
+                                    👣 Moves: 2<br>----------------<br>Improvements:<br>• Manufactory<br>• Oppidum<br>Hurry Production
                                 </div>
                             </div>
                             <div class="summary">
@@ -306,7 +308,7 @@
                             <div class="summary">
                                 <h3>Game Info:</h3>
                                 <div class="text-box">
-                                    👣 Moves: 2<br>----------------<br>Free Promotions:<br>• Leadership<br>• Military Tradition<br>----------------<br>The Great General can construct the special <span class="positive">Citadel</span> improvement which gives a big defensive bonus to any Unit occupying it, damages Enemy Units that finish their turn in tiles adjacent to it, puts all adjacent tiles into your territory, and increases your Military Unit Supply Cap by 1. The Great General is consumed when it builds the <span class="positive">Citadel</span>. The Great General provides +15% ⚔️ Combat Strength to all player-owned Land Units within 2 tiles. The Great General is NOT consumed when he provides this bonus.
+                                    👣 Moves: 2<br>----------------<br>Free Promotions:<br>• Leadership<br>• Military Tradition<br>Improvements:<br>• Citadel<br>• Oppidum<br>• Tersane
                                 </div>
                             </div>
                             <div class="summary">
@@ -331,7 +333,7 @@
                             <div class="summary">
                                 <h3>Game Info:</h3>
                                 <div class="text-box">
-                                    👣 Moves: 2<br>----------------<br>Conduct Diplomatic Mission<br>----------------<br>The Great Merchant can construct the special Town improvement which, when worked, produces 💰 Gold and 🌾 Food. The Great Merchant can also journey to a city-state and perform a "trade mission" which produces a large sum of 💰 Gold and starts a "We Love the King Day" in all owned cities, increased by 25% per Town created and owned. The Great Merchant is expended when used in either of these ways.<br><br>Towns receive +1 💰 Gold and 🔨 Production if built on a Road that connects two owned Cities, and +2 💰 Gold and 🔨 Production if a Railroad. Receive additional 💰 Gold and 🔨 Production (+1 for Roads, +2 for Railroads) if a Trade Route, either internal or international, passes over this Town.
+                                    👣 Moves: 2<br>----------------<br>Improvements:<br>• Town<br>• Oppidum<br>Conduct Diplomatic Mission
                                 </div>
                             </div>
                             <div class="summary">
@@ -356,7 +358,7 @@
                             <div class="summary">
                                 <h3>Game Info:</h3>
                                 <div class="text-box">
-                                    👣 Moves: 2<br>----------------<br>Free Promotions:<br>• Can Enter Rival Territory<br>Perform Concert Tour<br>----------------<br>A Great Musician can create a  Great Work of Music (generates both 🎵 Culture and 🗿 Tourism) that is placed in the nearest city that has an appropriate building with an empty slot (like an Opera House or Broadcast Tower).<br><br>A Great Musician can also travel to another civilization and perform a <span class="positive">Concert Tour</span>, increasing your 🗿 Tourism with the target Civilization by 100%, and all other Civilizations by 50%, for 10 Turns plus 1 additional Turn for every owned  Great Work of Music. You also receive 1 😊 Happiness in every City. This action consumes the unit.<br><br>You cannot perform a Concert Tour if at war with the target Civilization, or if your 🗿 Cultural Influence over the Civilization is <span class="magenta">Influential</span> or greater.
+                                    👣 Moves: 2<br>----------------<br>Free Promotions:<br>• Can Enter Rival Territory<br>Perform Concert Tour
                                 </div>
                             </div>
                             <div class="summary">
@@ -381,7 +383,7 @@
                             <div class="summary">
                                 <h3>Game Info:</h3>
                                 <div class="text-box">
-                                    👣 Moves: 4<br>•  Sight: 1<br>----------------<br>Spread Religion<br>Found a Religion<br>Free Promotions:<br>• Can Enter Rival Territory<br>----------------<br>The Great Prophet is the only unit who can found or enhance a religion. He can also construct the special Holy Site improvement which, when worked, produces lots of 🕊️ Faith. Alternatively, the Great Prophet can spread religion 4 times (displacing any previous religions in these cities). The Great Prophet is expended when used in any of these ways.
+                                    👣 Moves: 4<br>•  Sight: 1<br>----------------<br>Spread Religion<br>Found a Religion<br>Free Promotions:<br>• Can Enter Rival Territory<br>Improvements:<br>• Holy Site
                                 </div>
                             </div>
                             <div class="summary">
@@ -406,7 +408,7 @@
                             <div class="summary">
                                 <h3>Game Info:</h3>
                                 <div class="text-box">
-                                    👣 Moves: 2<br>----------------<br>The Great Scientist can construct the special Academy improvement which, when worked, produces lots of ⚗️ Science. Further, a Great Scientist can give you a considerable boost towards your next tech, increased by <span class="positive">10%</span> per Academy created and owned. The Great Scientist is expended when used in any of these ways.
+                                    👣 Moves: 2<br>----------------<br>Improvements:<br>• Academy<br>• Oppidum
                                 </div>
                             </div>
                             <div class="summary">
@@ -431,7 +433,7 @@
                             <div class="summary">
                                 <h3>Game Info:</h3>
                                 <div class="text-box">
-                                    👣 Moves: 2<br>----------------<br>Discover Technology<br>Write Political Treatise<br>----------------<br>A Great Writer can create a  Great Work of Writing (generates both 🎵 Culture and 🗿 Tourism) that is placed in the nearest city that has an appropriate building with an empty slot (like an Amphitheater, National Epic, Heroic Epic, or Royal Library). A Great Writer can also write a Political Treatise, which grants the player an amount of Culture that scales with the number of owned  Great Works. Great Writers are expended when used either of these ways.
+                                    👣 Moves: 2<br>----------------<br>Discover Technology<br>Write Political Treatise
                                 </div>
                             </div>
                             <div class="summary">
@@ -456,7 +458,7 @@
                             <div class="summary">
                                 <h3>Game Info:</h3>
                                 <div class="text-box">
-                                    Iroquois Unique <span class="yellow">Great Diplomat</span><br>----------------<br>👣 Moves: 5<br>----------------<br>When Expended: Add Tile Yield to 🏛️ Capital<br>Free Promotions:<br>• Master Diplomat<br>When Expended: +1  Paper<br>Conduct Diplomatic Mission: +45 Resting  Influence with Target  City-State
+                                    Iroquois Unique <span class="yellow">Great Diplomat</span><br>----------------<br>👣 Moves: 5<br>----------------<br>When Expended: Adds Tile Yield to 🏛️ Capital<br>Free Promotions:<br>• Master Diplomat<br>Improvements:<br>• Embassy<br>When Expended: +1  Paper<br>Conduct Diplomatic Mission: +45 Resting  Influence with Target  City-State
                                 </div>
                             </div>
                             <div class="summary">
@@ -483,7 +485,7 @@
                             <div class="summary">
                                 <h3>Game Info:</h3>
                                 <div class="text-box">
-                                    Mongolian Unique <span class="yellow">Great General</span><br>----------------<br>👣 Moves: 5<br>----------------<br>Free Promotions:<br>• Leadership<br>• Medic I<br>• Khaaaan!<br>• Medic II<br>• Military Tradition
+                                    Mongolian Unique <span class="yellow">Great General</span><br>----------------<br>👣 Moves: 5<br>----------------<br>Free Promotions:<br>• Leadership<br>• Medic I<br>• Khaaaan!<br>• Medic II<br>• Military Tradition<br>Improvements:<br>• Ordo
                                 </div>
                             </div>
                             <div class="summary">
@@ -516,7 +518,7 @@
                             <div class="summary">
                                 <h3>Game Info:</h3>
                                 <div class="text-box">
-                                    Venetian Unique <span class="yellow">Great Merchant</span><br>----------------<br>👣 Moves: 4<br>----------------<br>Buy City-State<br>Found Colony (Puppet City)<br><span class="negative">Cannot found Cities next to anyone's border or if your Empire is very unhappy.</span><br>Free Buildings on Found (subject to location requirements): Monument, Market<br>Free Promotions:<br>• Trade Mission Bonus<br>Conduct Diplomatic Mission
+                                    Venetian Unique <span class="yellow">Great Merchant</span><br>----------------<br>👣 Moves: 4<br>----------------<br>Buy City-State<br>Can Found Colony (Puppet City)<br><span class="negative">Cannot found Cities next to anyone's border or if your Empire is very unhappy.</span><br>Free Buildings on Found (subject to location requirements): Monument, Market<br>Free Promotions:<br>• Trade Mission Bonus<br>Improvements:<br>• Town<br>Conduct Diplomatic Mission
                                 </div>
                             </div>
                             <div class="summary">
@@ -549,7 +551,7 @@
                             <div class="summary">
                                 <h3>Game Info:</h3>
                                 <div class="text-box">
-                                    Zulu Unique <span class="yellow">Great General</span><br>----------------<br>👣 Moves: 3<br>----------------<br>Free Promotions:<br>• Leadership<br>• Military Tradition<br>When Expended: +30 XP to Units on Tile<br>----------------<br>The InDuna's primary unique bonuses over a Great General are that when expended it provides experience to the unit it's stacked with and creates an Isibaya which places a  Cattle Resource adjacent to it and adjacent Pastures receive +1 🎵 Culture. The Isibaya should still primarily be used for military purposes like a Citadel but where possible trying to build it within the working radius of a city and adjacent to Pastures should be considered so you get the economic bonuses. You should always make sure to have a military unit stacked with the InDuna when constructing an Isibaya and its usually best to try to give the bonus experience to higher level units especially ranged or siege units. This is due to these unit types being easier to keep alive longer compared to melee units and that they tend to gain experience slower so the bonus experience is more impactful.
+                                    Zulu Unique <span class="yellow">Great General</span><br>----------------<br>👣 Moves: 3<br>----------------<br>Free Promotions:<br>• Leadership<br>• Military Tradition<br>Improvements:<br>• Isibaya<br>When Expended: +30 XP to Units on Tile
                                 </div>
                             </div>
                             <div class="summary">
@@ -563,7 +565,7 @@
                             <div class="summary">
                                 <h3>Strategy:</h3>
                                 <div class="text-box">
-                                    The InDuna's primary unique bonuses over a Great General are that when expended it provides experience to the unit it's stacked with and creates an Isibaya which places a  Cattle Resource adjacent to it and adjacent Pastures receive +1 🎵 Culture. The Isibaya should still primarily be used for military purposes like a Citadel but where possible trying to build it within the working radius of a city and adjacent to Pastures should be considered so you get the economic bonuses. You should always make sure to have a military unit stacked with the InDuna when constructing an Isibaya and its usually best to try to give the bonus experience to higher level units especially ranged or siege units. This is due to these unit types being easier to keep alive longer compared to melee units and that they tend to gain experience slower so the bonus experience is more impactful.
+                                    The InDuna's primary unique bonuses over a Great General are that when expended it provides experience to the unit it's stacked with and creates an Isibaya which places a  Cattle Resource adjacent to it and adjacent Pastures receive +1 🎵 Culture.<br><br>The Isibaya should still primarily be used for military purposes like a Citadel but where possible trying to build it within the working radius of a city and adjacent to Pastures should be considered so you get the economic bonuses.<br><br>You should always make sure to have a military unit stacked with the InDuna when constructing an Isibaya and its usually best to try to give the bonus experience to higher level units especially ranged or siege units. This is due to these unit types being easier to keep alive longer compared to melee units and that they tend to gain experience slower so the bonus experience is more impactful.
                                 </div>
                             </div>
                             <div class="summary">
@@ -578,7 +580,7 @@
         </main>
 
         <footer>
-            <p>Vox Populi Civilopedia - Version 5.0</p>
+            <p>Vox Populi Civilopedia - Version 5.0.1</p>
         </footer>
     </div>
 
@@ -907,6 +909,72 @@
             div.textContent = text;
             return div.innerHTML;
         }
+
+        // Mobile navigation toggle
+        const navToggle = document.getElementById('navToggle');
+        const mainNav = document.querySelector('.main-nav');
+
+        if (navToggle) {
+            navToggle.addEventListener('click', function(e) {
+                e.preventDefault();
+                mainNav.classList.toggle('open');
+                document.body.classList.toggle('nav-open');
+            });
+        }
+
+        // Close main nav when clicking a link
+        if (mainNav) {
+            const navLinks = mainNav.querySelectorAll('a');
+            navLinks.forEach(link => {
+                link.addEventListener('click', function() {
+                    mainNav.classList.remove('open');
+                    document.body.classList.remove('nav-open');
+                });
+            });
+        }
+
+        // Mobile sidebar toggle
+        const sidebarToggle = document.getElementById('sidebarToggle');
+        const pediaSidebar = document.querySelector('.pediapage-sidebar');
+
+        if (sidebarToggle) {
+            sidebarToggle.addEventListener('click', function(e) {
+                e.preventDefault();
+                pediaSidebar.classList.toggle('open');
+
+                // Toggle button text
+                const toggleText = sidebarToggle.querySelector('.toggle-text');
+                if (toggleText) {
+                    if (pediaSidebar.classList.contains('open')) {
+                        toggleText.textContent = 'Hide contents';
+                    } else {
+                        toggleText.textContent = 'Show contents';
+                    }
+                }
+            });
+        }
+
+        // Close sidebar when clicking a link on mobile
+        if (pediaSidebar) {
+            const sidebarLinks = pediaSidebar.querySelectorAll('a');
+            sidebarLinks.forEach(link => {
+                link.addEventListener('click', function() {
+                    if (window.innerWidth < 768) {
+                        pediaSidebar.classList.remove('open');
+                    }
+                });
+            });
+        }
+
+        // Close main nav when clicking outside
+        document.addEventListener('click', function(e) {
+            if (mainNav && mainNav.classList.contains('open')) {
+                if (!e.target.closest('.main-nav') && !e.target.closest('.nav-toggle')) {
+                    mainNav.classList.remove('open');
+                    document.body.classList.remove('nav-open');
+                }
+            }
+        });
     </script>
 </body>
 </html>

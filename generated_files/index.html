@@ -14,6 +14,7 @@
                 <input type="text" id="globalSearch" placeholder="Search Civilopedia... (Press S)" autocomplete="off">
                 <div id="searchResults" class="search-results"></div>
             </div>
+            <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation menu">☰</button>
         </header>
 
         <nav class="main-nav">
@@ -39,7 +40,7 @@
         <main>
             <section class="welcome">
                 <h2>Welcome to the Vox Populi Civilopedia</h2>
-                <p>Current version: 5.0</p>
+                <p>Current version: 5.0.1</p>
  
                 <div class="text-box" style="margin-top: 1.5rem;">
                     <br>&emsp;&emsp;"Such is the patriot's boast, where'er we roam, His first, best country ever is, at home."<br>&emsp;&emsp;  - Oliver Goldsmith<br>&emsp;
@@ -51,7 +52,7 @@
         </main>
 
         <footer>
-            <p>Vox Populi Civilopedia - Version 5.0</p>
+            <p>Vox Populi Civilopedia - Version 5.0.1</p>
         </footer>
     </div>
     <script src="searchIndex.js"></script>
@@ -183,6 +184,39 @@
             div.textContent = text;
             return div.innerHTML;
         }
+
+        // Mobile navigation toggle
+        const navToggle = document.getElementById('navToggle');
+        const mainNav = document.querySelector('.main-nav');
+
+        if (navToggle) {
+            navToggle.addEventListener('click', function(e) {
+                e.preventDefault();
+                mainNav.classList.toggle('open');
+                document.body.classList.toggle('nav-open');
+            });
+        }
+
+        // Close nav when clicking a link
+        if (mainNav) {
+            const navLinks = mainNav.querySelectorAll('a');
+            navLinks.forEach(link => {
+                link.addEventListener('click', function() {
+                    mainNav.classList.remove('open');
+                    document.body.classList.remove('nav-open');
+                });
+            });
+        }
+
+        // Close nav when clicking outside
+        document.addEventListener('click', function(e) {
+            if (mainNav && mainNav.classList.contains('open')) {
+                if (!e.target.closest('.main-nav') && !e.target.closest('.nav-toggle')) {
+                    mainNav.classList.remove('open');
+                    document.body.classList.remove('nav-open');
+                }
+            }
+        });
     </script>
 </body>
 </html>

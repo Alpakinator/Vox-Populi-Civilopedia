@@ -80,6 +80,7 @@ INDEX_TEMPLATE = """<!DOCTYPE html>
                 <input type="text" id="globalSearch" placeholder="{{ searchPlaceholder }}" autocomplete="off">
                 <div id="searchResults" class="search-results"></div>
             </div>
+            <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation menu">☰</button>
         </header>
 
         <nav class="main-nav">
@@ -252,6 +253,39 @@ INDEX_TEMPLATE = """<!DOCTYPE html>
             div.textContent = text;
             return div.innerHTML;
         }
+
+        // Mobile navigation toggle
+        const navToggle = document.getElementById('navToggle');
+        const mainNav = document.querySelector('.main-nav');
+
+        if (navToggle) {
+            navToggle.addEventListener('click', function(e) {
+                e.preventDefault();
+                mainNav.classList.toggle('open');
+                document.body.classList.toggle('nav-open');
+            });
+        }
+
+        // Close nav when clicking a link
+        if (mainNav) {
+            const navLinks = mainNav.querySelectorAll('a');
+            navLinks.forEach(link => {
+                link.addEventListener('click', function() {
+                    mainNav.classList.remove('open');
+                    document.body.classList.remove('nav-open');
+                });
+            });
+        }
+
+        // Close nav when clicking outside
+        document.addEventListener('click', function(e) {
+            if (mainNav && mainNav.classList.contains('open')) {
+                if (!e.target.closest('.main-nav') && !e.target.closest('.nav-toggle')) {
+                    mainNav.classList.remove('open');
+                    document.body.classList.remove('nav-open');
+                }
+            }
+        });
     </script>
 </body>
 </html>
@@ -290,12 +324,30 @@ header {
     padding: 2rem;
     text-align: center;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
 }
 
 header h1 {
+    flex: 1;
+    min-width: 100%;
     font-size: 2.5rem;
     margin-bottom: 0.5rem;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+header .search-container {
+    flex: 1;
+    min-width: 100%;
+}
+
+header .nav-toggle {
+    position: absolute;
+    top: 1.5rem;
+    right: 2rem;
 }
 
 .subtitle {
@@ -325,6 +377,24 @@ header h1 {
 
 .main-nav a.active {
     background: #3e5568;
+}
+
+/* Toggle buttons - hidden by default on desktop */
+.nav-toggle,
+.sidebar-toggle {
+    display: none;
+    background: none;
+    border: none;
+    color: white;
+    font-size: 1.5rem;
+    cursor: pointer;
+    padding: 0.5rem 1rem;
+    transition: opacity 0.2s;
+}
+
+.nav-toggle:hover,
+.sidebar-toggle:hover {
+    opacity: 0.8;
 }
 
 main {
@@ -634,8 +704,70 @@ footer {
 }
 
 @media (max-width: 768px) {
+    /* Show toggle buttons on mobile */
+    .nav-toggle {
+        display: block;
+    }
+
+    /* Hide navigation by default, show when .open class added */
     .main-nav {
+        display: none;
         flex-direction: column;
+        position: fixed;
+        top: 150px;
+        left: 0;
+        right: 0;
+        width: 100%;
+        max-height: calc(100vh - 150px);
+        background: #34495e;
+        z-index: 999;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        overflow-y: auto;
+    }
+
+    .main-nav.open {
+        display: flex;
+    }
+
+    .main-nav a {
+        padding: 1rem;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    }
+
+    /* Sidebar layout changes */
+    .pediapage-layout {
+        display: block;
+    }
+
+    /* Hide sidebar by default */
+    .pediapage-sidebar {
+        display: none;
+        width: 100%;
+        border-right: none;
+        position: relative;
+        max-height: none;
+    }
+
+    .pediapage-sidebar.open {
+        display: block;
+    }
+
+    .sidebar-toggle {
+        display: block;
+        width: 100%;
+        text-align: left;
+        padding: 0.75rem 1rem;
+        background: #34495e;
+        color: white;
+        margin-bottom: 1rem;
+        border-radius: 10px;
+        font-size: 1rem;
+        font-weight: 500;
+    }
+
+    .pediapage-content {
+        max-height: none;
+        padding: 1.5rem;
     }
 
     .items-grid {
@@ -644,6 +776,16 @@ footer {
 
     header h1 {
         font-size: 1.8rem;
+    }
+
+    header .nav-toggle {
+        top: 1rem;
+        right: 1rem;
+    }
+
+    /* Prevent body scroll when nav is open */
+    body.nav-open {
+        overflow: hidden;
     }
 }
 
@@ -750,6 +892,7 @@ SIDEBAR_TEMPLATE = """<!DOCTYPE html>
                 <input type="text" id="globalSearch" placeholder="{{ searchPlaceholder }}" autocomplete="off">
                 <div id="searchResults" class="search-results"></div>
             </div>
+            <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation menu">☰</button>
         </header>
 
         <nav class="main-nav">
@@ -798,6 +941,7 @@ SIDEBAR_TEMPLATE = """<!DOCTYPE html>
             </aside>
 
             <div class="pediapage-content" id="itemContent">
+                <button class="sidebar-toggle" id="sidebarToggle" aria-label="Toggle sidebar"><span class="toggle-icon">☰</span> <span class="toggle-text">Show contents</span></button>
                 <div class="placeholder">
                     <section class="welcome">
                         <h2>{{ title }}</h2>
@@ -1745,6 +1889,72 @@ SIDEBAR_TEMPLATE = """<!DOCTYPE html>
             div.textContent = text;
             return div.innerHTML;
         }
+
+        // Mobile navigation toggle
+        const navToggle = document.getElementById('navToggle');
+        const mainNav = document.querySelector('.main-nav');
+
+        if (navToggle) {
+            navToggle.addEventListener('click', function(e) {
+                e.preventDefault();
+                mainNav.classList.toggle('open');
+                document.body.classList.toggle('nav-open');
+            });
+        }
+
+        // Close main nav when clicking a link
+        if (mainNav) {
+            const navLinks = mainNav.querySelectorAll('a');
+            navLinks.forEach(link => {
+                link.addEventListener('click', function() {
+                    mainNav.classList.remove('open');
+                    document.body.classList.remove('nav-open');
+                });
+            });
+        }
+
+        // Mobile sidebar toggle
+        const sidebarToggle = document.getElementById('sidebarToggle');
+        const pediaSidebar = document.querySelector('.pediapage-sidebar');
+
+        if (sidebarToggle) {
+            sidebarToggle.addEventListener('click', function(e) {
+                e.preventDefault();
+                pediaSidebar.classList.toggle('open');
+
+                // Toggle button text
+                const toggleText = sidebarToggle.querySelector('.toggle-text');
+                if (toggleText) {
+                    if (pediaSidebar.classList.contains('open')) {
+                        toggleText.textContent = 'Hide contents';
+                    } else {
+                        toggleText.textContent = 'Show contents';
+                    }
+                }
+            });
+        }
+
+        // Close sidebar when clicking a link on mobile
+        if (pediaSidebar) {
+            const sidebarLinks = pediaSidebar.querySelectorAll('a');
+            sidebarLinks.forEach(link => {
+                link.addEventListener('click', function() {
+                    if (window.innerWidth < 768) {
+                        pediaSidebar.classList.remove('open');
+                    }
+                });
+            });
+        }
+
+        // Close main nav when clicking outside
+        document.addEventListener('click', function(e) {
+            if (mainNav && mainNav.classList.contains('open')) {
+                if (!e.target.closest('.main-nav') && !e.target.closest('.nav-toggle')) {
+                    mainNav.classList.remove('open');
+                    document.body.classList.remove('nav-open');
+                }
+            }
+        });
     </script>
 </body>
 </html>
