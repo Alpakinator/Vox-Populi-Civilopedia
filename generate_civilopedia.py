@@ -1429,6 +1429,18 @@ SIDEBAR_TEMPLATE = """<!DOCTYPE html>
                                 </div>
                             </div>
                             {% endif %}
+                            {% if item.Replaces and item.Replaces|length > 0 %}
+                            <div class="summary">
+                                <h3>{{ labels.get('replacesHeader') }}</h3>
+                                <div class="text-box">
+                                    <ul class="item-list">
+                                        {% for replaced in item.Replaces %}
+                                        <li>{% if replaced.IsGreatPerson %}<a href="#" onclick="showGreatPerson('{{ replaced.Type }}'); return false;">{{ replaced.Name }}</a>{% else %}<a href="#" onclick="showUnit('{{ replaced.Type }}'); return false;">{{ replaced.Name }}</a>{% endif %}</li>
+                                        {% endfor %}
+                                    </ul>
+                                </div>
+                            </div>
+                            {% endif %}
                             {% if active_page == "promotions" %}
                                 {% if item.RequiredPromotions and item.RequiredPromotions|length > 0 %}
                                 <div class="summary">
@@ -1511,6 +1523,18 @@ SIDEBAR_TEMPLATE = """<!DOCTYPE html>
                                         <ul class="item-list">
                                             {% for improvement in item.UniqueImprovements %}
                                             <li><a href="#" onclick="showImprovement('{{ improvement.Type }}'); return false;">{{ improvement.Name }}</a></li>
+                                            {% endfor %}
+                                        </ul>
+                                    </div>
+                                </div>
+                                {% endif %}
+                                {% if item.UniqueProjects and item.UniqueProjects|length > 0 %}
+                                <div class="summary">
+                                    <h3>{{ labels.get('uniqueProjectsHeader') }}</h3>
+                                    <div class="text-box">
+                                        <ul class="item-list">
+                                            {% for project in item.UniqueProjects %}
+                                            <li><a href="#" onclick="showBuilding('{{ project.Type }}', true); return false;">{{ project.Name }}</a></li>
                                             {% endfor %}
                                         </ul>
                                     </div>

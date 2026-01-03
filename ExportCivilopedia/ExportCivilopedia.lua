@@ -389,6 +389,9 @@ function ExportCivilizations()
                 -- Get unique improvements
                 UniqueImprovements = {},
 
+                -- Get unique projects
+                UniqueProjects = {},
+
                 -- Get start biases
                 StartBiases = {},
 
@@ -463,6 +466,16 @@ function ExportCivilizations()
                     Name = Locale.ConvertTextKey(improvement.Description),
                     IconAtlas = safeGet(improvement, "IconAtlas"),
                     PortraitIndex = safeGet(improvement, "PortraitIndex")
+                })
+            end
+            
+            -- Get unique projects
+            for project in GameInfo.Projects("CivilizationType = '" .. row.Type .. "'") do
+                table.insert(civData.UniqueProjects, {
+                    Type = project.Type,
+                    Name = Locale.ConvertTextKey(project.Description),
+                    IconAtlas = safeGet(project, "IconAtlas"),
+                    PortraitIndex = safeGet(project, "PortraitIndex")
                 })
             end
 
@@ -591,6 +604,31 @@ function ExportUnits()
                         Type = promotion.Type,
                         Name = Locale.ConvertTextKey(promotion.Description)
                     })
+                end
+            end
+
+            -- Get replaced units (if this is a unique unit)
+            unitData.Replaces = {}
+            local replacesUnitClass = {}
+            for override in GameInfo.Civilization_UnitClassOverrides("UnitType = '" .. row.Type .. "' and CivilizationType <> 'CIVILIZATION_BARBARIAN' and CivilizationType <> 'CIVILIZATION_MINOR'") do
+                replacesUnitClass[override.UnitClassType] = true
+            end
+
+            for unitClassType, _ in pairs(replacesUnitClass) do
+                local unitClass = GameInfo.UnitClasses[unitClassType]
+                if unitClass and unitClass.DefaultUnit then
+                    local replacedUnit = GameInfo.Units[unitClass.DefaultUnit]
+                    if replacedUnit then
+                        -- Check if replaced unit is a Great Person
+                        local isGreatPerson = (replacedUnit.PrereqTech == nil and replacedUnit.Special ~= nil)
+
+                        table.insert(unitData.Replaces, {
+                            Type = replacedUnit.Type,
+                            Name = Locale.ConvertTextKey(replacedUnit.Description),
+                            ID = replacedUnit.ID,
+                            IsGreatPerson = isGreatPerson
+                        })
+                    end
                 end
             end
 
@@ -2033,6 +2071,7 @@ function ExportGreatPeople()
                 Special = row.Special,
                 IconAtlas = safeGet(row, "IconAtlas"),
                 PortraitIndex = safeGet(row, "PortraitIndex"),
+                FreePromotions = {}
             }
 
             -- Check if this is a civilization-specific unit
@@ -2054,6 +2093,42 @@ function ExportGreatPeople()
             if #civNames > 0 then
                 greatPersonData.Civilizations = civilizations
                 greatPersonData.Name = "[COLOR_POSITIVE_TEXT](" .. table.concat(civNames, ", ") .. ")[ENDCOLOR] " .. greatPersonData.Name
+            end
+
+            -- Get free promotions
+            for promoRow in GameInfo.Unit_FreePromotions("UnitType = '" .. row.Type .. "'") do
+                local promotion = GameInfo.UnitPromotions[promoRow.PromotionType]
+                if promotion then
+                    table.insert(greatPersonData.FreePromotions, {
+                        Type = promotion.Type,
+                        Name = Locale.ConvertTextKey(promotion.Description)
+                    })
+                end
+            end
+
+            -- Get replaced units (if this is a unique great person)
+            greatPersonData.Replaces = {}
+            local replacesUnitClass = {}
+            for override in GameInfo.Civilization_UnitClassOverrides("UnitType = '" .. row.Type .. "' and CivilizationType <> 'CIVILIZATION_BARBARIAN' and CivilizationType <> 'CIVILIZATION_MINOR'") do
+                replacesUnitClass[override.UnitClassType] = true
+            end
+
+            for unitClassType, _ in pairs(replacesUnitClass) do
+                local unitClass = GameInfo.UnitClasses[unitClassType]
+                if unitClass and unitClass.DefaultUnit then
+                    local replacedUnit = GameInfo.Units[unitClass.DefaultUnit]
+                    if replacedUnit then
+                        -- Check if replaced unit is a Great Person
+                        local isGreatPerson = (replacedUnit.PrereqTech == nil and replacedUnit.Special ~= nil)
+
+                        table.insert(greatPersonData.Replaces, {
+                            Type = replacedUnit.Type,
+                            Name = Locale.ConvertTextKey(replacedUnit.Description),
+                            ID = replacedUnit.ID,
+                            IsGreatPerson = isGreatPerson
+                        })
+                    end
+                end
             end
 
             table.insert(result.greatPersons, greatPersonData)
@@ -2449,6 +2524,7 @@ function ExportAllData()
                 resourcesRevealedHeader = Locale.ConvertTextKey("TXT_KEY_TECH_HELP_RESOURCES_UNLOCKED"),
                 workerActionsHeader = Locale.ConvertTextKey("TXT_KEY_PEDIA_WORKER_ACTION_LABEL"),
                 freePromotionsHeader = Locale.ConvertTextKey("TXT_KEY_PRODUCTION_UNIT_FREE_PROMOTIONS"),
+                replacesHeader = Locale.ConvertTextKey("TXT_KEY_PEDIA_REPLACES_LABEL"),
                 requiredPromotionsHeader = Locale.ConvertTextKey("TXT_KEY_PEDIA_REQ_PROMOTIONS_LABEL"),
                 leadsToPromotionsHeader = Locale.ConvertTextKey("TXT_KEY_PEDIA_LEADS_TO_PROMOTIONS_LABEL"),
                 strategyHeader = Locale.ConvertTextKey("TXT_KEY_PEDIA_STRATEGY_LABEL"),
@@ -2459,6 +2535,7 @@ function ExportAllData()
                 uniqueUnitsHeader = Locale.ConvertTextKey("TXT_KEY_PEDIA_UNIQUEUNIT_LABEL"),
                 uniqueBuildingsHeader = Locale.ConvertTextKey("TXT_KEY_PEDIA_UNIQUEBLDG_LABEL"),
                 uniqueImprovementsHeader = Locale.ConvertTextKey("TXT_KEY_PEDIA_UNIQUEIMPRV_LABEL"),
+                uniqueProjectsHeader = Locale.ConvertTextKey("TXT_KEY_PEDIA_UNIQUEPROJ_LABEL"),
                 civilizationHeader = Locale.ConvertTextKey("TXT_KEY_PEDIA_CIVILIZATIONS_LABEL"),
                 leaderTraitsHeader = Locale.ConvertTextKey("TXT_KEY_PEDIA_TRAITS_LABEL"),
                 -- Inline text
