@@ -4608,8 +4608,8 @@ window.globalSearchIndex = [
     "page": "buildings"
   },
   {
-    "nameFormatted": "<span class=\"positive\">(Indian)</span> Mughal Fort",
-    "name": "[COLOR_POSITIVE_TEXT](Indian)[ENDCOLOR] Mughal Fort",
+    "nameFormatted": "<span class=\"positive\">(Indian)</span> Qila",
+    "name": "[COLOR_POSITIVE_TEXT](Indian)[ENDCOLOR] Qila",
     "type": "BUILDING_MUGHAL_FORT",
     "page": "buildings"
   },
