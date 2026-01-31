@@ -460,7 +460,6 @@ main {
 .pediapage-layout {
     display: flex;
     gap: 0;
-    min-height: 600px;
     padding: 0;
 }
 
