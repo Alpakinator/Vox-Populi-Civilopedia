@@ -30,7 +30,7 @@ window.globalSearchIndex = [
     "page": "concepts"
   },
   {
-    "nameFormatted": "<span class=\"yellow\">Combat Units in Cities</span>",
+    "nameFormatted": "<span style=\"color: rgba(255, 255, 0, 1)\">Combat Units in Cities</span>",
     "name": "[COLOR_YELLOW]Combat Units in Cities[ENDCOLOR]",
     "type": "CONCEPT_CITY_COMBATUNITS",
     "page": "concepts"
@@ -54,7 +54,7 @@ window.globalSearchIndex = [
     "page": "concepts"
   },
   {
-    "nameFormatted": "<span class=\"yellow\">Purchasing an Item</span>",
+    "nameFormatted": "<span style=\"color: rgba(255, 255, 0, 1)\">Purchasing an Item</span>",
     "name": "[COLOR_YELLOW]Purchasing an Item[ENDCOLOR]",
     "type": "CONCEPT_CITY_PURCHASEITEM",
     "page": "concepts"
@@ -96,7 +96,7 @@ window.globalSearchIndex = [
     "page": "concepts"
   },
   {
-    "nameFormatted": "<span class=\"yellow\">Specialists</span>",
+    "nameFormatted": "<span style=\"color: rgba(255, 255, 0, 1)\">Specialists</span>",
     "name": "[COLOR_YELLOW]Specialists[ENDCOLOR]",
     "type": "CONCEPT_CITY_SPECIALISTS",
     "page": "concepts"
@@ -108,7 +108,7 @@ window.globalSearchIndex = [
     "page": "concepts"
   },
   {
-    "nameFormatted": "<span class=\"yellow\">Benefits of Specialists</span>",
+    "nameFormatted": "<span style=\"color: rgba(255, 255, 0, 1)\">Benefits of Specialists</span>",
     "name": "[COLOR_YELLOW]Benefits of Specialists[ENDCOLOR]",
     "type": "CONCEPT_CITY_SPECIALISTS_BENEFIT",
     "page": "concepts"
@@ -282,7 +282,7 @@ window.globalSearchIndex = [
     "page": "concepts"
   },
   {
-    "nameFormatted": "<span class=\"yellow\">Melee Combat Results</span>",
+    "nameFormatted": "<span style=\"color: rgba(255, 255, 0, 1)\">Melee Combat Results</span>",
     "name": "[COLOR_YELLOW]Melee Combat Results[ENDCOLOR]",
     "type": "CONCEPT_COMBAT_MELEE_RESULTS",
     "page": "concepts"
@@ -336,7 +336,7 @@ window.globalSearchIndex = [
     "page": "concepts"
   },
   {
-    "nameFormatted": "<span class=\"yellow\">Forts</span>",
+    "nameFormatted": "<span style=\"color: rgba(255, 255, 0, 1)\">Forts</span>",
     "name": "[COLOR_YELLOW]Forts[ENDCOLOR]",
     "type": "CONCEPT_COMBAT_BONUSES_FORT",
     "page": "concepts"
@@ -396,13 +396,13 @@ window.globalSearchIndex = [
     "page": "concepts"
   },
   {
-    "nameFormatted": "<span class=\"yellow\">Garrison Units in Cities</span>",
+    "nameFormatted": "<span style=\"color: rgba(255, 255, 0, 1)\">Garrison Units in Cities</span>",
     "name": "[COLOR_YELLOW]Garrison Units in Cities[ENDCOLOR]",
     "type": "CONCEPT_COMBAT_CITY_GARRISON",
     "page": "concepts"
   },
   {
-    "nameFormatted": "<span class=\"yellow\">Cities Firing at Attackers</span>",
+    "nameFormatted": "<span style=\"color: rgba(255, 255, 0, 1)\">Cities Firing at Attackers</span>",
     "name": "[COLOR_YELLOW]Cities Firing at Attackers[ENDCOLOR]",
     "type": "CONCEPT_COMBAT_CITY_BOMBARD",
     "page": "concepts"
@@ -426,7 +426,7 @@ window.globalSearchIndex = [
     "page": "concepts"
   },
   {
-    "nameFormatted": "<span class=\"yellow\">Siege Weapons</span>",
+    "nameFormatted": "<span style=\"color: rgba(255, 255, 0, 1)\">Siege Weapons</span>",
     "name": "[COLOR_YELLOW]Siege Weapons[ENDCOLOR]",
     "type": "CONCEPT_COMBAT_SIEGE",
     "page": "concepts"
@@ -444,7 +444,7 @@ window.globalSearchIndex = [
     "page": "concepts"
   },
   {
-    "nameFormatted": "<span class=\"yellow\">Healing</span>",
+    "nameFormatted": "<span style=\"color: rgba(255, 255, 0, 1)\">Healing</span>",
     "name": "[COLOR_YELLOW]Healing[ENDCOLOR]",
     "type": "CONCEPT_COMBAT_UNIT_GROUND_HEALING_DAMAGE",
     "page": "concepts"
@@ -468,7 +468,7 @@ window.globalSearchIndex = [
     "page": "concepts"
   },
   {
-    "nameFormatted": "<span class=\"yellow\">Acquiring XPs Through Combat</span>",
+    "nameFormatted": "<span style=\"color: rgba(255, 255, 0, 1)\">Acquiring XPs Through Combat</span>",
     "name": "[COLOR_YELLOW]Acquiring XPs Through Combat[ENDCOLOR]",
     "type": "CONCEPT_COMBAT_EXPERIENCE_ACCUMULATING_COMBAT",
     "page": "concepts"
@@ -570,7 +570,7 @@ window.globalSearchIndex = [
     "page": "concepts"
   },
   {
-    "nameFormatted": "<span class=\"yellow\">We Love the King Day (WLtKD)</span>",
+    "nameFormatted": "<span style=\"color: rgba(255, 255, 0, 1)\">We Love the King Day (WLtKD)</span>",
     "name": "[COLOR_YELLOW]We Love the King Day (WLtKD)[ENDCOLOR]",
     "type": "CONCEPT_RESOURCES_CITY_REQUESTS",
     "page": "concepts"
@@ -624,7 +624,7 @@ window.globalSearchIndex = [
     "page": "concepts"
   },
   {
-    "nameFormatted": "<span class=\"yellow\">Roads and City Connections</span>",
+    "nameFormatted": "<span style=\"color: rgba(255, 255, 0, 1)\">Roads and City Connections</span>",
     "name": "[COLOR_YELLOW]Roads and City Connections[ENDCOLOR]",
     "type": "CONCEPT_WORKERS_ROADS_TRADE_ROUTES",
     "page": "concepts"
@@ -786,7 +786,7 @@ window.globalSearchIndex = [
     "page": "concepts"
   },
   {
-    "nameFormatted": "<span class=\"yellow\">Settlers And Food Production</span>",
+    "nameFormatted": "<span style=\"color: rgba(255, 255, 0, 1)\">Settlers And Food Production</span>",
     "name": "[COLOR_YELLOW]Settlers And Food Production[ENDCOLOR]",
     "type": "CONCEPT_FOOD_AND_CITY_GROWTH_SETTLERS",
     "page": "concepts"
@@ -960,7 +960,7 @@ window.globalSearchIndex = [
     "page": "concepts"
   },
   {
-    "nameFormatted": "<span class=\"yellow\">Cultural Victory</span>",
+    "nameFormatted": "<span style=\"color: rgba(255, 255, 0, 1)\">Cultural Victory</span>",
     "name": "[COLOR_YELLOW]Cultural Victory[ENDCOLOR]",
     "type": "CONCEPT_VICTORY_VICTORY_CULTURAL",
     "page": "concepts"
@@ -1020,7 +1020,7 @@ window.globalSearchIndex = [
     "page": "concepts"
   },
   {
-    "nameFormatted": "<span class=\"yellow\">Cultural Victory</span>",
+    "nameFormatted": "<span style=\"color: rgba(255, 255, 0, 1)\">Cultural Victory</span>",
     "name": "[COLOR_YELLOW]Cultural Victory[ENDCOLOR]",
     "type": "CONCEPT_CULTURE_VICTORY",
     "page": "concepts"
@@ -1056,7 +1056,7 @@ window.globalSearchIndex = [
     "page": "concepts"
   },
   {
-    "nameFormatted": "<span class=\"green\">War Score</span>",
+    "nameFormatted": "<span style=\"color: rgba(0, 255, 0, 1)\">War Score</span>",
     "name": "[COLOR_GREEN]War Score[ENDCOLOR]",
     "type": "CONCEPT_DIPLOMACY_PEACE",
     "page": "concepts"
@@ -1158,19 +1158,19 @@ window.globalSearchIndex = [
     "page": "concepts"
   },
   {
-    "nameFormatted": "<span class=\"green\">Happiness</span>",
+    "nameFormatted": "<span style=\"color: rgba(0, 255, 0, 1)\">Happiness</span>",
     "name": "[COLOR_GREEN]Happiness[ENDCOLOR]",
     "type": "CONCEPT_HAPPINESS",
     "page": "concepts"
   },
   {
-    "nameFormatted": "<span class=\"green\">What Causes Unhappiness</span>",
+    "nameFormatted": "<span style=\"color: rgba(0, 255, 0, 1)\">What Causes Unhappiness</span>",
     "name": "[COLOR_GREEN]What Causes Unhappiness[ENDCOLOR]",
     "type": "CONCEPT_HAPPINESS_CAUSES_UNHAPPINESS",
     "page": "concepts"
   },
   {
-    "nameFormatted": "<span class=\"green\">What Causes Happiness</span>",
+    "nameFormatted": "<span style=\"color: rgba(0, 255, 0, 1)\">What Causes Happiness</span>",
     "name": "[COLOR_GREEN]What Causes Happiness[ENDCOLOR]",
     "type": "CONCEPT_HAPPINESS_CAUSES_HAPPINESS",
     "page": "concepts"
@@ -1236,25 +1236,25 @@ window.globalSearchIndex = [
     "page": "concepts"
   },
   {
-    "nameFormatted": "<span class=\"yellow\">Freedom</span>",
+    "nameFormatted": "<span style=\"color: rgba(255, 255, 0, 1)\">Freedom</span>",
     "name": "[COLOR_YELLOW]Freedom[ENDCOLOR]",
     "type": "CONCEPT_SOCIAL_POLICY_BRANCH_FREEDOM",
     "page": "concepts"
   },
   {
-    "nameFormatted": "<span class=\"yellow\">Order</span>",
+    "nameFormatted": "<span style=\"color: rgba(255, 255, 0, 1)\">Order</span>",
     "name": "[COLOR_YELLOW]Order[ENDCOLOR]",
     "type": "CONCEPT_SOCIAL_POLICY_BRANCH_ORDER",
     "page": "concepts"
   },
   {
-    "nameFormatted": "<span class=\"yellow\">Autocracy</span>",
+    "nameFormatted": "<span style=\"color: rgba(255, 255, 0, 1)\">Autocracy</span>",
     "name": "[COLOR_YELLOW]Autocracy[ENDCOLOR]",
     "type": "CONCEPT_SOCIAL_POLICY_BRANCH_AUTOCRACY",
     "page": "concepts"
   },
   {
-    "nameFormatted": "<span class=\"yellow\">Cultural Victory</span>",
+    "nameFormatted": "<span style=\"color: rgba(255, 255, 0, 1)\">Cultural Victory</span>",
     "name": "[COLOR_YELLOW]Cultural Victory[ENDCOLOR]",
     "type": "CONCEPT_SOCIAL_POLICY_VICTORY",
     "page": "concepts"
@@ -1284,7 +1284,7 @@ window.globalSearchIndex = [
     "page": "concepts"
   },
   {
-    "nameFormatted": "<span class=\"green\">The Village</span>",
+    "nameFormatted": "<span style=\"color: rgba(0, 255, 0, 1)\">The Village</span>",
     "name": "[COLOR_GREEN]The Village[ENDCOLOR]",
     "type": "CONCEPT_GOLD_TRADING_POST",
     "page": "concepts"
@@ -1302,7 +1302,7 @@ window.globalSearchIndex = [
     "page": "concepts"
   },
   {
-    "nameFormatted": "<span class=\"yellow\">City Connections</span>",
+    "nameFormatted": "<span style=\"color: rgba(255, 255, 0, 1)\">City Connections</span>",
     "name": "[COLOR_YELLOW]City Connections[ENDCOLOR]",
     "type": "CONCEPT_GOLD_TRADE_ROUTES",
     "page": "concepts"
@@ -1380,7 +1380,7 @@ window.globalSearchIndex = [
     "page": "concepts"
   },
   {
-    "nameFormatted": "<span class=\"yellow\">Buying Units, Buildings or Wonders</span>",
+    "nameFormatted": "<span style=\"color: rgba(255, 255, 0, 1)\">Buying Units, Buildings or Wonders</span>",
     "name": "[COLOR_YELLOW]Buying Units, Buildings or Wonders[ENDCOLOR]",
     "type": "CONCEPT_GOLD_PURCHASE_UNITS_BUILDINGS_WONDERS",
     "page": "concepts"
@@ -1482,7 +1482,7 @@ window.globalSearchIndex = [
     "page": "concepts"
   },
   {
-    "nameFormatted": "<span class=\"yellow\">Specialists and City Growth</span>",
+    "nameFormatted": "<span style=\"color: rgba(255, 255, 0, 1)\">Specialists and City Growth</span>",
     "name": "[COLOR_YELLOW]Specialists and City Growth[ENDCOLOR]",
     "type": "CONCEPT_BUILDINGS_SPECIALISTS",
     "page": "concepts"
@@ -1530,13 +1530,13 @@ window.globalSearchIndex = [
     "page": "concepts"
   },
   {
-    "nameFormatted": "<span class=\"yellow\">Great People</span>",
+    "nameFormatted": "<span style=\"color: rgba(255, 255, 0, 1)\">Great People</span>",
     "name": "[COLOR_YELLOW]Great People[ENDCOLOR]",
     "type": "CONCEPT_SPECIALISTS_AND_GREAT_PEOPLE_GREAT_PEOPLE",
     "page": "concepts"
   },
   {
-    "nameFormatted": "<span class=\"yellow\">Generating Great People</span>",
+    "nameFormatted": "<span style=\"color: rgba(255, 255, 0, 1)\">Generating Great People</span>",
     "name": "[COLOR_YELLOW]Generating Great People[ENDCOLOR]",
     "type": "CONCEPT_SPECIALISTS_AND_GREAT_PEOPLE_GREAT_PEOPLE_GENERATING",
     "page": "concepts"
@@ -1548,7 +1548,7 @@ window.globalSearchIndex = [
     "page": "concepts"
   },
   {
-    "nameFormatted": "<span class=\"yellow\">Special Improvements</span>",
+    "nameFormatted": "<span style=\"color: rgba(255, 255, 0, 1)\">Special Improvements</span>",
     "name": "[COLOR_YELLOW]Special Improvements[ENDCOLOR]",
     "type": "CONCEPT_SPECIALISTS_AND_GREAT_PEOPLE_GREAT_PEOPLE_SPECIAL_IMPROVEMENT",
     "page": "concepts"
@@ -1566,31 +1566,31 @@ window.globalSearchIndex = [
     "page": "concepts"
   },
   {
-    "nameFormatted": "<span class=\"yellow\">Great Artist</span>",
+    "nameFormatted": "<span style=\"color: rgba(255, 255, 0, 1)\">Great Artist</span>",
     "name": "[COLOR_YELLOW]Great Artist[ENDCOLOR]",
     "type": "CONCEPT_SPECIALISTS_AND_GREAT_PEOPLE_GREAT_PEOPLE_GREAT_ARTIST",
     "page": "concepts"
   },
   {
-    "nameFormatted": "<span class=\"yellow\">Great Engineer</span>",
+    "nameFormatted": "<span style=\"color: rgba(255, 255, 0, 1)\">Great Engineer</span>",
     "name": "[COLOR_YELLOW]Great Engineer[ENDCOLOR]",
     "type": "CONCEPT_SPECIALISTS_AND_GREAT_PEOPLE_GREAT_PEOPLE_GREAT_ENGINEER",
     "page": "concepts"
   },
   {
-    "nameFormatted": "<span class=\"yellow\">Great Merchant</span>",
+    "nameFormatted": "<span style=\"color: rgba(255, 255, 0, 1)\">Great Merchant</span>",
     "name": "[COLOR_YELLOW]Great Merchant[ENDCOLOR]",
     "type": "CONCEPT_SPECIALISTS_AND_GREAT_PEOPLE_GREAT_PEOPLE_GREAT_MERCHANT",
     "page": "concepts"
   },
   {
-    "nameFormatted": "<span class=\"yellow\">Great Scientist</span>",
+    "nameFormatted": "<span style=\"color: rgba(255, 255, 0, 1)\">Great Scientist</span>",
     "name": "[COLOR_YELLOW]Great Scientist[ENDCOLOR]",
     "type": "CONCEPT_SPECIALISTS_AND_GREAT_PEOPLE_GREAT_PEOPLE_GREAT_SCIENTIST",
     "page": "concepts"
   },
   {
-    "nameFormatted": "<span class=\"yellow\">Great General</span>",
+    "nameFormatted": "<span style=\"color: rgba(255, 255, 0, 1)\">Great General</span>",
     "name": "[COLOR_YELLOW]Great General[ENDCOLOR]",
     "type": "CONCEPT_SPECIALISTS_AND_GREAT_PEOPLE_GREAT_PEOPLE_GREAT_GENERAL",
     "page": "concepts"
@@ -1638,7 +1638,7 @@ window.globalSearchIndex = [
     "page": "concepts"
   },
   {
-    "nameFormatted": "<span class=\"green\">Diplomatic Missions and You</span>",
+    "nameFormatted": "<span style=\"color: rgba(0, 255, 0, 1)\">Diplomatic Missions and You</span>",
     "name": "[COLOR_GREEN]Diplomatic Missions and You[ENDCOLOR]",
     "type": "CONCEPT_CITY_STATE_INFLUENCE_GIVE_GOLD",
     "page": "concepts"
@@ -2160,7 +2160,7 @@ window.globalSearchIndex = [
     "page": "concepts"
   },
   {
-    "nameFormatted": "<span class=\"yellow\">Barbarian Units</span>",
+    "nameFormatted": "<span style=\"color: rgba(255, 255, 0, 1)\">Barbarian Units</span>",
     "name": "[COLOR_YELLOW]Barbarian Units[ENDCOLOR]",
     "type": "CONCEPT_BARBARIANS_UNITS",
     "page": "concepts"
@@ -2178,7 +2178,7 @@ window.globalSearchIndex = [
     "page": "concepts"
   },
   {
-    "nameFormatted": "<span class=\"yellow\">Experience Points Limitations</span>",
+    "nameFormatted": "<span style=\"color: rgba(255, 255, 0, 1)\">Experience Points Limitations</span>",
     "name": "[COLOR_YELLOW]Experience Points Limitations[ENDCOLOR]",
     "type": "CONCEPT_BARBARIANS_EXPERIENCE_POINT_LIMITS",
     "page": "concepts"
@@ -2298,7 +2298,7 @@ window.globalSearchIndex = [
     "page": "concepts"
   },
   {
-    "nameFormatted": "<span class=\"yellow\">Spies and City-States</span>",
+    "nameFormatted": "<span style=\"color: rgba(255, 255, 0, 1)\">Spies and City-States</span>",
     "name": "[COLOR_YELLOW]Spies and City-States[ENDCOLOR]",
     "type": "CONCEPT_ESPIONAGE_RIG_ELECTION",
     "page": "concepts"
@@ -2448,7 +2448,7 @@ window.globalSearchIndex = [
     "page": "concepts"
   },
   {
-    "nameFormatted": "<span class=\"yellow\">Great Admiral</span>",
+    "nameFormatted": "<span style=\"color: rgba(255, 255, 0, 1)\">Great Admiral</span>",
     "name": "[COLOR_YELLOW]Great Admiral[ENDCOLOR]",
     "type": "CONCEPT_GREAT_ADMIRAL",
     "page": "concepts"
@@ -2484,7 +2484,7 @@ window.globalSearchIndex = [
     "page": "concepts"
   },
   {
-    "nameFormatted": "<span class=\"yellow\">Tourism</span>",
+    "nameFormatted": "<span style=\"color: rgba(255, 255, 0, 1)\">Tourism</span>",
     "name": "[COLOR_YELLOW]Tourism[ENDCOLOR]",
     "type": "CONCEPT_CULTURE_TOURISM",
     "page": "concepts"
@@ -2550,7 +2550,7 @@ window.globalSearchIndex = [
     "page": "concepts"
   },
   {
-    "nameFormatted": "<span class=\"yellow\">Ideologies</span>",
+    "nameFormatted": "<span style=\"color: rgba(255, 255, 0, 1)\">Ideologies</span>",
     "name": "[COLOR_YELLOW]Ideologies[ENDCOLOR]",
     "type": "CONCEPT_SOCIAL_POLICY_BRANCH_IDEOLOGY",
     "page": "concepts"
@@ -2568,13 +2568,13 @@ window.globalSearchIndex = [
     "page": "concepts"
   },
   {
-    "nameFormatted": "<span class=\"yellow\">Great Writer</span>",
+    "nameFormatted": "<span style=\"color: rgba(255, 255, 0, 1)\">Great Writer</span>",
     "name": "[COLOR_YELLOW]Great Writer[ENDCOLOR]",
     "type": "CONCEPT_SPECIALISTS_AND_GREAT_PEOPLE_GREAT_PEOPLE_GREAT_WRITER",
     "page": "concepts"
   },
   {
-    "nameFormatted": "<span class=\"yellow\">Great Musician</span>",
+    "nameFormatted": "<span style=\"color: rgba(255, 255, 0, 1)\">Great Musician</span>",
     "name": "[COLOR_YELLOW]Great Musician[ENDCOLOR]",
     "type": "CONCEPT_SPECIALISTS_AND_GREAT_PEOPLE_GREAT_PEOPLE_GREAT_MUSICIAN",
     "page": "concepts"
@@ -2646,7 +2646,7 @@ window.globalSearchIndex = [
     "page": "concepts"
   },
   {
-    "nameFormatted": "<span class=\"yellow\">Resolutions</span>",
+    "nameFormatted": "<span style=\"color: rgba(255, 255, 0, 1)\">Resolutions</span>",
     "name": "[COLOR_YELLOW]Resolutions[ENDCOLOR]",
     "type": "CONCEPT_CONGRESS_RESOLUTIONS",
     "page": "concepts"
@@ -2658,7 +2658,7 @@ window.globalSearchIndex = [
     "page": "concepts"
   },
   {
-    "nameFormatted": "<span class=\"yellow\">Delegates</span>",
+    "nameFormatted": "<span style=\"color: rgba(255, 255, 0, 1)\">Delegates</span>",
     "name": "[COLOR_YELLOW]Delegates[ENDCOLOR]",
     "type": "CONCEPT_CONGRESS_DELEGATES",
     "page": "concepts"
@@ -2676,211 +2676,211 @@ window.globalSearchIndex = [
     "page": "concepts"
   },
   {
-    "nameFormatted": "<span class=\"yellow\">The United Nations</span>",
+    "nameFormatted": "<span style=\"color: rgba(255, 255, 0, 1)\">The United Nations</span>",
     "name": "[COLOR_YELLOW]The United Nations[ENDCOLOR]",
     "type": "CONCEPT_CONGRESS_UN",
     "page": "concepts"
   },
   {
-    "nameFormatted": "<span class=\"yellow\">Diplomatic Victory</span>",
+    "nameFormatted": "<span style=\"color: rgba(255, 255, 0, 1)\">Diplomatic Victory</span>",
     "name": "[COLOR_YELLOW]Diplomatic Victory[ENDCOLOR]",
     "type": "CONCEPT_CONGRESS_VICTORY",
     "page": "concepts"
   },
   {
-    "nameFormatted": "<span class=\"yellow\">Themes and Theming Bonuses</span>",
+    "nameFormatted": "<span style=\"color: rgba(255, 255, 0, 1)\">Themes and Theming Bonuses</span>",
     "name": "[COLOR_YELLOW]Themes and Theming Bonuses[ENDCOLOR]",
     "type": "CONCEPT_THEMING_BONUSES",
     "page": "concepts"
   },
   {
-    "nameFormatted": "<span class=\"green\">Input Shortcuts</span>",
+    "nameFormatted": "<span style=\"color: rgba(0, 255, 0, 1)\">Input Shortcuts</span>",
     "name": "[COLOR_GREEN]Input Shortcuts[ENDCOLOR]",
     "type": "CONCEPT_SHORTCUTS_INTRODUCTION",
     "page": "concepts"
   },
   {
-    "nameFormatted": "<span class=\"green\">City View Shortcuts</span>",
+    "nameFormatted": "<span style=\"color: rgba(0, 255, 0, 1)\">City View Shortcuts</span>",
     "name": "[COLOR_GREEN]City View Shortcuts[ENDCOLOR]",
     "type": "CONCEPT_SHORTCUTS_CITY_VIEW",
     "page": "concepts"
   },
   {
-    "nameFormatted": "<span class=\"green\">World View Shortcuts</span>",
+    "nameFormatted": "<span style=\"color: rgba(0, 255, 0, 1)\">World View Shortcuts</span>",
     "name": "[COLOR_GREEN]World View Shortcuts[ENDCOLOR]",
     "type": "CONCEPT_SHORTCUTS_WORLD_VIEW",
     "page": "concepts"
   },
   {
-    "nameFormatted": "<span class=\"green\">Yields Scaling with Era</span>",
+    "nameFormatted": "<span style=\"color: rgba(0, 255, 0, 1)\">Yields Scaling with Era</span>",
     "name": "[COLOR_GREEN]Yields Scaling with Era[ENDCOLOR]",
     "type": "CONCEPT_CITIES_YIELDS_SCALING_WITH_ERA",
     "page": "concepts"
   },
   {
-    "nameFormatted": "<span class=\"green\">Historic Events</span>",
+    "nameFormatted": "<span style=\"color: rgba(0, 255, 0, 1)\">Historic Events</span>",
     "name": "[COLOR_GREEN]Historic Events[ENDCOLOR]",
     "type": "CONCEPT_HISTORIC_EVENT",
     "page": "concepts"
   },
   {
-    "nameFormatted": "<span class=\"green\">Resistance</span>",
+    "nameFormatted": "<span style=\"color: rgba(0, 255, 0, 1)\">Resistance</span>",
     "name": "[COLOR_GREEN]Resistance[ENDCOLOR]",
     "type": "CONCEPT_RESISTANCE",
     "page": "concepts"
   },
   {
-    "nameFormatted": "<span class=\"green\">Partisans</span>",
+    "nameFormatted": "<span style=\"color: rgba(0, 255, 0, 1)\">Partisans</span>",
     "name": "[COLOR_GREEN]Partisans[ENDCOLOR]",
     "type": "CONCEPT_PARTISANS",
     "page": "concepts"
   },
   {
-    "nameFormatted": "<span class=\"green\">War Weariness</span>",
+    "nameFormatted": "<span style=\"color: rgba(0, 255, 0, 1)\">War Weariness</span>",
     "name": "[COLOR_GREEN]War Weariness[ENDCOLOR]",
     "type": "CONCEPT_COMBAT_WAR_WEARINESS",
     "page": "concepts"
   },
   {
-    "nameFormatted": "<span class=\"green\">Military Supply</span>",
+    "nameFormatted": "<span style=\"color: rgba(0, 255, 0, 1)\">Military Supply</span>",
     "name": "[COLOR_GREEN]Military Supply[ENDCOLOR]",
     "type": "CONCEPT_HAPPINESS_MILITARY_SUPPLY",
     "page": "concepts"
   },
   {
-    "nameFormatted": "<span class=\"green\">Local Happiness in Cities</span>",
+    "nameFormatted": "<span style=\"color: rgba(0, 255, 0, 1)\">Local Happiness in Cities</span>",
     "name": "[COLOR_GREEN]Local Happiness in Cities[ENDCOLOR]",
     "type": "CONCEPT_HAPPINESS_LOCAL_HAPPINESS",
     "page": "concepts"
   },
   {
-    "nameFormatted": "<span class=\"green\">Calculation of Needs Thresholds</span>",
+    "nameFormatted": "<span style=\"color: rgba(0, 255, 0, 1)\">Calculation of Needs Thresholds</span>",
     "name": "[COLOR_GREEN]Calculation of Needs Thresholds[ENDCOLOR]",
     "type": "CONCEPT_HAPPINESS_NEED_THRESHOLDS",
     "page": "concepts"
   },
   {
-    "nameFormatted": "<span class=\"green\">Unhappiness in Puppet Cities</span>",
+    "nameFormatted": "<span style=\"color: rgba(0, 255, 0, 1)\">Unhappiness in Puppet Cities</span>",
     "name": "[COLOR_GREEN]Unhappiness in Puppet Cities[ENDCOLOR]",
     "type": "CONCEPT_HAPPINESS_PUPPET_CITIES",
     "page": "concepts"
   },
   {
-    "nameFormatted": "<span class=\"green\">Occupied and Resisting Cities</span>",
+    "nameFormatted": "<span style=\"color: rgba(0, 255, 0, 1)\">Occupied and Resisting Cities</span>",
     "name": "[COLOR_GREEN]Occupied and Resisting Cities[ENDCOLOR]",
     "type": "CONCEPT_HAPPINESS_OCCUPIED_CITIES",
     "page": "concepts"
   },
   {
-    "nameFormatted": "<span class=\"green\">Canals</span>",
+    "nameFormatted": "<span style=\"color: rgba(0, 255, 0, 1)\">Canals</span>",
     "name": "[COLOR_GREEN]Canals[ENDCOLOR]",
     "type": "CONCEPT_CANALS",
     "page": "concepts"
   },
   {
-    "nameFormatted": "<span class=\"green\">City State Embassies</span>",
+    "nameFormatted": "<span style=\"color: rgba(0, 255, 0, 1)\">City State Embassies</span>",
     "name": "[COLOR_GREEN]City State Embassies[ENDCOLOR]",
     "type": "CONCEPT_CITY_STATE_EMBASSIES",
     "page": "concepts"
   },
   {
-    "nameFormatted": "<span class=\"green\">Great Diplomat</span>",
+    "nameFormatted": "<span style=\"color: rgba(0, 255, 0, 1)\">Great Diplomat</span>",
     "name": "[COLOR_GREEN]Great Diplomat[ENDCOLOR]",
     "type": "CONCEPT_GREAT_DIPLOMAT",
     "page": "concepts"
   },
   {
-    "nameFormatted": "<span class=\"green\">Civil Servant</span>",
+    "nameFormatted": "<span style=\"color: rgba(0, 255, 0, 1)\">Civil Servant</span>",
     "name": "[COLOR_GREEN]Civil Servant[ENDCOLOR]",
     "type": "CONCEPT_SPECIALISTS_AND_GREAT_PEOPLE_SPECIALISTS_CIVIL_SERVANT",
     "page": "concepts"
   },
   {
-    "nameFormatted": "<span class=\"green\">Golden Age Points</span>",
+    "nameFormatted": "<span style=\"color: rgba(0, 255, 0, 1)\">Golden Age Points</span>",
     "name": "[COLOR_GREEN]Golden Age Points[ENDCOLOR]",
     "type": "CONCEPT_ANCIENT_RUINS_BENEFITS_GOLDEN_AGE",
     "page": "concepts"
   },
   {
-    "nameFormatted": "<span class=\"green\">Production</span>",
+    "nameFormatted": "<span style=\"color: rgba(0, 255, 0, 1)\">Production</span>",
     "name": "[COLOR_GREEN]Production[ENDCOLOR]",
     "type": "CONCEPT_ANCIENT_RUINS_BENEFITS_PRODUCTION",
     "page": "concepts"
   },
   {
-    "nameFormatted": "<span class=\"green\">Tiles</span>",
+    "nameFormatted": "<span style=\"color: rgba(0, 255, 0, 1)\">Tiles</span>",
     "name": "[COLOR_GREEN]Tiles[ENDCOLOR]",
     "type": "CONCEPT_ANCIENT_RUINS_BENEFITS_TILES",
     "page": "concepts"
   },
   {
-    "nameFormatted": "<span class=\"green\">Map Trading</span>",
+    "nameFormatted": "<span style=\"color: rgba(0, 255, 0, 1)\">Map Trading</span>",
     "name": "[COLOR_GREEN]Map Trading[ENDCOLOR]",
     "type": "CONCEPT_DIPLOMACY_MAP_TRADING",
     "page": "concepts"
   },
   {
-    "nameFormatted": "<span class=\"green\">Tech Trading</span>",
+    "nameFormatted": "<span style=\"color: rgba(0, 255, 0, 1)\">Tech Trading</span>",
     "name": "[COLOR_GREEN]Tech Trading[ENDCOLOR]",
     "type": "CONCEPT_DIPLOMACY_TECH_TRADING",
     "page": "concepts"
   },
   {
-    "nameFormatted": "<span class=\"green\">Vassalage</span>",
+    "nameFormatted": "<span style=\"color: rgba(0, 255, 0, 1)\">Vassalage</span>",
     "name": "[COLOR_GREEN]Vassalage[ENDCOLOR]",
     "type": "CONCEPT_VASSALAGE_OVERVIEW",
     "page": "concepts"
   },
   {
-    "nameFormatted": "<span class=\"green\">Obtaining Vassals</span>",
+    "nameFormatted": "<span style=\"color: rgba(0, 255, 0, 1)\">Obtaining Vassals</span>",
     "name": "[COLOR_GREEN]Obtaining Vassals[ENDCOLOR]",
     "type": "CONCEPT_VASSALAGE_OBTAINING_VASSALS",
     "page": "concepts"
   },
   {
-    "nameFormatted": "<span class=\"green\">Ending Vassalage</span>",
+    "nameFormatted": "<span style=\"color: rgba(0, 255, 0, 1)\">Ending Vassalage</span>",
     "name": "[COLOR_GREEN]Ending Vassalage[ENDCOLOR]",
     "type": "CONCEPT_VASSALAGE_ENDING_VASSALS",
     "page": "concepts"
   },
   {
-    "nameFormatted": "<span class=\"green\">Benefits of Vassalage</span>",
+    "nameFormatted": "<span style=\"color: rgba(0, 255, 0, 1)\">Benefits of Vassalage</span>",
     "name": "[COLOR_GREEN]Benefits of Vassalage[ENDCOLOR]",
     "type": "CONCEPT_VASSALAGE_VASSAL_BENEFITS",
     "page": "concepts"
   },
   {
-    "nameFormatted": "<span class=\"green\">Taxing Vassals</span>",
+    "nameFormatted": "<span style=\"color: rgba(0, 255, 0, 1)\">Taxing Vassals</span>",
     "name": "[COLOR_GREEN]Taxing Vassals[ENDCOLOR]",
     "type": "CONCEPT_VASSALAGE_VASSAL_TAXES",
     "page": "concepts"
   },
   {
-    "nameFormatted": "<span class=\"green\">Corporations</span>",
+    "nameFormatted": "<span style=\"color: rgba(0, 255, 0, 1)\">Corporations</span>",
     "name": "[COLOR_GREEN]Corporations[ENDCOLOR]",
     "type": "CONCEPT_CORPORATION_INTRODUCTION",
     "page": "concepts"
   },
   {
-    "nameFormatted": "<span class=\"green\">Monopolies</span>",
+    "nameFormatted": "<span style=\"color: rgba(0, 255, 0, 1)\">Monopolies</span>",
     "name": "[COLOR_GREEN]Monopolies[ENDCOLOR]",
     "type": "CONCEPT_MONOPOLY_INTRODUCTION",
     "page": "concepts"
   },
   {
-    "nameFormatted": "<span class=\"green\">Spreading Corporations</span>",
+    "nameFormatted": "<span style=\"color: rgba(0, 255, 0, 1)\">Spreading Corporations</span>",
     "name": "[COLOR_GREEN]Spreading Corporations[ENDCOLOR]",
     "type": "CONCEPT_CORPORATION_SPREADING",
     "page": "concepts"
   },
   {
-    "nameFormatted": "<span class=\"green\">Corporation Types</span>",
+    "nameFormatted": "<span style=\"color: rgba(0, 255, 0, 1)\">Corporation Types</span>",
     "name": "[COLOR_GREEN]Corporation Types[ENDCOLOR]",
     "type": "CONCEPT_CORPORATION_TYPES",
     "page": "concepts"
   },
   {
-    "nameFormatted": "<span class=\"green\">Spy Points</span>",
+    "nameFormatted": "<span style=\"color: rgba(0, 255, 0, 1)\">Spy Points</span>",
     "name": "[COLOR_GREEN]Spy Points[ENDCOLOR]",
     "type": "CONCEPT_SPY_POINTS",
     "page": "concepts"
@@ -3492,7 +3492,7 @@ window.globalSearchIndex = [
     "page": "units"
   },
   {
-    "nameFormatted": "<span class=\"positive\">(English)</span> Ship of the Line",
+    "nameFormatted": "<span style=\"color: rgba(128, 255, 26, 1)\">(English)</span> Ship of the Line",
     "name": "[COLOR_POSITIVE_TEXT](English)[ENDCOLOR] Ship of the Line",
     "type": "UNIT_ENGLISH_SHIPOFTHELINE",
     "page": "units"
@@ -3654,7 +3654,7 @@ window.globalSearchIndex = [
     "page": "units"
   },
   {
-    "nameFormatted": "<span class=\"positive\">(Russian)</span> Cossack",
+    "nameFormatted": "<span style=\"color: rgba(128, 255, 26, 1)\">(Russian)</span> Cossack",
     "name": "[COLOR_POSITIVE_TEXT](Russian)[ENDCOLOR] Cossack",
     "type": "UNIT_RUSSIAN_COSSACK",
     "page": "units"
@@ -3690,19 +3690,19 @@ window.globalSearchIndex = [
     "page": "units"
   },
   {
-    "nameFormatted": "<span class=\"positive\">(American)</span> Minuteman",
+    "nameFormatted": "<span style=\"color: rgba(128, 255, 26, 1)\">(American)</span> Minuteman",
     "name": "[COLOR_POSITIVE_TEXT](American)[ENDCOLOR] Minuteman",
     "type": "UNIT_AMERICAN_MINUTEMAN",
     "page": "units"
   },
   {
-    "nameFormatted": "<span class=\"positive\">(French)</span> Musketeer",
+    "nameFormatted": "<span style=\"color: rgba(128, 255, 26, 1)\">(French)</span> Musketeer",
     "name": "[COLOR_POSITIVE_TEXT](French)[ENDCOLOR] Musketeer",
     "type": "UNIT_FRENCH_MUSKETEER",
     "page": "units"
   },
   {
-    "nameFormatted": "<span class=\"positive\">(Ottoman)</span> Janissary",
+    "nameFormatted": "<span style=\"color: rgba(128, 255, 26, 1)\">(Ottoman)</span> Janissary",
     "name": "[COLOR_POSITIVE_TEXT](Ottoman)[ENDCOLOR] Janissary",
     "type": "UNIT_OTTOMAN_JANISSARY",
     "page": "units"
@@ -3714,7 +3714,7 @@ window.globalSearchIndex = [
     "page": "units"
   },
   {
-    "nameFormatted": "<span class=\"positive\">(Japanese)</span> Samurai",
+    "nameFormatted": "<span style=\"color: rgba(128, 255, 26, 1)\">(Japanese)</span> Samurai",
     "name": "[COLOR_POSITIVE_TEXT](Japanese)[ENDCOLOR] Samurai",
     "type": "UNIT_JAPANESE_SAMURAI",
     "page": "units"
@@ -3732,19 +3732,19 @@ window.globalSearchIndex = [
     "page": "units"
   },
   {
-    "nameFormatted": "<span class=\"positive\">(Arabian)</span> Camel Archer",
+    "nameFormatted": "<span style=\"color: rgba(128, 255, 26, 1)\">(Arabian)</span> Camel Archer",
     "name": "[COLOR_POSITIVE_TEXT](Arabian)[ENDCOLOR] Camel Archer",
     "type": "UNIT_ARABIAN_CAMELARCHER",
     "page": "units"
   },
   {
-    "nameFormatted": "<span class=\"positive\">(Siamese)</span> Naresuan's Elephant",
+    "nameFormatted": "<span style=\"color: rgba(128, 255, 26, 1)\">(Siamese)</span> Naresuan's Elephant",
     "name": "[COLOR_POSITIVE_TEXT](Siamese)[ENDCOLOR] Naresuan's Elephant",
     "type": "UNIT_SIAMESE_WARELEPHANT",
     "page": "units"
   },
   {
-    "nameFormatted": "<span class=\"positive\">(Songhai)</span> Mandekalu Cavalry",
+    "nameFormatted": "<span style=\"color: rgba(128, 255, 26, 1)\">(Songhai)</span> Mandekalu Cavalry",
     "name": "[COLOR_POSITIVE_TEXT](Songhai)[ENDCOLOR] Mandekalu Cavalry",
     "type": "UNIT_SONGHAI_MUSLIMCAVALRY",
     "page": "units"
@@ -3756,7 +3756,7 @@ window.globalSearchIndex = [
     "page": "units"
   },
   {
-    "nameFormatted": "<span class=\"positive\">(Chinese)</span> Chu-Ko-Nu",
+    "nameFormatted": "<span style=\"color: rgba(128, 255, 26, 1)\">(Chinese)</span> Chu-Ko-Nu",
     "name": "[COLOR_POSITIVE_TEXT](Chinese)[ENDCOLOR] Chu-Ko-Nu",
     "type": "UNIT_CHINESE_CHUKONU",
     "page": "units"
@@ -3774,7 +3774,7 @@ window.globalSearchIndex = [
     "page": "units"
   },
   {
-    "nameFormatted": "<span class=\"positive\">(German)</span> Landsknecht",
+    "nameFormatted": "<span style=\"color: rgba(128, 255, 26, 1)\">(German)</span> Landsknecht",
     "name": "[COLOR_POSITIVE_TEXT](German)[ENDCOLOR] Landsknecht",
     "type": "UNIT_GERMAN_LANDSKNECHT",
     "page": "units"
@@ -3786,7 +3786,7 @@ window.globalSearchIndex = [
     "page": "units"
   },
   {
-    "nameFormatted": "<span class=\"positive\">(Roman)</span> Ballista",
+    "nameFormatted": "<span style=\"color: rgba(128, 255, 26, 1)\">(Roman)</span> Ballista",
     "name": "[COLOR_POSITIVE_TEXT](Roman)[ENDCOLOR] Ballista",
     "type": "UNIT_ROMAN_BALLISTA",
     "page": "units"
@@ -3810,13 +3810,13 @@ window.globalSearchIndex = [
     "page": "units"
   },
   {
-    "nameFormatted": "<span class=\"positive\">(Iroquois)</span> Mohawk Warrior",
+    "nameFormatted": "<span style=\"color: rgba(128, 255, 26, 1)\">(Iroquois)</span> Mohawk Warrior",
     "name": "[COLOR_POSITIVE_TEXT](Iroquois)[ENDCOLOR] Mohawk Warrior",
     "type": "UNIT_IROQUOIAN_MOHAWKWARRIOR",
     "page": "units"
   },
   {
-    "nameFormatted": "<span class=\"positive\">(Roman)</span> Legion",
+    "nameFormatted": "<span style=\"color: rgba(128, 255, 26, 1)\">(Roman)</span> Legion",
     "name": "[COLOR_POSITIVE_TEXT](Roman)[ENDCOLOR] Legion",
     "type": "UNIT_ROMAN_LEGION",
     "page": "units"
@@ -3828,13 +3828,13 @@ window.globalSearchIndex = [
     "page": "units"
   },
   {
-    "nameFormatted": "<span class=\"positive\">(Egyptian)</span> War Chariot",
+    "nameFormatted": "<span style=\"color: rgba(128, 255, 26, 1)\">(Egyptian)</span> War Chariot",
     "name": "[COLOR_POSITIVE_TEXT](Egyptian)[ENDCOLOR] War Chariot",
     "type": "UNIT_EGYPTIAN_WARCHARIOT",
     "page": "units"
   },
   {
-    "nameFormatted": "<span class=\"positive\">(Indian)</span> Naga-Malla",
+    "nameFormatted": "<span style=\"color: rgba(128, 255, 26, 1)\">(Indian)</span> Naga-Malla",
     "name": "[COLOR_POSITIVE_TEXT](Indian)[ENDCOLOR] Naga-Malla",
     "type": "UNIT_INDIAN_WARELEPHANT",
     "page": "units"
@@ -3846,13 +3846,13 @@ window.globalSearchIndex = [
     "page": "units"
   },
   {
-    "nameFormatted": "<span class=\"positive\">(Greek)</span> Hoplite",
+    "nameFormatted": "<span style=\"color: rgba(128, 255, 26, 1)\">(Greek)</span> Hoplite",
     "name": "[COLOR_POSITIVE_TEXT](Greek)[ENDCOLOR] Hoplite",
     "type": "UNIT_GREEK_HOPLITE",
     "page": "units"
   },
   {
-    "nameFormatted": "<span class=\"positive\">(Persian)</span> Immortal",
+    "nameFormatted": "<span style=\"color: rgba(128, 255, 26, 1)\">(Persian)</span> Immortal",
     "name": "[COLOR_POSITIVE_TEXT](Persian)[ENDCOLOR] Immortal",
     "type": "UNIT_PERSIAN_IMMORTAL",
     "page": "units"
@@ -3876,37 +3876,37 @@ window.globalSearchIndex = [
     "page": "units"
   },
   {
-    "nameFormatted": "<span class=\"positive\">(Aztec)</span> Jaguar",
+    "nameFormatted": "<span style=\"color: rgba(128, 255, 26, 1)\">(Aztec)</span> Jaguar",
     "name": "[COLOR_POSITIVE_TEXT](Aztec)[ENDCOLOR] Jaguar",
     "type": "UNIT_AZTEC_JAGUAR",
     "page": "units"
   },
   {
-    "nameFormatted": "<span class=\"positive\">(Barbarian)</span> Brute",
+    "nameFormatted": "<span style=\"color: rgba(128, 255, 26, 1)\">(Barbarian)</span> Brute",
     "name": "[COLOR_POSITIVE_TEXT](Barbarian)[ENDCOLOR] Brute",
     "type": "UNIT_BARBARIAN_WARRIOR",
     "page": "units"
   },
   {
-    "nameFormatted": "<span class=\"positive\">(Barbarian)</span> Galley",
+    "nameFormatted": "<span style=\"color: rgba(128, 255, 26, 1)\">(Barbarian)</span> Galley",
     "name": "[COLOR_POSITIVE_TEXT](Barbarian)[ENDCOLOR] Galley",
     "type": "UNIT_GALLEY",
     "page": "units"
   },
   {
-    "nameFormatted": "<span class=\"positive\">(Barbarian)</span> Archer",
+    "nameFormatted": "<span style=\"color: rgba(128, 255, 26, 1)\">(Barbarian)</span> Archer",
     "name": "[COLOR_POSITIVE_TEXT](Barbarian)[ENDCOLOR] Archer",
     "type": "UNIT_BARBARIAN_ARCHER",
     "page": "units"
   },
   {
-    "nameFormatted": "<span class=\"positive\">(Barbarian)</span> Spearman",
+    "nameFormatted": "<span style=\"color: rgba(128, 255, 26, 1)\">(Barbarian)</span> Spearman",
     "name": "[COLOR_POSITIVE_TEXT](Barbarian)[ENDCOLOR] Spearman",
     "type": "UNIT_BARBARIAN_SPEARMAN",
     "page": "units"
   },
   {
-    "nameFormatted": "<span class=\"positive\">(Barbarian)</span> Swordsman",
+    "nameFormatted": "<span style=\"color: rgba(128, 255, 26, 1)\">(Barbarian)</span> Swordsman",
     "name": "[COLOR_POSITIVE_TEXT](Barbarian)[ENDCOLOR] Swordsman",
     "type": "UNIT_BARBARIAN_SWORDSMAN",
     "page": "units"
@@ -3930,19 +3930,19 @@ window.globalSearchIndex = [
     "page": "units"
   },
   {
-    "nameFormatted": "<span class=\"positive\">(Spanish)</span> Conquistador",
+    "nameFormatted": "<span style=\"color: rgba(128, 255, 26, 1)\">(Spanish)</span> Conquistador",
     "name": "[COLOR_POSITIVE_TEXT](Spanish)[ENDCOLOR] Conquistador",
     "type": "UNIT_SPANISH_CONQUISTADOR",
     "page": "units"
   },
   {
-    "nameFormatted": "<span class=\"positive\">(Polynesian)</span> Maori Warrior",
+    "nameFormatted": "<span style=\"color: rgba(128, 255, 26, 1)\">(Polynesian)</span> Maori Warrior",
     "name": "[COLOR_POSITIVE_TEXT](Polynesian)[ENDCOLOR] Maori Warrior",
     "type": "UNIT_POLYNESIAN_MAORI_WARRIOR",
     "page": "units"
   },
   {
-    "nameFormatted": "<span class=\"positive\">(Danish)</span> Berserker",
+    "nameFormatted": "<span style=\"color: rgba(128, 255, 26, 1)\">(Danish)</span> Berserker",
     "name": "[COLOR_POSITIVE_TEXT](Danish)[ENDCOLOR] Berserker",
     "type": "UNIT_DANISH_BERSERKER",
     "page": "units"
@@ -3954,67 +3954,67 @@ window.globalSearchIndex = [
     "page": "units"
   },
   {
-    "nameFormatted": "<span class=\"positive\">(Korean)</span> Turtle Ship",
+    "nameFormatted": "<span style=\"color: rgba(128, 255, 26, 1)\">(Korean)</span> Turtle Ship",
     "name": "[COLOR_POSITIVE_TEXT](Korean)[ENDCOLOR] Turtle Ship",
     "type": "UNIT_KOREAN_TURTLE_SHIP",
     "page": "units"
   },
   {
-    "nameFormatted": "<span class=\"positive\">(Korean)</span> Hwach'a",
+    "nameFormatted": "<span style=\"color: rgba(128, 255, 26, 1)\">(Korean)</span> Hwach'a",
     "name": "[COLOR_POSITIVE_TEXT](Korean)[ENDCOLOR] Hwach'a",
     "type": "UNIT_KOREAN_HWACHA",
     "page": "units"
   },
   {
-    "nameFormatted": "<span class=\"positive\">(Babylonian)</span> Bowman",
+    "nameFormatted": "<span style=\"color: rgba(128, 255, 26, 1)\">(Babylonian)</span> Bowman",
     "name": "[COLOR_POSITIVE_TEXT](Babylonian)[ENDCOLOR] Bowman",
     "type": "UNIT_BABYLONIAN_BOWMAN",
     "page": "units"
   },
   {
-    "nameFormatted": "<span class=\"positive\">(Celtic)</span> Pictish Warrior",
+    "nameFormatted": "<span style=\"color: rgba(128, 255, 26, 1)\">(Celtic)</span> Pictish Warrior",
     "name": "[COLOR_POSITIVE_TEXT](Celtic)[ENDCOLOR] Pictish Warrior",
     "type": "UNIT_CELT_PICTISH_WARRIOR",
     "page": "units"
   },
   {
-    "nameFormatted": "<span class=\"positive\">(Mayan)</span> Atlatlist",
+    "nameFormatted": "<span style=\"color: rgba(128, 255, 26, 1)\">(Mayan)</span> Atlatlist",
     "name": "[COLOR_POSITIVE_TEXT](Mayan)[ENDCOLOR] Atlatlist",
     "type": "UNIT_MAYAN_ATLATLIST",
     "page": "units"
   },
   {
-    "nameFormatted": "<span class=\"positive\">(Byzantine)</span> Dromon",
+    "nameFormatted": "<span style=\"color: rgba(128, 255, 26, 1)\">(Byzantine)</span> Dromon",
     "name": "[COLOR_POSITIVE_TEXT](Byzantine)[ENDCOLOR] Dromon",
     "type": "UNIT_BYZANTINE_DROMON",
     "page": "units"
   },
   {
-    "nameFormatted": "<span class=\"positive\">(Byzantine)</span> Cataphract",
+    "nameFormatted": "<span style=\"color: rgba(128, 255, 26, 1)\">(Byzantine)</span> Cataphract",
     "name": "[COLOR_POSITIVE_TEXT](Byzantine)[ENDCOLOR] Cataphract",
     "type": "UNIT_BYZANTINE_CATAPHRACT",
     "page": "units"
   },
   {
-    "nameFormatted": "<span class=\"positive\">(Carthaginian)</span> Atlas Elephant",
+    "nameFormatted": "<span style=\"color: rgba(128, 255, 26, 1)\">(Carthaginian)</span> Atlas Elephant",
     "name": "[COLOR_POSITIVE_TEXT](Carthaginian)[ENDCOLOR] Atlas Elephant",
     "type": "UNIT_CARTHAGINIAN_FOREST_ELEPHANT",
     "page": "units"
   },
   {
-    "nameFormatted": "<span class=\"positive\">(Carthaginian)</span> Quinquereme",
+    "nameFormatted": "<span style=\"color: rgba(128, 255, 26, 1)\">(Carthaginian)</span> Quinquereme",
     "name": "[COLOR_POSITIVE_TEXT](Carthaginian)[ENDCOLOR] Quinquereme",
     "type": "UNIT_CARTHAGINIAN_QUINQUEREME",
     "page": "units"
   },
   {
-    "nameFormatted": "<span class=\"positive\">(Hunnic)</span> Horse Archer",
+    "nameFormatted": "<span style=\"color: rgba(128, 255, 26, 1)\">(Hunnic)</span> Horse Archer",
     "name": "[COLOR_POSITIVE_TEXT](Hunnic)[ENDCOLOR] Horse Archer",
     "type": "UNIT_HUN_HORSE_ARCHER",
     "page": "units"
   },
   {
-    "nameFormatted": "<span class=\"positive\">(Austrian)</span> Hussar",
+    "nameFormatted": "<span style=\"color: rgba(128, 255, 26, 1)\">(Austrian)</span> Hussar",
     "name": "[COLOR_POSITIVE_TEXT](Austrian)[ENDCOLOR] Hussar",
     "type": "UNIT_AUSTRIAN_HUSSAR",
     "page": "units"
@@ -4026,13 +4026,13 @@ window.globalSearchIndex = [
     "page": "units"
   },
   {
-    "nameFormatted": "<span class=\"positive\">(Swedish)</span> Carolean",
+    "nameFormatted": "<span style=\"color: rgba(128, 255, 26, 1)\">(Swedish)</span> Carolean",
     "name": "[COLOR_POSITIVE_TEXT](Swedish)[ENDCOLOR] Carolean",
     "type": "UNIT_SWEDISH_CAROLEAN",
     "page": "units"
   },
   {
-    "nameFormatted": "<span class=\"positive\">(Swedish)</span> Hakkapeliitta",
+    "nameFormatted": "<span style=\"color: rgba(128, 255, 26, 1)\">(Swedish)</span> Hakkapeliitta",
     "name": "[COLOR_POSITIVE_TEXT](Swedish)[ENDCOLOR] Hakkapeliitta",
     "type": "UNIT_SWEDISH_HAKKAPELIITTA",
     "page": "units"
@@ -4044,7 +4044,7 @@ window.globalSearchIndex = [
     "page": "units"
   },
   {
-    "nameFormatted": "<span class=\"positive\">(Dutch)</span> Sea Beggar",
+    "nameFormatted": "<span style=\"color: rgba(128, 255, 26, 1)\">(Dutch)</span> Sea Beggar",
     "name": "[COLOR_POSITIVE_TEXT](Dutch)[ENDCOLOR] Sea Beggar",
     "type": "UNIT_DUTCH_SEA_BEGGAR",
     "page": "units"
@@ -4122,13 +4122,13 @@ window.globalSearchIndex = [
     "page": "units"
   },
   {
-    "nameFormatted": "<span class=\"positive\">(Zulu)</span> Impi",
+    "nameFormatted": "<span style=\"color: rgba(128, 255, 26, 1)\">(Zulu)</span> Impi",
     "name": "[COLOR_POSITIVE_TEXT](Zulu)[ENDCOLOR] Impi",
     "type": "UNIT_ZULU_IMPI",
     "page": "units"
   },
   {
-    "nameFormatted": "<span class=\"positive\">(Polish)</span> Winged Hussar",
+    "nameFormatted": "<span style=\"color: rgba(128, 255, 26, 1)\">(Polish)</span> Winged Hussar",
     "name": "[COLOR_POSITIVE_TEXT](Polish)[ENDCOLOR] Winged Hussar",
     "type": "UNIT_POLISH_WINGED_HUSSAR",
     "page": "units"
@@ -4152,7 +4152,7 @@ window.globalSearchIndex = [
     "page": "units"
   },
   {
-    "nameFormatted": "<span class=\"positive\">(Assyrian)</span> Siege Tower",
+    "nameFormatted": "<span style=\"color: rgba(128, 255, 26, 1)\">(Assyrian)</span> Siege Tower",
     "name": "[COLOR_POSITIVE_TEXT](Assyrian)[ENDCOLOR] Siege Tower",
     "type": "UNIT_ASSYRIAN_SIEGE_TOWER",
     "page": "units"
@@ -4164,19 +4164,19 @@ window.globalSearchIndex = [
     "page": "units"
   },
   {
-    "nameFormatted": "<span class=\"positive\">(Portuguese)</span> Nau",
+    "nameFormatted": "<span style=\"color: rgba(128, 255, 26, 1)\">(Portuguese)</span> Nau",
     "name": "[COLOR_POSITIVE_TEXT](Portuguese)[ENDCOLOR] Nau",
     "type": "UNIT_PORTUGUESE_NAU",
     "page": "units"
   },
   {
-    "nameFormatted": "<span class=\"positive\">(Moroccan)</span> Berber Cavalry",
+    "nameFormatted": "<span style=\"color: rgba(128, 255, 26, 1)\">(Moroccan)</span> Berber Cavalry",
     "name": "[COLOR_POSITIVE_TEXT](Moroccan)[ENDCOLOR] Berber Cavalry",
     "type": "UNIT_BERBER_CAVALRY",
     "page": "units"
   },
   {
-    "nameFormatted": "<span class=\"positive\">(Venetian)</span> Great Galleass",
+    "nameFormatted": "<span style=\"color: rgba(128, 255, 26, 1)\">(Venetian)</span> Great Galleass",
     "name": "[COLOR_POSITIVE_TEXT](Venetian)[ENDCOLOR] Great Galleass",
     "type": "UNIT_VENETIAN_GALLEASS",
     "page": "units"
@@ -4188,7 +4188,7 @@ window.globalSearchIndex = [
     "page": "units"
   },
   {
-    "nameFormatted": "<span class=\"positive\">(Shoshone)</span> Comanche Rider",
+    "nameFormatted": "<span style=\"color: rgba(128, 255, 26, 1)\">(Shoshone)</span> Comanche Rider",
     "name": "[COLOR_POSITIVE_TEXT](Shoshone)[ENDCOLOR] Comanche Rider",
     "type": "UNIT_SHOSHONE_COMANCHE_RIDERS",
     "page": "units"
@@ -4200,19 +4200,19 @@ window.globalSearchIndex = [
     "page": "units"
   },
   {
-    "nameFormatted": "<span class=\"positive\">(Indonesian)</span> Kris Swordsman",
+    "nameFormatted": "<span style=\"color: rgba(128, 255, 26, 1)\">(Indonesian)</span> Kris Swordsman",
     "name": "[COLOR_POSITIVE_TEXT](Indonesian)[ENDCOLOR] Kris Swordsman",
     "type": "UNIT_KRIS_SWORDSMAN",
     "page": "units"
   },
   {
-    "nameFormatted": "<span class=\"positive\">(Barbarian)</span> Horseman",
+    "nameFormatted": "<span style=\"color: rgba(128, 255, 26, 1)\">(Barbarian)</span> Horseman",
     "name": "[COLOR_POSITIVE_TEXT](Barbarian)[ENDCOLOR] Horseman",
     "type": "UNIT_BARBARIAN_HORSEMAN",
     "page": "units"
   },
   {
-    "nameFormatted": "<span class=\"positive\">(Barbarian)</span> Hand-Axe",
+    "nameFormatted": "<span style=\"color: rgba(128, 255, 26, 1)\">(Barbarian)</span> Hand-Axe",
     "name": "[COLOR_POSITIVE_TEXT](Barbarian)[ENDCOLOR] Hand-Axe",
     "type": "UNIT_BARBARIAN_AXMAN",
     "page": "units"
@@ -4344,247 +4344,247 @@ window.globalSearchIndex = [
     "page": "units"
   },
   {
-    "nameFormatted": "<span class=\"positive\">(Assyrian)</span> Iron Chariot",
+    "nameFormatted": "<span style=\"color: rgba(128, 255, 26, 1)\">(Assyrian)</span> Iron Chariot",
     "name": "[COLOR_POSITIVE_TEXT](Assyrian)[ENDCOLOR] Iron Chariot",
     "type": "UNIT_IRON_CHARIOT",
     "page": "units"
   },
   {
-    "nameFormatted": "<span class=\"positive\">(Carthaginian)</span> Asamu",
+    "nameFormatted": "<span style=\"color: rgba(128, 255, 26, 1)\">(Carthaginian)</span> Asamu",
     "name": "[COLOR_POSITIVE_TEXT](Carthaginian)[ENDCOLOR] Asamu",
     "type": "UNIT_ASAMU",
     "page": "units"
   },
   {
-    "nameFormatted": "<span class=\"positive\">(Ottoman)</span> Great Bombard",
+    "nameFormatted": "<span style=\"color: rgba(128, 255, 26, 1)\">(Ottoman)</span> Great Bombard",
     "name": "[COLOR_POSITIVE_TEXT](Ottoman)[ENDCOLOR] Great Bombard",
     "type": "UNIT_GREAT_BOMBARD",
     "page": "units"
   },
   {
-    "nameFormatted": "<span class=\"positive\">(Venetian)</span> Fusta",
+    "nameFormatted": "<span style=\"color: rgba(128, 255, 26, 1)\">(Venetian)</span> Fusta",
     "name": "[COLOR_POSITIVE_TEXT](Venetian)[ENDCOLOR] Fusta",
     "type": "UNIT_FUSTA",
     "page": "units"
   },
   {
-    "nameFormatted": "<span class=\"positive\">(American)</span> Monitor",
+    "nameFormatted": "<span style=\"color: rgba(128, 255, 26, 1)\">(American)</span> Monitor",
     "name": "[COLOR_POSITIVE_TEXT](American)[ENDCOLOR] Monitor",
     "type": "UNIT_MONITOR",
     "page": "units"
   },
   {
-    "nameFormatted": "<span class=\"positive\">(Arabian)</span> Hashemite Raider",
+    "nameFormatted": "<span style=\"color: rgba(128, 255, 26, 1)\">(Arabian)</span> Hashemite Raider",
     "name": "[COLOR_POSITIVE_TEXT](Arabian)[ENDCOLOR] Hashemite Raider",
     "type": "UNIT_HASHEMITE_RAIDER",
     "page": "units"
   },
   {
-    "nameFormatted": "<span class=\"positive\">(Austrian)</span> Grenzer",
+    "nameFormatted": "<span style=\"color: rgba(128, 255, 26, 1)\">(Austrian)</span> Grenzer",
     "name": "[COLOR_POSITIVE_TEXT](Austrian)[ENDCOLOR] Grenzer",
     "type": "UNIT_GRENZER",
     "page": "units"
   },
   {
-    "nameFormatted": "<span class=\"positive\">(Aztec)</span> Otomi",
+    "nameFormatted": "<span style=\"color: rgba(128, 255, 26, 1)\">(Aztec)</span> Otomi",
     "name": "[COLOR_POSITIVE_TEXT](Aztec)[ENDCOLOR] Otomi",
     "type": "UNIT_OTOMI",
     "page": "units"
   },
   {
-    "nameFormatted": "<span class=\"positive\">(Babylonian)</span> Sabum Kibitum",
+    "nameFormatted": "<span style=\"color: rgba(128, 255, 26, 1)\">(Babylonian)</span> Sabum Kibitum",
     "name": "[COLOR_POSITIVE_TEXT](Babylonian)[ENDCOLOR] Sabum Kibitum",
     "type": "UNIT_SABUM_KIBITUM",
     "page": "units"
   },
   {
-    "nameFormatted": "<span class=\"positive\">(Brazilian)</span> Bandeirante",
+    "nameFormatted": "<span style=\"color: rgba(128, 255, 26, 1)\">(Brazilian)</span> Bandeirante",
     "name": "[COLOR_POSITIVE_TEXT](Brazilian)[ENDCOLOR] Bandeirante",
     "type": "UNIT_BANDEIRANTE",
     "page": "units"
   },
   {
-    "nameFormatted": "<span class=\"positive\">(Brazilian)</span> Amazonas",
+    "nameFormatted": "<span style=\"color: rgba(128, 255, 26, 1)\">(Brazilian)</span> Amazonas",
     "name": "[COLOR_POSITIVE_TEXT](Brazilian)[ENDCOLOR] Amazonas",
     "type": "UNIT_AMAZONAS",
     "page": "units"
   },
   {
-    "nameFormatted": "<span class=\"positive\">(Celtic)</span> Scythed Chariot",
+    "nameFormatted": "<span style=\"color: rgba(128, 255, 26, 1)\">(Celtic)</span> Scythed Chariot",
     "name": "[COLOR_POSITIVE_TEXT](Celtic)[ENDCOLOR] Scythed Chariot",
     "type": "UNIT_SCYTHED_CHARIOT",
     "page": "units"
   },
   {
-    "nameFormatted": "<span class=\"positive\">(Chinese)</span> Treasure Ship",
+    "nameFormatted": "<span style=\"color: rgba(128, 255, 26, 1)\">(Chinese)</span> Treasure Ship",
     "name": "[COLOR_POSITIVE_TEXT](Chinese)[ENDCOLOR] Treasure Ship",
     "type": "UNIT_TREASURE_SHIP",
     "page": "units"
   },
   {
-    "nameFormatted": "<span class=\"positive\">(Danish)</span> Longship",
+    "nameFormatted": "<span style=\"color: rgba(128, 255, 26, 1)\">(Danish)</span> Longship",
     "name": "[COLOR_POSITIVE_TEXT](Danish)[ENDCOLOR] Longship",
     "type": "UNIT_LONGSHIP",
     "page": "units"
   },
   {
-    "nameFormatted": "<span class=\"positive\">(Egyptian)</span> Mamluk",
+    "nameFormatted": "<span style=\"color: rgba(128, 255, 26, 1)\">(Egyptian)</span> Mamluk",
     "name": "[COLOR_POSITIVE_TEXT](Egyptian)[ENDCOLOR] Mamluk",
     "type": "UNIT_MAMLUK",
     "page": "units"
   },
   {
-    "nameFormatted": "<span class=\"positive\">(English)</span> Redcoat",
+    "nameFormatted": "<span style=\"color: rgba(128, 255, 26, 1)\">(English)</span> Redcoat",
     "name": "[COLOR_POSITIVE_TEXT](English)[ENDCOLOR] Redcoat",
     "type": "UNIT_REDCOAT",
     "page": "units"
   },
   {
-    "nameFormatted": "<span class=\"positive\">(Ethiopian)</span> Chewa",
+    "nameFormatted": "<span style=\"color: rgba(128, 255, 26, 1)\">(Ethiopian)</span> Chewa",
     "name": "[COLOR_POSITIVE_TEXT](Ethiopian)[ENDCOLOR] Chewa",
     "type": "UNIT_CHEWA",
     "page": "units"
   },
   {
-    "nameFormatted": "<span class=\"positive\">(Ethiopian)</span> Oromo Cavalry",
+    "nameFormatted": "<span style=\"color: rgba(128, 255, 26, 1)\">(Ethiopian)</span> Oromo Cavalry",
     "name": "[COLOR_POSITIVE_TEXT](Ethiopian)[ENDCOLOR] Oromo Cavalry",
     "type": "UNIT_OROMO_CAVALRY",
     "page": "units"
   },
   {
-    "nameFormatted": "<span class=\"positive\">(French)</span> SPAD S.VII",
+    "nameFormatted": "<span style=\"color: rgba(128, 255, 26, 1)\">(French)</span> SPAD S.VII",
     "name": "[COLOR_POSITIVE_TEXT](French)[ENDCOLOR] SPAD S.VII",
     "type": "UNIT_SPAD",
     "page": "units"
   },
   {
-    "nameFormatted": "<span class=\"positive\">(German)</span> Krupp Gun",
+    "nameFormatted": "<span style=\"color: rgba(128, 255, 26, 1)\">(German)</span> Krupp Gun",
     "name": "[COLOR_POSITIVE_TEXT](German)[ENDCOLOR] Krupp Gun",
     "type": "UNIT_KRUPP_GUN",
     "page": "units"
   },
   {
-    "nameFormatted": "<span class=\"positive\">(Greek)</span> Klepht",
+    "nameFormatted": "<span style=\"color: rgba(128, 255, 26, 1)\">(Greek)</span> Klepht",
     "name": "[COLOR_POSITIVE_TEXT](Greek)[ENDCOLOR] Klepht",
     "type": "UNIT_KLEPHT",
     "page": "units"
   },
   {
-    "nameFormatted": "<span class=\"positive\">(Hunnic)</span> Tarkhan",
+    "nameFormatted": "<span style=\"color: rgba(128, 255, 26, 1)\">(Hunnic)</span> Tarkhan",
     "name": "[COLOR_POSITIVE_TEXT](Hunnic)[ENDCOLOR] Tarkhan",
     "type": "UNIT_TARKHAN",
     "page": "units"
   },
   {
-    "nameFormatted": "<span class=\"positive\">(Incan)</span> Warak'aq",
+    "nameFormatted": "<span style=\"color: rgba(128, 255, 26, 1)\">(Incan)</span> Warak'aq",
     "name": "[COLOR_POSITIVE_TEXT](Incan)[ENDCOLOR] Warak'aq",
     "type": "UNIT_WARAKAQ",
     "page": "units"
   },
   {
-    "nameFormatted": "<span class=\"positive\">(Incan)</span> Inti Maceman",
+    "nameFormatted": "<span style=\"color: rgba(128, 255, 26, 1)\">(Incan)</span> Inti Maceman",
     "name": "[COLOR_POSITIVE_TEXT](Incan)[ENDCOLOR] Inti Maceman",
     "type": "UNIT_INTI_MACEMAN",
     "page": "units"
   },
   {
-    "nameFormatted": "<span class=\"positive\">(Indian)</span> Dhanurdhara",
+    "nameFormatted": "<span style=\"color: rgba(128, 255, 26, 1)\">(Indian)</span> Dhanurdhara",
     "name": "[COLOR_POSITIVE_TEXT](Indian)[ENDCOLOR] Dhanurdhara",
     "type": "UNIT_DHANURDHARA",
     "page": "units"
   },
   {
-    "nameFormatted": "<span class=\"positive\">(Indonesian)</span> Djong",
+    "nameFormatted": "<span style=\"color: rgba(128, 255, 26, 1)\">(Indonesian)</span> Djong",
     "name": "[COLOR_POSITIVE_TEXT](Indonesian)[ENDCOLOR] Djong",
     "type": "UNIT_DJONG",
     "page": "units"
   },
   {
-    "nameFormatted": "<span class=\"positive\">(Iroquois)</span> Prowler",
+    "nameFormatted": "<span style=\"color: rgba(128, 255, 26, 1)\">(Iroquois)</span> Prowler",
     "name": "[COLOR_POSITIVE_TEXT](Iroquois)[ENDCOLOR] Prowler",
     "type": "UNIT_PROWLER",
     "page": "units"
   },
   {
-    "nameFormatted": "<span class=\"positive\">(Japanese)</span> Yamato",
+    "nameFormatted": "<span style=\"color: rgba(128, 255, 26, 1)\">(Japanese)</span> Yamato",
     "name": "[COLOR_POSITIVE_TEXT](Japanese)[ENDCOLOR] Yamato",
     "type": "UNIT_YAMATO",
     "page": "units"
   },
   {
-    "nameFormatted": "<span class=\"positive\">(Mayan)</span> Holkan",
+    "nameFormatted": "<span style=\"color: rgba(128, 255, 26, 1)\">(Mayan)</span> Holkan",
     "name": "[COLOR_POSITIVE_TEXT](Mayan)[ENDCOLOR] Holkan",
     "type": "UNIT_HOLKAN",
     "page": "units"
   },
   {
-    "nameFormatted": "<span class=\"positive\">(Mongolian)</span> Black Tug",
+    "nameFormatted": "<span style=\"color: rgba(128, 255, 26, 1)\">(Mongolian)</span> Black Tug",
     "name": "[COLOR_POSITIVE_TEXT](Mongolian)[ENDCOLOR] Black Tug",
     "type": "UNIT_BLACK_TUG",
     "page": "units"
   },
   {
-    "nameFormatted": "<span class=\"positive\">(Moroccan)</span> Corsair",
+    "nameFormatted": "<span style=\"color: rgba(128, 255, 26, 1)\">(Moroccan)</span> Corsair",
     "name": "[COLOR_POSITIVE_TEXT](Moroccan)[ENDCOLOR] Corsair",
     "type": "UNIT_CORSAIR",
     "page": "units"
   },
   {
-    "nameFormatted": "<span class=\"positive\">(Dutch)</span> Goedendag",
+    "nameFormatted": "<span style=\"color: rgba(128, 255, 26, 1)\">(Dutch)</span> Goedendag",
     "name": "[COLOR_POSITIVE_TEXT](Dutch)[ENDCOLOR] Goedendag",
     "type": "UNIT_GOEDENDAG",
     "page": "units"
   },
   {
-    "nameFormatted": "<span class=\"positive\">(Persian)</span> Qizilbash",
+    "nameFormatted": "<span style=\"color: rgba(128, 255, 26, 1)\">(Persian)</span> Qizilbash",
     "name": "[COLOR_POSITIVE_TEXT](Persian)[ENDCOLOR] Qizilbash",
     "type": "UNIT_QIZILBASH",
     "page": "units"
   },
   {
-    "nameFormatted": "<span class=\"positive\">(Polish)</span> Pancerny",
+    "nameFormatted": "<span style=\"color: rgba(128, 255, 26, 1)\">(Polish)</span> Pancerny",
     "name": "[COLOR_POSITIVE_TEXT](Polish)[ENDCOLOR] Pancerny",
     "type": "UNIT_PANCERNY",
     "page": "units"
   },
   {
-    "nameFormatted": "<span class=\"positive\">(Polynesian)</span> Vaka Nui",
+    "nameFormatted": "<span style=\"color: rgba(128, 255, 26, 1)\">(Polynesian)</span> Vaka Nui",
     "name": "[COLOR_POSITIVE_TEXT](Polynesian)[ENDCOLOR] Vaka Nui",
     "type": "UNIT_VAKA_NUI",
     "page": "units"
   },
   {
-    "nameFormatted": "<span class=\"positive\">(Portuguese)</span> Caçador",
+    "nameFormatted": "<span style=\"color: rgba(128, 255, 26, 1)\">(Portuguese)</span> Caçador",
     "name": "[COLOR_POSITIVE_TEXT](Portuguese)[ENDCOLOR] Caçador",
     "type": "UNIT_CACADOR",
     "page": "units"
   },
   {
-    "nameFormatted": "<span class=\"positive\">(Russian)</span> Licorne",
+    "nameFormatted": "<span style=\"color: rgba(128, 255, 26, 1)\">(Russian)</span> Licorne",
     "name": "[COLOR_POSITIVE_TEXT](Russian)[ENDCOLOR] Licorne",
     "type": "UNIT_LICORNE",
     "page": "units"
   },
   {
-    "nameFormatted": "<span class=\"positive\">(Shoshone)</span> Yellow Brow",
+    "nameFormatted": "<span style=\"color: rgba(128, 255, 26, 1)\">(Shoshone)</span> Yellow Brow",
     "name": "[COLOR_POSITIVE_TEXT](Shoshone)[ENDCOLOR] Yellow Brow",
     "type": "UNIT_YELLOW_BROW",
     "page": "units"
   },
   {
-    "nameFormatted": "<span class=\"positive\">(Siamese)</span> Suea Mop",
+    "nameFormatted": "<span style=\"color: rgba(128, 255, 26, 1)\">(Siamese)</span> Suea Mop",
     "name": "[COLOR_POSITIVE_TEXT](Siamese)[ENDCOLOR] Suea Mop",
     "type": "UNIT_SUEA_MOP",
     "page": "units"
   },
   {
-    "nameFormatted": "<span class=\"positive\">(Songhai)</span> Sofa",
+    "nameFormatted": "<span style=\"color: rgba(128, 255, 26, 1)\">(Songhai)</span> Sofa",
     "name": "[COLOR_POSITIVE_TEXT](Songhai)[ENDCOLOR] Sofa",
     "type": "UNIT_SOFA",
     "page": "units"
   },
   {
-    "nameFormatted": "<span class=\"positive\">(Spanish)</span> Armada",
+    "nameFormatted": "<span style=\"color: rgba(128, 255, 26, 1)\">(Spanish)</span> Armada",
     "name": "[COLOR_POSITIVE_TEXT](Spanish)[ENDCOLOR] Armada",
     "type": "UNIT_ARMADA",
     "page": "units"
@@ -4608,43 +4608,43 @@ window.globalSearchIndex = [
     "page": "buildings"
   },
   {
-    "nameFormatted": "<span class=\"positive\">(Indian)</span> Qila",
+    "nameFormatted": "<span style=\"color: rgba(128, 255, 26, 1)\">(Indian)</span> Qila",
     "name": "[COLOR_POSITIVE_TEXT](Indian)[ENDCOLOR] Qila",
     "type": "BUILDING_MUGHAL_FORT",
     "page": "buildings"
   },
   {
-    "nameFormatted": "<span class=\"positive\">(Russian)</span> Ostrog",
+    "nameFormatted": "<span style=\"color: rgba(128, 255, 26, 1)\">(Russian)</span> Ostrog",
     "name": "[COLOR_POSITIVE_TEXT](Russian)[ENDCOLOR] Ostrog",
     "type": "BUILDING_KREPOST",
     "page": "buildings"
   },
   {
-    "nameFormatted": "<span class=\"positive\">(Iroquois)</span> Longhouse",
+    "nameFormatted": "<span style=\"color: rgba(128, 255, 26, 1)\">(Iroquois)</span> Longhouse",
     "name": "[COLOR_POSITIVE_TEXT](Iroquois)[ENDCOLOR] Longhouse",
     "type": "BUILDING_LONGHOUSE",
     "page": "buildings"
   },
   {
-    "nameFormatted": "<span class=\"positive\">(Arabian)</span> Bazaar",
+    "nameFormatted": "<span style=\"color: rgba(128, 255, 26, 1)\">(Arabian)</span> Bazaar",
     "name": "[COLOR_POSITIVE_TEXT](Arabian)[ENDCOLOR] Bazaar",
     "type": "BUILDING_BAZAAR",
     "page": "buildings"
   },
   {
-    "nameFormatted": "<span class=\"positive\">(Persian)</span> Satrap's Court",
+    "nameFormatted": "<span style=\"color: rgba(128, 255, 26, 1)\">(Persian)</span> Satrap's Court",
     "name": "[COLOR_POSITIVE_TEXT](Persian)[ENDCOLOR] Satrap's Court",
     "type": "BUILDING_SATRAPS_COURT",
     "page": "buildings"
   },
   {
-    "nameFormatted": "<span class=\"positive\">(Siamese)</span> Wat",
+    "nameFormatted": "<span style=\"color: rgba(128, 255, 26, 1)\">(Siamese)</span> Wat",
     "name": "[COLOR_POSITIVE_TEXT](Siamese)[ENDCOLOR] Wat",
     "type": "BUILDING_WAT",
     "page": "buildings"
   },
   {
-    "nameFormatted": "<span class=\"positive\">(Songhai)</span> Tabya",
+    "nameFormatted": "<span style=\"color: rgba(128, 255, 26, 1)\">(Songhai)</span> Tabya",
     "name": "[COLOR_POSITIVE_TEXT](Songhai)[ENDCOLOR] Tabya",
     "type": "BUILDING_MUD_PYRAMID_MOSQUE",
     "page": "buildings"
@@ -4920,13 +4920,13 @@ window.globalSearchIndex = [
     "page": "buildings"
   },
   {
-    "nameFormatted": "<span class=\"positive\">(Babylonian)</span> Walls of Babylon",
+    "nameFormatted": "<span style=\"color: rgba(128, 255, 26, 1)\">(Babylonian)</span> Walls of Babylon",
     "name": "[COLOR_POSITIVE_TEXT](Babylonian)[ENDCOLOR] Walls of Babylon",
     "type": "BUILDING_WALLS_OF_BABYLON",
     "page": "buildings"
   },
   {
-    "nameFormatted": "<span class=\"positive\">(Celtic)</span> Ceilidh Hall",
+    "nameFormatted": "<span style=\"color: rgba(128, 255, 26, 1)\">(Celtic)</span> Ceilidh Hall",
     "name": "[COLOR_POSITIVE_TEXT](Celtic)[ENDCOLOR] Ceilidh Hall",
     "type": "BUILDING_CEILIDH_HALL",
     "page": "buildings"
@@ -4986,31 +4986,31 @@ window.globalSearchIndex = [
     "page": "buildings"
   },
   {
-    "nameFormatted": "<span class=\"positive\">(Ethiopian)</span> Stele",
+    "nameFormatted": "<span style=\"color: rgba(128, 255, 26, 1)\">(Ethiopian)</span> Stele",
     "name": "[COLOR_POSITIVE_TEXT](Ethiopian)[ENDCOLOR] Stele",
     "type": "BUILDING_STELE",
     "page": "buildings"
   },
   {
-    "nameFormatted": "<span class=\"positive\">(Zulu)</span> Ikanda",
+    "nameFormatted": "<span style=\"color: rgba(128, 255, 26, 1)\">(Zulu)</span> Ikanda",
     "name": "[COLOR_POSITIVE_TEXT](Zulu)[ENDCOLOR] Ikanda",
     "type": "BUILDING_IKANDA",
     "page": "buildings"
   },
   {
-    "nameFormatted": "<span class=\"positive\">(Polish)</span> Ducal Stable",
+    "nameFormatted": "<span style=\"color: rgba(128, 255, 26, 1)\">(Polish)</span> Ducal Stable",
     "name": "[COLOR_POSITIVE_TEXT](Polish)[ENDCOLOR] Ducal Stable",
     "type": "BUILDING_DUCAL_STABLE",
     "page": "buildings"
   },
   {
-    "nameFormatted": "<span class=\"positive\">(Indonesian)</span> Candi",
+    "nameFormatted": "<span style=\"color: rgba(128, 255, 26, 1)\">(Indonesian)</span> Candi",
     "name": "[COLOR_POSITIVE_TEXT](Indonesian)[ENDCOLOR] Candi",
     "type": "BUILDING_CANDI",
     "page": "buildings"
   },
   {
-    "nameFormatted": "<span class=\"positive\">(German)</span> Hanse",
+    "nameFormatted": "<span style=\"color: rgba(128, 255, 26, 1)\">(German)</span> Hanse",
     "name": "[COLOR_POSITIVE_TEXT](German)[ENDCOLOR] Hanse",
     "type": "BUILDING_HANSE",
     "page": "buildings"
@@ -5052,7 +5052,7 @@ window.globalSearchIndex = [
     "page": "buildings"
   },
   {
-    "nameFormatted": "<span class=\"positive\">(Greek)</span> Parthenon",
+    "nameFormatted": "<span style=\"color: rgba(128, 255, 26, 1)\">(Greek)</span> Parthenon",
     "name": "[COLOR_POSITIVE_TEXT](Greek)[ENDCOLOR] Parthenon",
     "type": "BUILDING_PARTHENON",
     "page": "buildings"
@@ -5160,211 +5160,211 @@ window.globalSearchIndex = [
     "page": "buildings"
   },
   {
-    "nameFormatted": "<span class=\"positive\">(American)</span> Homestead",
+    "nameFormatted": "<span style=\"color: rgba(128, 255, 26, 1)\">(American)</span> Homestead",
     "name": "[COLOR_POSITIVE_TEXT](American)[ENDCOLOR] Homestead",
     "type": "BUILDING_HOMESTEAD",
     "page": "buildings"
   },
   {
-    "nameFormatted": "<span class=\"positive\">(Arabian)</span> Bimaristan",
+    "nameFormatted": "<span style=\"color: rgba(128, 255, 26, 1)\">(Arabian)</span> Bimaristan",
     "name": "[COLOR_POSITIVE_TEXT](Arabian)[ENDCOLOR] Bimaristan",
     "type": "BUILDING_BIMARISTAN",
     "page": "buildings"
   },
   {
-    "nameFormatted": "<span class=\"positive\">(Assyrian)</span> Lamassu Gate",
+    "nameFormatted": "<span style=\"color: rgba(128, 255, 26, 1)\">(Assyrian)</span> Lamassu Gate",
     "name": "[COLOR_POSITIVE_TEXT](Assyrian)[ENDCOLOR] Lamassu Gate",
     "type": "BUILDING_LAMASSU_GATE",
     "page": "buildings"
   },
   {
-    "nameFormatted": "<span class=\"positive\">(Austrian)</span> Schützenstand",
+    "nameFormatted": "<span style=\"color: rgba(128, 255, 26, 1)\">(Austrian)</span> Schützenstand",
     "name": "[COLOR_POSITIVE_TEXT](Austrian)[ENDCOLOR] Schützenstand",
     "type": "BUILDING_SCHUTZENSTAND",
     "page": "buildings"
   },
   {
-    "nameFormatted": "<span class=\"positive\">(Aztec)</span> Telpochcalli",
+    "nameFormatted": "<span style=\"color: rgba(128, 255, 26, 1)\">(Aztec)</span> Telpochcalli",
     "name": "[COLOR_POSITIVE_TEXT](Aztec)[ENDCOLOR] Telpochcalli",
     "type": "BUILDING_TELPOCHCALLI",
     "page": "buildings"
   },
   {
-    "nameFormatted": "<span class=\"positive\">(Brazilian)</span> Embrapa",
+    "nameFormatted": "<span style=\"color: rgba(128, 255, 26, 1)\">(Brazilian)</span> Embrapa",
     "name": "[COLOR_POSITIVE_TEXT](Brazilian)[ENDCOLOR] Embrapa",
     "type": "BUILDING_EMBRAPA",
     "page": "buildings"
   },
   {
-    "nameFormatted": "<span class=\"positive\">(Byzantine)</span> Tetraconch",
+    "nameFormatted": "<span style=\"color: rgba(128, 255, 26, 1)\">(Byzantine)</span> Tetraconch",
     "name": "[COLOR_POSITIVE_TEXT](Byzantine)[ENDCOLOR] Tetraconch",
     "type": "BUILDING_TETRACONCH",
     "page": "buildings"
   },
   {
-    "nameFormatted": "<span class=\"positive\">(Chinese)</span> Examination Hall",
+    "nameFormatted": "<span style=\"color: rgba(128, 255, 26, 1)\">(Chinese)</span> Examination Hall",
     "name": "[COLOR_POSITIVE_TEXT](Chinese)[ENDCOLOR] Examination Hall",
     "type": "BUILDING_EXAMINATION_HALL",
     "page": "buildings"
   },
   {
-    "nameFormatted": "<span class=\"positive\">(Danish)</span> Runestone",
+    "nameFormatted": "<span style=\"color: rgba(128, 255, 26, 1)\">(Danish)</span> Runestone",
     "name": "[COLOR_POSITIVE_TEXT](Danish)[ENDCOLOR] Runestone",
     "type": "BUILDING_RUNESTONE",
     "page": "buildings"
   },
   {
-    "nameFormatted": "<span class=\"positive\">(Danish)</span> Andelsbevægelse",
+    "nameFormatted": "<span style=\"color: rgba(128, 255, 26, 1)\">(Danish)</span> Andelsbevægelse",
     "name": "[COLOR_POSITIVE_TEXT](Danish)[ENDCOLOR] Andelsbevægelse",
     "type": "BUILDING_ANDELSBEVAEGELSE",
     "page": "buildings"
   },
   {
-    "nameFormatted": "<span class=\"positive\">(Egyptian)</span> Nilometer",
+    "nameFormatted": "<span style=\"color: rgba(128, 255, 26, 1)\">(Egyptian)</span> Nilometer",
     "name": "[COLOR_POSITIVE_TEXT](Egyptian)[ENDCOLOR] Nilometer",
     "type": "BUILDING_NILOMETER",
     "page": "buildings"
   },
   {
-    "nameFormatted": "<span class=\"positive\">(English)</span> Steam Mill",
+    "nameFormatted": "<span style=\"color: rgba(128, 255, 26, 1)\">(English)</span> Steam Mill",
     "name": "[COLOR_POSITIVE_TEXT](English)[ENDCOLOR] Steam Mill",
     "type": "BUILDING_STEAM_MILL",
     "page": "buildings"
   },
   {
-    "nameFormatted": "<span class=\"positive\">(French)</span> Salon",
+    "nameFormatted": "<span style=\"color: rgba(128, 255, 26, 1)\">(French)</span> Salon",
     "name": "[COLOR_POSITIVE_TEXT](French)[ENDCOLOR] Salon",
     "type": "BUILDING_SALON",
     "page": "buildings"
   },
   {
-    "nameFormatted": "<span class=\"positive\">(German)</span> Brewhouse",
+    "nameFormatted": "<span style=\"color: rgba(128, 255, 26, 1)\">(German)</span> Brewhouse",
     "name": "[COLOR_POSITIVE_TEXT](German)[ENDCOLOR] Brewhouse",
     "type": "BUILDING_BREWHOUSE",
     "page": "buildings"
   },
   {
-    "nameFormatted": "<span class=\"positive\">(Greek)</span> Gymnasion",
+    "nameFormatted": "<span style=\"color: rgba(128, 255, 26, 1)\">(Greek)</span> Gymnasion",
     "name": "[COLOR_POSITIVE_TEXT](Greek)[ENDCOLOR] Gymnasion",
     "type": "BUILDING_GYMNASION",
     "page": "buildings"
   },
   {
-    "nameFormatted": "<span class=\"positive\">(Incan)</span> Qullqa",
+    "nameFormatted": "<span style=\"color: rgba(128, 255, 26, 1)\">(Incan)</span> Qullqa",
     "name": "[COLOR_POSITIVE_TEXT](Incan)[ENDCOLOR] Qullqa",
     "type": "BUILDING_QULLQA",
     "page": "buildings"
   },
   {
-    "nameFormatted": "<span class=\"positive\">(Indian)</span> Harappan Reservoir",
+    "nameFormatted": "<span style=\"color: rgba(128, 255, 26, 1)\">(Indian)</span> Harappan Reservoir",
     "name": "[COLOR_POSITIVE_TEXT](Indian)[ENDCOLOR] Harappan Reservoir",
     "type": "BUILDING_HARAPPAN_RESERVOIR",
     "page": "buildings"
   },
   {
-    "nameFormatted": "<span class=\"positive\">(Japanese)</span> Dojo",
+    "nameFormatted": "<span style=\"color: rgba(128, 255, 26, 1)\">(Japanese)</span> Dojo",
     "name": "[COLOR_POSITIVE_TEXT](Japanese)[ENDCOLOR] Dojo",
     "type": "BUILDING_DOJO",
     "page": "buildings"
   },
   {
-    "nameFormatted": "<span class=\"positive\">(Japanese)</span> Kabuki Theater",
+    "nameFormatted": "<span style=\"color: rgba(128, 255, 26, 1)\">(Japanese)</span> Kabuki Theater",
     "name": "[COLOR_POSITIVE_TEXT](Japanese)[ENDCOLOR] Kabuki Theater",
     "type": "BUILDING_KABUKI_THEATER",
     "page": "buildings"
   },
   {
-    "nameFormatted": "<span class=\"positive\">(Korean)</span> Seowon",
+    "nameFormatted": "<span style=\"color: rgba(128, 255, 26, 1)\">(Korean)</span> Seowon",
     "name": "[COLOR_POSITIVE_TEXT](Korean)[ENDCOLOR] Seowon",
     "type": "BUILDING_SEOWON",
     "page": "buildings"
   },
   {
-    "nameFormatted": "<span class=\"positive\">(Korean)</span> Chaebol",
+    "nameFormatted": "<span style=\"color: rgba(128, 255, 26, 1)\">(Korean)</span> Chaebol",
     "name": "[COLOR_POSITIVE_TEXT](Korean)[ENDCOLOR] Chaebol",
     "type": "BUILDING_CHAEBOL",
     "page": "buildings"
   },
   {
-    "nameFormatted": "<span class=\"positive\">(Mayan)</span> Pitz Court",
+    "nameFormatted": "<span style=\"color: rgba(128, 255, 26, 1)\">(Mayan)</span> Pitz Court",
     "name": "[COLOR_POSITIVE_TEXT](Mayan)[ENDCOLOR] Pitz Court",
     "type": "BUILDING_PITZ_COURT",
     "page": "buildings"
   },
   {
-    "nameFormatted": "<span class=\"positive\">(Mongolian)</span> Ger",
+    "nameFormatted": "<span style=\"color: rgba(128, 255, 26, 1)\">(Mongolian)</span> Ger",
     "name": "[COLOR_POSITIVE_TEXT](Mongolian)[ENDCOLOR] Ger",
     "type": "BUILDING_GER",
     "page": "buildings"
   },
   {
-    "nameFormatted": "<span class=\"positive\">(Moroccan)</span> Riad",
+    "nameFormatted": "<span style=\"color: rgba(128, 255, 26, 1)\">(Moroccan)</span> Riad",
     "name": "[COLOR_POSITIVE_TEXT](Moroccan)[ENDCOLOR] Riad",
     "type": "BUILDING_RIAD",
     "page": "buildings"
   },
   {
-    "nameFormatted": "<span class=\"positive\">(Dutch)</span> Doelen",
+    "nameFormatted": "<span style=\"color: rgba(128, 255, 26, 1)\">(Dutch)</span> Doelen",
     "name": "[COLOR_POSITIVE_TEXT](Dutch)[ENDCOLOR] Doelen",
     "type": "BUILDING_DOELEN",
     "page": "buildings"
   },
   {
-    "nameFormatted": "<span class=\"positive\">(Ottoman)</span> Siege Foundry",
+    "nameFormatted": "<span style=\"color: rgba(128, 255, 26, 1)\">(Ottoman)</span> Siege Foundry",
     "name": "[COLOR_POSITIVE_TEXT](Ottoman)[ENDCOLOR] Siege Foundry",
     "type": "BUILDING_SIEGE_FOUNDRY",
     "page": "buildings"
   },
   {
-    "nameFormatted": "<span class=\"positive\">(Polish)</span> Barbican",
+    "nameFormatted": "<span style=\"color: rgba(128, 255, 26, 1)\">(Polish)</span> Barbican",
     "name": "[COLOR_POSITIVE_TEXT](Polish)[ENDCOLOR] Barbican",
     "type": "BUILDING_BARBICAN",
     "page": "buildings"
   },
   {
-    "nameFormatted": "<span class=\"positive\">(Polynesian)</span> Marae",
+    "nameFormatted": "<span style=\"color: rgba(128, 255, 26, 1)\">(Polynesian)</span> Marae",
     "name": "[COLOR_POSITIVE_TEXT](Polynesian)[ENDCOLOR] Marae",
     "type": "BUILDING_MARAE",
     "page": "buildings"
   },
   {
-    "nameFormatted": "<span class=\"positive\">(Russian)</span> Pogost",
+    "nameFormatted": "<span style=\"color: rgba(128, 255, 26, 1)\">(Russian)</span> Pogost",
     "name": "[COLOR_POSITIVE_TEXT](Russian)[ENDCOLOR] Pogost",
     "type": "BUILDING_POGOST",
     "page": "buildings"
   },
   {
-    "nameFormatted": "<span class=\"positive\">(Shoshone)</span> Buffalo Pound",
+    "nameFormatted": "<span style=\"color: rgba(128, 255, 26, 1)\">(Shoshone)</span> Buffalo Pound",
     "name": "[COLOR_POSITIVE_TEXT](Shoshone)[ENDCOLOR] Buffalo Pound",
     "type": "BUILDING_BUFFALO_POUND",
     "page": "buildings"
   },
   {
-    "nameFormatted": "<span class=\"positive\">(Siamese)</span> Elephant Camp",
+    "nameFormatted": "<span style=\"color: rgba(128, 255, 26, 1)\">(Siamese)</span> Elephant Camp",
     "name": "[COLOR_POSITIVE_TEXT](Siamese)[ENDCOLOR] Elephant Camp",
     "type": "BUILDING_ELEPHANT_CAMP",
     "page": "buildings"
   },
   {
-    "nameFormatted": "<span class=\"positive\">(Songhai)</span> Gumey",
+    "nameFormatted": "<span style=\"color: rgba(128, 255, 26, 1)\">(Songhai)</span> Gumey",
     "name": "[COLOR_POSITIVE_TEXT](Songhai)[ENDCOLOR] Gumey",
     "type": "BUILDING_GUMEY",
     "page": "buildings"
   },
   {
-    "nameFormatted": "<span class=\"positive\">(Spanish)</span> Bullring",
+    "nameFormatted": "<span style=\"color: rgba(128, 255, 26, 1)\">(Spanish)</span> Bullring",
     "name": "[COLOR_POSITIVE_TEXT](Spanish)[ENDCOLOR] Bullring",
     "type": "BUILDING_BULLRING",
     "page": "buildings"
   },
   {
-    "nameFormatted": "<span class=\"positive\">(Swedish)</span> Bastu",
+    "nameFormatted": "<span style=\"color: rgba(128, 255, 26, 1)\">(Swedish)</span> Bastu",
     "name": "[COLOR_POSITIVE_TEXT](Swedish)[ENDCOLOR] Bastu",
     "type": "BUILDING_BASTU",
     "page": "buildings"
   },
   {
-    "nameFormatted": "<span class=\"positive\">(Zulu)</span> Iziko",
+    "nameFormatted": "<span style=\"color: rgba(128, 255, 26, 1)\">(Zulu)</span> Iziko",
     "name": "[COLOR_POSITIVE_TEXT](Zulu)[ENDCOLOR] Iziko",
     "type": "BUILDING_IZIKO",
     "page": "buildings"
@@ -5388,13 +5388,13 @@ window.globalSearchIndex = [
     "page": "buildings"
   },
   {
-    "nameFormatted": "<span class=\"positive\">(Austrian)</span> Ballhausplatz",
+    "nameFormatted": "<span style=\"color: rgba(128, 255, 26, 1)\">(Austrian)</span> Ballhausplatz",
     "name": "[COLOR_POSITIVE_TEXT](Austrian)[ENDCOLOR] Ballhausplatz",
     "type": "BUILDING_BALLHAUSPLATZ",
     "page": "buildings"
   },
   {
-    "nameFormatted": "<span class=\"positive\">(Swedish)</span> Nobel Committee",
+    "nameFormatted": "<span style=\"color: rgba(128, 255, 26, 1)\">(Swedish)</span> Nobel Committee",
     "name": "[COLOR_POSITIVE_TEXT](Swedish)[ENDCOLOR] Nobel Committee",
     "type": "BUILDING_NOBEL_COMMITTEE",
     "page": "buildings"
@@ -5880,7 +5880,7 @@ window.globalSearchIndex = [
     "page": "wonders"
   },
   {
-    "nameFormatted": "<span class=\"positive\">(Assyrian)</span> Royal Library",
+    "nameFormatted": "<span style=\"color: rgba(128, 255, 26, 1)\">(Assyrian)</span> Royal Library",
     "name": "[COLOR_POSITIVE_TEXT](Assyrian)[ENDCOLOR] Royal Library",
     "type": "BUILDING_ROYAL_LIBRARY",
     "page": "wonders"
@@ -5946,55 +5946,55 @@ window.globalSearchIndex = [
     "page": "wonders"
   },
   {
-    "nameFormatted": "<span class=\"positive\">(American)</span> Independence Hall",
+    "nameFormatted": "<span style=\"color: rgba(128, 255, 26, 1)\">(American)</span> Independence Hall",
     "name": "[COLOR_POSITIVE_TEXT](American)[ENDCOLOR] Independence Hall",
     "type": "BUILDING_INDEPENDENCE_HALL",
     "page": "wonders"
   },
   {
-    "nameFormatted": "<span class=\"positive\">(Aztec)</span> Huey Teocalli",
+    "nameFormatted": "<span style=\"color: rgba(128, 255, 26, 1)\">(Aztec)</span> Huey Teocalli",
     "name": "[COLOR_POSITIVE_TEXT](Aztec)[ENDCOLOR] Huey Teocalli",
     "type": "BUILDING_HUEY_TEOCALLI",
     "page": "wonders"
   },
   {
-    "nameFormatted": "<span class=\"positive\">(Babylonian)</span> Etemenanki",
+    "nameFormatted": "<span style=\"color: rgba(128, 255, 26, 1)\">(Babylonian)</span> Etemenanki",
     "name": "[COLOR_POSITIVE_TEXT](Babylonian)[ENDCOLOR] Etemenanki",
     "type": "BUILDING_ETEMENANKI",
     "page": "wonders"
   },
   {
-    "nameFormatted": "<span class=\"positive\">(Carthaginian)</span> Great Cothon",
+    "nameFormatted": "<span style=\"color: rgba(128, 255, 26, 1)\">(Carthaginian)</span> Great Cothon",
     "name": "[COLOR_POSITIVE_TEXT](Carthaginian)[ENDCOLOR] Great Cothon",
     "type": "BUILDING_GREAT_COTHON",
     "page": "wonders"
   },
   {
-    "nameFormatted": "<span class=\"positive\">(English)</span> White Tower",
+    "nameFormatted": "<span style=\"color: rgba(128, 255, 26, 1)\">(English)</span> White Tower",
     "name": "[COLOR_POSITIVE_TEXT](English)[ENDCOLOR] White Tower",
     "type": "BUILDING_WHITE_TOWER",
     "page": "wonders"
   },
   {
-    "nameFormatted": "<span class=\"positive\">(Hunnic)</span> Ulticur",
+    "nameFormatted": "<span style=\"color: rgba(128, 255, 26, 1)\">(Hunnic)</span> Ulticur",
     "name": "[COLOR_POSITIVE_TEXT](Hunnic)[ENDCOLOR] Ulticur",
     "type": "BUILDING_ULTICUR",
     "page": "wonders"
   },
   {
-    "nameFormatted": "<span class=\"positive\">(Portuguese)</span> University of Coimbra",
+    "nameFormatted": "<span style=\"color: rgba(128, 255, 26, 1)\">(Portuguese)</span> University of Coimbra",
     "name": "[COLOR_POSITIVE_TEXT](Portuguese)[ENDCOLOR] University of Coimbra",
     "type": "BUILDING_UNIVERSITY_OF_COIMBRA",
     "page": "wonders"
   },
   {
-    "nameFormatted": "<span class=\"positive\">(Roman)</span> Fornix",
+    "nameFormatted": "<span style=\"color: rgba(128, 255, 26, 1)\">(Roman)</span> Fornix",
     "name": "[COLOR_POSITIVE_TEXT](Roman)[ENDCOLOR] Fornix",
     "type": "BUILDING_FORNIX",
     "page": "wonders"
   },
   {
-    "nameFormatted": "<span class=\"positive\">(Venetian)</span> Piazza San Marco",
+    "nameFormatted": "<span style=\"color: rgba(128, 255, 26, 1)\">(Venetian)</span> Piazza San Marco",
     "name": "[COLOR_POSITIVE_TEXT](Venetian)[ENDCOLOR] Piazza San Marco",
     "type": "BUILDING_PIAZZA_SAN_MARCO",
     "page": "wonders"
@@ -6228,7 +6228,7 @@ window.globalSearchIndex = [
     "page": "wonders"
   },
   {
-    "nameFormatted": "<span class=\"positive\">(Mongolian)</span> Adopt the Yassa",
+    "nameFormatted": "<span style=\"color: rgba(128, 255, 26, 1)\">(Mongolian)</span> Adopt the Yassa",
     "name": "[COLOR_POSITIVE_TEXT](Mongolian)[ENDCOLOR] Adopt the Yassa",
     "type": "PROJECT_YASSA",
     "page": "wonders"
@@ -7050,307 +7050,307 @@ window.globalSearchIndex = [
     "page": "policies"
   },
   {
-    "nameFormatted": "<span class=\"positive\">(1)</span> Avant Garde",
+    "nameFormatted": "<span style=\"color: rgba(128, 255, 26, 1)\">(1)</span> Avant Garde",
     "name": "[COLOR_POSITIVE_TEXT](1)[ENDCOLOR] Avant Garde",
     "type": "POLICY_OPEN_SOCIETY",
     "page": "policies"
   },
   {
-    "nameFormatted": "<span class=\"positive\">(1)</span> Creative Expression",
+    "nameFormatted": "<span style=\"color: rgba(128, 255, 26, 1)\">(1)</span> Creative Expression",
     "name": "[COLOR_POSITIVE_TEXT](1)[ENDCOLOR] Creative Expression",
     "type": "POLICY_CREATIVE_EXPRESSION",
     "page": "policies"
   },
   {
-    "nameFormatted": "<span class=\"positive\">(1)</span> Civil Society",
+    "nameFormatted": "<span style=\"color: rgba(128, 255, 26, 1)\">(1)</span> Civil Society",
     "name": "[COLOR_POSITIVE_TEXT](1)[ENDCOLOR] Civil Society",
     "type": "POLICY_CIVIL_SOCIETY",
     "page": "policies"
   },
   {
-    "nameFormatted": "<span class=\"positive\">(1)</span> Draft Registration",
+    "nameFormatted": "<span style=\"color: rgba(128, 255, 26, 1)\">(1)</span> Draft Registration",
     "name": "[COLOR_POSITIVE_TEXT](1)[ENDCOLOR] Draft Registration",
     "type": "POLICY_VOLUNTEER_ARMY",
     "page": "policies"
   },
   {
-    "nameFormatted": "<span class=\"positive\">(1)</span> Covert Action",
+    "nameFormatted": "<span style=\"color: rgba(128, 255, 26, 1)\">(1)</span> Covert Action",
     "name": "[COLOR_POSITIVE_TEXT](1)[ENDCOLOR] Covert Action",
     "type": "POLICY_COVERT_ACTION",
     "page": "policies"
   },
   {
-    "nameFormatted": "<span class=\"positive\">(2)</span> Self Determination",
+    "nameFormatted": "<span style=\"color: rgba(128, 255, 26, 1)\">(2)</span> Self Determination",
     "name": "[COLOR_POSITIVE_TEXT](2)[ENDCOLOR] Self Determination",
     "type": "POLICY_URBANIZATION",
     "page": "policies"
   },
   {
-    "nameFormatted": "<span class=\"positive\">(2)</span> Capitalism",
+    "nameFormatted": "<span style=\"color: rgba(128, 255, 26, 1)\">(2)</span> Capitalism",
     "name": "[COLOR_POSITIVE_TEXT](2)[ENDCOLOR] Capitalism",
     "type": "POLICY_CAPITALISM",
     "page": "policies"
   },
   {
-    "nameFormatted": "<span class=\"positive\">(1)</span> Economic Union",
+    "nameFormatted": "<span style=\"color: rgba(128, 255, 26, 1)\">(1)</span> Economic Union",
     "name": "[COLOR_POSITIVE_TEXT](1)[ENDCOLOR] Economic Union",
     "type": "POLICY_ECONOMIC_UNION",
     "page": "policies"
   },
   {
-    "nameFormatted": "<span class=\"positive\">(2)</span> Their Finest Hour",
+    "nameFormatted": "<span style=\"color: rgba(128, 255, 26, 1)\">(2)</span> Their Finest Hour",
     "name": "[COLOR_POSITIVE_TEXT](2)[ENDCOLOR] Their Finest Hour",
     "type": "POLICY_THEIR_FINEST_HOUR",
     "page": "policies"
   },
   {
-    "nameFormatted": "<span class=\"positive\">(1)</span> Universal Suffrage",
+    "nameFormatted": "<span style=\"color: rgba(128, 255, 26, 1)\">(1)</span> Universal Suffrage",
     "name": "[COLOR_POSITIVE_TEXT](1)[ENDCOLOR] Universal Suffrage",
     "type": "POLICY_UNIVERSAL_SUFFRAGE",
     "page": "policies"
   },
   {
-    "nameFormatted": "<span class=\"positive\">(2)</span> New Deal",
+    "nameFormatted": "<span style=\"color: rgba(128, 255, 26, 1)\">(2)</span> New Deal",
     "name": "[COLOR_POSITIVE_TEXT](2)[ENDCOLOR] New Deal",
     "type": "POLICY_NEW_DEAL",
     "page": "policies"
   },
   {
-    "nameFormatted": "<span class=\"positive\">(2)</span> Arsenal of Democracy",
+    "nameFormatted": "<span style=\"color: rgba(128, 255, 26, 1)\">(2)</span> Arsenal of Democracy",
     "name": "[COLOR_POSITIVE_TEXT](2)[ENDCOLOR] Arsenal of Democracy",
     "type": "POLICY_ARSENAL_DEMOCRACY",
     "page": "policies"
   },
   {
-    "nameFormatted": "<span class=\"positive\">(3)</span> Media Culture",
+    "nameFormatted": "<span style=\"color: rgba(128, 255, 26, 1)\">(3)</span> Media Culture",
     "name": "[COLOR_POSITIVE_TEXT](3)[ENDCOLOR] Media Culture",
     "type": "POLICY_MEDIA_CULTURE",
     "page": "policies"
   },
   {
-    "nameFormatted": "<span class=\"positive\">(3)</span> Containment",
+    "nameFormatted": "<span style=\"color: rgba(128, 255, 26, 1)\">(3)</span> Containment",
     "name": "[COLOR_POSITIVE_TEXT](3)[ENDCOLOR] Containment",
     "type": "POLICY_TREATY_ORGANIZATION",
     "page": "policies"
   },
   {
-    "nameFormatted": "<span class=\"positive\">(3)</span> Space Procurements",
+    "nameFormatted": "<span style=\"color: rgba(128, 255, 26, 1)\">(3)</span> Space Procurements",
     "name": "[COLOR_POSITIVE_TEXT](3)[ENDCOLOR] Space Procurements",
     "type": "POLICY_SPACE_PROCUREMENTS",
     "page": "policies"
   },
   {
-    "nameFormatted": "<span class=\"positive\">(1)</span> Hero of the People",
+    "nameFormatted": "<span style=\"color: rgba(128, 255, 26, 1)\">(1)</span> Hero of the People",
     "name": "[COLOR_POSITIVE_TEXT](1)[ENDCOLOR] Hero of the People",
     "type": "POLICY_HERO_OF_THE_PEOPLE",
     "page": "policies"
   },
   {
-    "nameFormatted": "<span class=\"positive\">(1)</span> People's Army",
+    "nameFormatted": "<span style=\"color: rgba(128, 255, 26, 1)\">(1)</span> People's Army",
     "name": "[COLOR_POSITIVE_TEXT](1)[ENDCOLOR] People's Army",
     "type": "POLICY_SOCIALIST_REALISM",
     "page": "policies"
   },
   {
-    "nameFormatted": "<span class=\"positive\">(1)</span> Communism",
+    "nameFormatted": "<span style=\"color: rgba(128, 255, 26, 1)\">(1)</span> Communism",
     "name": "[COLOR_POSITIVE_TEXT](1)[ENDCOLOR] Communism",
     "type": "POLICY_SKYSCRAPERS",
     "page": "policies"
   },
   {
-    "nameFormatted": "<span class=\"positive\">(1)</span> Patriotic War",
+    "nameFormatted": "<span style=\"color: rgba(128, 255, 26, 1)\">(1)</span> Patriotic War",
     "name": "[COLOR_POSITIVE_TEXT](1)[ENDCOLOR] Patriotic War",
     "type": "POLICY_PATRIOTIC_WAR",
     "page": "policies"
   },
   {
-    "nameFormatted": "<span class=\"positive\">(1)</span> Double Agents",
+    "nameFormatted": "<span style=\"color: rgba(128, 255, 26, 1)\">(1)</span> Double Agents",
     "name": "[COLOR_POSITIVE_TEXT](1)[ENDCOLOR] Double Agents",
     "type": "POLICY_DOUBLE_AGENTS",
     "page": "policies"
   },
   {
-    "nameFormatted": "<span class=\"positive\">(2)</span> Great Leap Forward",
+    "nameFormatted": "<span style=\"color: rgba(128, 255, 26, 1)\">(2)</span> Great Leap Forward",
     "name": "[COLOR_POSITIVE_TEXT](2)[ENDCOLOR] Great Leap Forward",
     "type": "POLICY_YOUNG_PIONEERS",
     "page": "policies"
   },
   {
-    "nameFormatted": "<span class=\"positive\">(2)</span> Academy of Sciences",
+    "nameFormatted": "<span style=\"color: rgba(128, 255, 26, 1)\">(2)</span> Academy of Sciences",
     "name": "[COLOR_POSITIVE_TEXT](2)[ENDCOLOR] Academy of Sciences",
     "type": "POLICY_ACADEMY_SCIENCES",
     "page": "policies"
   },
   {
-    "nameFormatted": "<span class=\"positive\">(2)</span> Dictatorship of the Proletariat",
+    "nameFormatted": "<span style=\"color: rgba(128, 255, 26, 1)\">(2)</span> Dictatorship of the Proletariat",
     "name": "[COLOR_POSITIVE_TEXT](2)[ENDCOLOR] Dictatorship of the Proletariat",
     "type": "POLICY_PARTY_LEADERSHIP",
     "page": "policies"
   },
   {
-    "nameFormatted": "<span class=\"positive\">(2)</span> Resettlement",
+    "nameFormatted": "<span style=\"color: rgba(128, 255, 26, 1)\">(2)</span> Resettlement",
     "name": "[COLOR_POSITIVE_TEXT](2)[ENDCOLOR] Resettlement",
     "type": "POLICY_RESETTLEMENT",
     "page": "policies"
   },
   {
-    "nameFormatted": "<span class=\"positive\">(3)</span> Socialist Realism",
+    "nameFormatted": "<span style=\"color: rgba(128, 255, 26, 1)\">(3)</span> Socialist Realism",
     "name": "[COLOR_POSITIVE_TEXT](3)[ENDCOLOR] Socialist Realism",
     "type": "POLICY_CULTURAL_REVOLUTION",
     "page": "policies"
   },
   {
-    "nameFormatted": "<span class=\"positive\">(1)</span> Workers' Faculties",
+    "nameFormatted": "<span style=\"color: rgba(128, 255, 26, 1)\">(1)</span> Workers' Faculties",
     "name": "[COLOR_POSITIVE_TEXT](1)[ENDCOLOR] Workers' Faculties",
     "type": "POLICY_WORKERS_FACULTIES",
     "page": "policies"
   },
   {
-    "nameFormatted": "<span class=\"positive\">(2)</span> Five-Year Plan",
+    "nameFormatted": "<span style=\"color: rgba(128, 255, 26, 1)\">(2)</span> Five-Year Plan",
     "name": "[COLOR_POSITIVE_TEXT](2)[ENDCOLOR] Five-Year Plan",
     "type": "POLICY_FIVE_YEAR_PLAN",
     "page": "policies"
   },
   {
-    "nameFormatted": "<span class=\"positive\">(2)</span> Cultural Revolution",
+    "nameFormatted": "<span style=\"color: rgba(128, 255, 26, 1)\">(2)</span> Cultural Revolution",
     "name": "[COLOR_POSITIVE_TEXT](2)[ENDCOLOR] Cultural Revolution",
     "type": "POLICY_DICTATORSHIP_PROLETARIAT",
     "page": "policies"
   },
   {
-    "nameFormatted": "<span class=\"positive\">(3)</span> Iron Curtain",
+    "nameFormatted": "<span style=\"color: rgba(128, 255, 26, 1)\">(3)</span> Iron Curtain",
     "name": "[COLOR_POSITIVE_TEXT](3)[ENDCOLOR] Iron Curtain",
     "type": "POLICY_IRON_CURTAIN",
     "page": "policies"
   },
   {
-    "nameFormatted": "<span class=\"positive\">(3)</span> Spaceflight Pioneers",
+    "nameFormatted": "<span style=\"color: rgba(128, 255, 26, 1)\">(3)</span> Spaceflight Pioneers",
     "name": "[COLOR_POSITIVE_TEXT](3)[ENDCOLOR] Spaceflight Pioneers",
     "type": "POLICY_SPACEFLIGHT_PIONEERS",
     "page": "policies"
   },
   {
-    "nameFormatted": "<span class=\"positive\">(1)</span> Elite Forces",
+    "nameFormatted": "<span style=\"color: rgba(128, 255, 26, 1)\">(1)</span> Elite Forces",
     "name": "[COLOR_POSITIVE_TEXT](1)[ENDCOLOR] Elite Forces",
     "type": "POLICY_ELITE_FORCES",
     "page": "policies"
   },
   {
-    "nameFormatted": "<span class=\"positive\">(1)</span> Military-Industrial Complex",
+    "nameFormatted": "<span style=\"color: rgba(128, 255, 26, 1)\">(1)</span> Military-Industrial Complex",
     "name": "[COLOR_POSITIVE_TEXT](1)[ENDCOLOR] Military-Industrial Complex",
     "type": "POLICY_MOBILIZATION",
     "page": "policies"
   },
   {
-    "nameFormatted": "<span class=\"positive\">(1)</span> United Front",
+    "nameFormatted": "<span style=\"color: rgba(128, 255, 26, 1)\">(1)</span> United Front",
     "name": "[COLOR_POSITIVE_TEXT](1)[ENDCOLOR] United Front",
     "type": "POLICY_UNITED_FRONT",
     "page": "policies"
   },
   {
-    "nameFormatted": "<span class=\"positive\">(1)</span> Futurism",
+    "nameFormatted": "<span style=\"color: rgba(128, 255, 26, 1)\">(1)</span> Futurism",
     "name": "[COLOR_POSITIVE_TEXT](1)[ENDCOLOR] Futurism",
     "type": "POLICY_FUTURISM",
     "page": "policies"
   },
   {
-    "nameFormatted": "<span class=\"positive\">(1)</span> Lebensraum",
+    "nameFormatted": "<span style=\"color: rgba(128, 255, 26, 1)\">(1)</span> Lebensraum",
     "name": "[COLOR_POSITIVE_TEXT](1)[ENDCOLOR] Lebensraum",
     "type": "POLICY_INDUSTRIAL_ESPIONAGE",
     "page": "policies"
   },
   {
-    "nameFormatted": "<span class=\"positive\">(3)</span> Air Supremacy",
+    "nameFormatted": "<span style=\"color: rgba(128, 255, 26, 1)\">(3)</span> Air Supremacy",
     "name": "[COLOR_POSITIVE_TEXT](3)[ENDCOLOR] Air Supremacy",
     "type": "POLICY_MILITARISM",
     "page": "policies"
   },
   {
-    "nameFormatted": "<span class=\"positive\">(1)</span> New World Order",
+    "nameFormatted": "<span style=\"color: rgba(128, 255, 26, 1)\">(1)</span> New World Order",
     "name": "[COLOR_POSITIVE_TEXT](1)[ENDCOLOR] New World Order",
     "type": "POLICY_FORTIFIED_BORDERS",
     "page": "policies"
   },
   {
-    "nameFormatted": "<span class=\"positive\">(2)</span> Lightning Warfare",
+    "nameFormatted": "<span style=\"color: rgba(128, 255, 26, 1)\">(2)</span> Lightning Warfare",
     "name": "[COLOR_POSITIVE_TEXT](2)[ENDCOLOR] Lightning Warfare",
     "type": "POLICY_LIGHTNING_WARFARE",
     "page": "policies"
   },
   {
-    "nameFormatted": "<span class=\"positive\">(2)</span> Police State",
+    "nameFormatted": "<span style=\"color: rgba(128, 255, 26, 1)\">(2)</span> Police State",
     "name": "[COLOR_POSITIVE_TEXT](2)[ENDCOLOR] Police State",
     "type": "POLICY_POLICE_STATE",
     "page": "policies"
   },
   {
-    "nameFormatted": "<span class=\"positive\">(2)</span> Mare Nostrum",
+    "nameFormatted": "<span style=\"color: rgba(128, 255, 26, 1)\">(2)</span> Mare Nostrum",
     "name": "[COLOR_POSITIVE_TEXT](2)[ENDCOLOR] Mare Nostrum",
     "type": "POLICY_NATIONALISM",
     "page": "policies"
   },
   {
-    "nameFormatted": "<span class=\"positive\">(2)</span> Third Alternative",
+    "nameFormatted": "<span style=\"color: rgba(128, 255, 26, 1)\">(2)</span> Third Alternative",
     "name": "[COLOR_POSITIVE_TEXT](2)[ENDCOLOR] Third Alternative",
     "type": "POLICY_THIRD_ALTERNATIVE",
     "page": "policies"
   },
   {
-    "nameFormatted": "<span class=\"positive\">(2)</span> Total War",
+    "nameFormatted": "<span style=\"color: rgba(128, 255, 26, 1)\">(2)</span> Total War",
     "name": "[COLOR_POSITIVE_TEXT](2)[ENDCOLOR] Total War",
     "type": "POLICY_TOTAL_WAR",
     "page": "policies"
   },
   {
-    "nameFormatted": "<span class=\"positive\">(3)</span> Cult of Personality",
+    "nameFormatted": "<span style=\"color: rgba(128, 255, 26, 1)\">(3)</span> Cult of Personality",
     "name": "[COLOR_POSITIVE_TEXT](3)[ENDCOLOR] Cult of Personality",
     "type": "POLICY_CULT_PERSONALITY",
     "page": "policies"
   },
   {
-    "nameFormatted": "<span class=\"positive\">(3)</span> Co-Prosperity Sphere",
+    "nameFormatted": "<span style=\"color: rgba(128, 255, 26, 1)\">(3)</span> Co-Prosperity Sphere",
     "name": "[COLOR_POSITIVE_TEXT](3)[ENDCOLOR] Co-Prosperity Sphere",
     "type": "POLICY_GUNBOAT_DIPLOMACY",
     "page": "policies"
   },
   {
-    "nameFormatted": "<span class=\"positive\">(2)</span> Martial Spirit",
+    "nameFormatted": "<span style=\"color: rgba(128, 255, 26, 1)\">(2)</span> Martial Spirit",
     "name": "[COLOR_POSITIVE_TEXT](2)[ENDCOLOR] Martial Spirit",
     "type": "POLICY_NEW_ORDER",
     "page": "policies"
   },
   {
-    "nameFormatted": "<span class=\"positive\">(2)</span> Universal Healthcare",
+    "nameFormatted": "<span style=\"color: rgba(128, 255, 26, 1)\">(2)</span> Universal Healthcare",
     "name": "[COLOR_POSITIVE_TEXT](2)[ENDCOLOR] Universal Healthcare",
     "type": "POLICY_UNIVERSAL_HEALTHCARE_F",
     "page": "policies"
   },
   {
-    "nameFormatted": "<span class=\"positive\">(1)</span> Peace, Land, Bread",
+    "nameFormatted": "<span style=\"color: rgba(128, 255, 26, 1)\">(1)</span> Peace, Land, Bread",
     "name": "[COLOR_POSITIVE_TEXT](1)[ENDCOLOR] Peace, Land, Bread",
     "type": "POLICY_UNIVERSAL_HEALTHCARE_O",
     "page": "policies"
   },
   {
-    "nameFormatted": "<span class=\"positive\">(1)</span> Iron Fist",
+    "nameFormatted": "<span style=\"color: rgba(128, 255, 26, 1)\">(1)</span> Iron Fist",
     "name": "[COLOR_POSITIVE_TEXT](1)[ENDCOLOR] Iron Fist",
     "type": "POLICY_UNIVERSAL_HEALTHCARE_A",
     "page": "policies"
   },
   {
-    "nameFormatted": "<span class=\"positive\">(2)</span> Transnationalism",
+    "nameFormatted": "<span style=\"color: rgba(128, 255, 26, 1)\">(2)</span> Transnationalism",
     "name": "[COLOR_POSITIVE_TEXT](2)[ENDCOLOR] Transnationalism",
     "type": "POLICY_GLOBALIZATION",
     "page": "policies"
   },
   {
-    "nameFormatted": "<span class=\"positive\">(2)</span> Nationalization",
+    "nameFormatted": "<span style=\"color: rgba(128, 255, 26, 1)\">(2)</span> Nationalization",
     "name": "[COLOR_POSITIVE_TEXT](2)[ENDCOLOR] Nationalization",
     "type": "POLICY_NATIONALIZATION",
     "page": "policies"
   },
   {
-    "nameFormatted": "<span class=\"positive\">(2)</span> Syndicalism",
+    "nameFormatted": "<span style=\"color: rgba(128, 255, 26, 1)\">(2)</span> Syndicalism",
     "name": "[COLOR_POSITIVE_TEXT](2)[ENDCOLOR] Syndicalism",
     "type": "POLICY_INFILTRATION",
     "page": "policies"
@@ -7770,67 +7770,67 @@ window.globalSearchIndex = [
     "page": "beliefs"
   },
   {
-    "nameFormatted": "<span class=\"positive\">(Celtic)</span> Morrigan, the Harbinger",
+    "nameFormatted": "<span style=\"color: rgba(128, 255, 26, 1)\">(Celtic)</span> Morrigan, the Harbinger",
     "name": "[COLOR_POSITIVE_TEXT](Celtic)[ENDCOLOR] Morrigan, the Harbinger",
     "type": "BELIEF_MORRIGAN",
     "page": "beliefs"
   },
   {
-    "nameFormatted": "<span class=\"positive\">(Celtic)</span> Epona, the Great Mare",
+    "nameFormatted": "<span style=\"color: rgba(128, 255, 26, 1)\">(Celtic)</span> Epona, the Great Mare",
     "name": "[COLOR_POSITIVE_TEXT](Celtic)[ENDCOLOR] Epona, the Great Mare",
     "type": "BELIEF_EPONA",
     "page": "beliefs"
   },
   {
-    "nameFormatted": "<span class=\"positive\">(Celtic)</span> Nuada, the Silver-Handed",
+    "nameFormatted": "<span style=\"color: rgba(128, 255, 26, 1)\">(Celtic)</span> Nuada, the Silver-Handed",
     "name": "[COLOR_POSITIVE_TEXT](Celtic)[ENDCOLOR] Nuada, the Silver-Handed",
     "type": "BELIEF_NUADA",
     "page": "beliefs"
   },
   {
-    "nameFormatted": "<span class=\"positive\">(Celtic)</span> Cernunnos, the Horned Stag",
+    "nameFormatted": "<span style=\"color: rgba(128, 255, 26, 1)\">(Celtic)</span> Cernunnos, the Horned Stag",
     "name": "[COLOR_POSITIVE_TEXT](Celtic)[ENDCOLOR] Cernunnos, the Horned Stag",
     "type": "BELIEF_CERNUNNOS",
     "page": "beliefs"
   },
   {
-    "nameFormatted": "<span class=\"positive\">(Celtic)</span> Lugh, the Skilled One",
+    "nameFormatted": "<span style=\"color: rgba(128, 255, 26, 1)\">(Celtic)</span> Lugh, the Skilled One",
     "name": "[COLOR_POSITIVE_TEXT](Celtic)[ENDCOLOR] Lugh, the Skilled One",
     "type": "BELIEF_LUGH",
     "page": "beliefs"
   },
   {
-    "nameFormatted": "<span class=\"positive\">(Celtic)</span> Rhiannon, the Sovereign",
+    "nameFormatted": "<span style=\"color: rgba(128, 255, 26, 1)\">(Celtic)</span> Rhiannon, the Sovereign",
     "name": "[COLOR_POSITIVE_TEXT](Celtic)[ENDCOLOR] Rhiannon, the Sovereign",
     "type": "BELIEF_RHIANNON",
     "page": "beliefs"
   },
   {
-    "nameFormatted": "<span class=\"positive\">(Celtic)</span> Manannan, Son of the Sea",
+    "nameFormatted": "<span style=\"color: rgba(128, 255, 26, 1)\">(Celtic)</span> Manannan, Son of the Sea",
     "name": "[COLOR_POSITIVE_TEXT](Celtic)[ENDCOLOR] Manannan, Son of the Sea",
     "type": "BELIEF_MANANNAN",
     "page": "beliefs"
   },
   {
-    "nameFormatted": "<span class=\"positive\">(Celtic)</span> Ogma, the Learned",
+    "nameFormatted": "<span style=\"color: rgba(128, 255, 26, 1)\">(Celtic)</span> Ogma, the Learned",
     "name": "[COLOR_POSITIVE_TEXT](Celtic)[ENDCOLOR] Ogma, the Learned",
     "type": "BELIEF_OGMA",
     "page": "beliefs"
   },
   {
-    "nameFormatted": "<span class=\"positive\">(Celtic)</span> Bran, the Sleeping Guardian",
+    "nameFormatted": "<span style=\"color: rgba(128, 255, 26, 1)\">(Celtic)</span> Bran, the Sleeping Guardian",
     "name": "[COLOR_POSITIVE_TEXT](Celtic)[ENDCOLOR] Bran, the Sleeping Guardian",
     "type": "BELIEF_BRAN",
     "page": "beliefs"
   },
   {
-    "nameFormatted": "<span class=\"positive\">(Celtic)</span> Dagda, the All-Father",
+    "nameFormatted": "<span style=\"color: rgba(128, 255, 26, 1)\">(Celtic)</span> Dagda, the All-Father",
     "name": "[COLOR_POSITIVE_TEXT](Celtic)[ENDCOLOR] Dagda, the All-Father",
     "type": "BELIEF_DAGDA",
     "page": "beliefs"
   },
   {
-    "nameFormatted": "<span class=\"positive\">(Celtic)</span> Cailleach, the Queen of Winter",
+    "nameFormatted": "<span style=\"color: rgba(128, 255, 26, 1)\">(Celtic)</span> Cailleach, the Queen of Winter",
     "name": "[COLOR_POSITIVE_TEXT](Celtic)[ENDCOLOR] Cailleach, the Queen of Winter",
     "type": "BELIEF_CAILLEACH",
     "page": "beliefs"
@@ -8796,7 +8796,7 @@ window.globalSearchIndex = [
     "page": "promotions"
   },
   {
-    "nameFormatted": "All tiles cost 1 👣 Movement.<br><span class=\"negative\">Cannot use Roads and Railroads.</span>",
+    "nameFormatted": "All tiles cost 1 <img src=\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABYAAAAWCAYAAADEtGw7AAAACXBIWXMAAA7DAAAOwwHHb6hkAAAC10lEQVR4nM2UW0iTYRyHf322b04y14nKgkXgzARZTDO1rDQwKSvMoLnKNGJ4Edhp1k1KSa2IIIq0cmJ0cEqWUml5zjYtN1vlCSS6CyEMrKSNJv3iBS+8yilCPbcfPLzv+3/+H/CPUQNYCWApAHmmpLO1Wk1KdvbO92p1SAmAZTMlVup02tzi4jPejRujPQAyAQTNiFivjzB/+PCIbnctNZrQYQCbAAROR6YAoAIQIN5Upws/4XDc5djYAOvrS6lWhwwCiJnOey83mw+ZAcQBmB8VtSq9pubqb4+nl15vD63WIgYHB70EEClmMBXxloaG2z9LSgq/AtgLYHVm5rbK/v7nHB11c2TExQsXjlOtDrYBWDF+M7/YPzDwjMPDTlosZs+4PM5k2tvsctVwdPQth4bszM01UKEIuAxgib/irMHB5/T5PvLLl9e0WPKF3AAgwWQytjnsFRz55uSnT01MT08mgLzxxsVs/sqB3t5aejz9/PHdzc+f23n6tEnUsA5AbEZGSk9nh41DQ+18667m5qS1vwMD5QIA8yY9sc12md2uh+zpe8J2+wOui9d5ARwW4tTUxL66F1a+dlXT9a6WBuMOyirZ7s/yZJWWFrLDcZ+NTWWMi9NRpZJFBbvTdm1ufVJ3ky2v7rO9s5JHjmVTVsriNidFQZOJ99lsl9jWdpcJCWsoSVKHJEkH9+zZ6njRcJvNrXfoeFPFs+ePUqmUvwPIAbAAgDSZONlyMc+7IVHvkyTJAcCo10fWdzmr2NJazo5OG6/dKGCIeq4PQD6AhfCT0KSk2FNBgYrrANZLkpRjtZ6j3VHBN11VvFdxhUtDF4saxPflAGb5K1YAmANgEYC5Wq0mr6y8iM7uaj6tu8WIyDAhfQwgfKqbNxE5LExz/OatQjY232H8hhghFQXo/en2b8jR0ZHG4uKCXwbjdiHtGu95Wn83TEBMWmxVMoA0AKtmQvr/8Qd5Sy/4HmT7HwAAAABJRU5ErkJggg==\" class=\"civ5-icon\" alt=\"\" /> Movement.<br><span style=\"color: rgba(255, 77, 77, 1)\">Cannot use Roads and Railroads.</span>",
     "name": "All tiles cost 1 [ICON_MOVES] Movement.[NEWLINE][COLOR_NEGATIVE_TEXT]Cannot use Roads and Railroads.[ENDCOLOR]",
     "type": "PROMOTION_FLAT_MOVEMENT_COST",
     "page": "promotions"
@@ -10878,13 +10878,13 @@ window.globalSearchIndex = [
     "page": "improvements"
   },
   {
-    "nameFormatted": "<span class=\"positive\">(Incan)</span> Pata-Pata",
+    "nameFormatted": "<span style=\"color: rgba(128, 255, 26, 1)\">(Incan)</span> Pata-Pata",
     "name": "[COLOR_POSITIVE_TEXT](Incan)[ENDCOLOR] Pata-Pata",
     "type": "IMPROVEMENT_TERRACE_FARM",
     "page": "improvements"
   },
   {
-    "nameFormatted": "<span class=\"positive\">(Polynesian)</span> Moai",
+    "nameFormatted": "<span style=\"color: rgba(128, 255, 26, 1)\">(Polynesian)</span> Moai",
     "name": "[COLOR_POSITIVE_TEXT](Polynesian)[ENDCOLOR] Moai",
     "type": "IMPROVEMENT_MOAI",
     "page": "improvements"
@@ -10896,7 +10896,7 @@ window.globalSearchIndex = [
     "page": "improvements"
   },
   {
-    "nameFormatted": "<span class=\"positive\">(Dutch)</span> Polder",
+    "nameFormatted": "<span style=\"color: rgba(128, 255, 26, 1)\">(Dutch)</span> Polder",
     "name": "[COLOR_POSITIVE_TEXT](Dutch)[ENDCOLOR] Polder",
     "type": "IMPROVEMENT_POLDER",
     "page": "improvements"
@@ -10908,25 +10908,25 @@ window.globalSearchIndex = [
     "page": "improvements"
   },
   {
-    "nameFormatted": "<span class=\"positive\">(Brazilian)</span> Brazilwood Camp",
+    "nameFormatted": "<span style=\"color: rgba(128, 255, 26, 1)\">(Brazilian)</span> Brazilwood Camp",
     "name": "[COLOR_POSITIVE_TEXT](Brazilian)[ENDCOLOR] Brazilwood Camp",
     "type": "IMPROVEMENT_BRAZILWOOD_CAMP",
     "page": "improvements"
   },
   {
-    "nameFormatted": "<span class=\"positive\">(Moroccan)</span> Kasbah",
+    "nameFormatted": "<span style=\"color: rgba(128, 255, 26, 1)\">(Moroccan)</span> Kasbah",
     "name": "[COLOR_POSITIVE_TEXT](Moroccan)[ENDCOLOR] Kasbah",
     "type": "IMPROVEMENT_KASBAH",
     "page": "improvements"
   },
   {
-    "nameFormatted": "<span class=\"positive\">(Portuguese)</span> Feitoria",
+    "nameFormatted": "<span style=\"color: rgba(128, 255, 26, 1)\">(Portuguese)</span> Feitoria",
     "name": "[COLOR_POSITIVE_TEXT](Portuguese)[ENDCOLOR] Feitoria",
     "type": "IMPROVEMENT_FEITORIA",
     "page": "improvements"
   },
   {
-    "nameFormatted": "<span class=\"positive\">(French)</span> Chateau",
+    "nameFormatted": "<span style=\"color: rgba(128, 255, 26, 1)\">(French)</span> Chateau",
     "name": "[COLOR_POSITIVE_TEXT](French)[ENDCOLOR] Chateau",
     "type": "IMPROVEMENT_CHATEAU",
     "page": "improvements"
@@ -10944,31 +10944,31 @@ window.globalSearchIndex = [
     "page": "improvements"
   },
   {
-    "nameFormatted": "<span class=\"positive\">(Byzantine)</span> Aplekton",
+    "nameFormatted": "<span style=\"color: rgba(128, 255, 26, 1)\">(Byzantine)</span> Aplekton",
     "name": "[COLOR_POSITIVE_TEXT](Byzantine)[ENDCOLOR] Aplekton",
     "type": "IMPROVEMENT_APLEKTON",
     "page": "improvements"
   },
   {
-    "nameFormatted": "<span class=\"positive\">(Persian)</span> Charbagh",
+    "nameFormatted": "<span style=\"color: rgba(128, 255, 26, 1)\">(Persian)</span> Charbagh",
     "name": "[COLOR_POSITIVE_TEXT](Persian)[ENDCOLOR] Charbagh",
     "type": "IMPROVEMENT_CHARBAGH",
     "page": "improvements"
   },
   {
-    "nameFormatted": "<span class=\"positive\">(Hunnic)</span> Eki",
+    "nameFormatted": "<span style=\"color: rgba(128, 255, 26, 1)\">(Hunnic)</span> Eki",
     "name": "[COLOR_POSITIVE_TEXT](Hunnic)[ENDCOLOR] Eki",
     "type": "IMPROVEMENT_EKI",
     "page": "improvements"
   },
   {
-    "nameFormatted": "<span class=\"positive\">(Shoshone)</span> Encampment",
+    "nameFormatted": "<span style=\"color: rgba(128, 255, 26, 1)\">(Shoshone)</span> Encampment",
     "name": "[COLOR_POSITIVE_TEXT](Shoshone)[ENDCOLOR] Encampment",
     "type": "IMPROVEMENT_VP_ENCAMPMENT",
     "page": "improvements"
   },
   {
-    "nameFormatted": "<span class=\"positive\">(Spanish)</span> Hacienda",
+    "nameFormatted": "<span style=\"color: rgba(128, 255, 26, 1)\">(Spanish)</span> Hacienda",
     "name": "[COLOR_POSITIVE_TEXT](Spanish)[ENDCOLOR] Hacienda",
     "type": "IMPROVEMENT_HACIENDA",
     "page": "improvements"
@@ -10980,31 +10980,31 @@ window.globalSearchIndex = [
     "page": "improvements"
   },
   {
-    "nameFormatted": "<span class=\"positive\">(Indonesian)</span> Kampong",
+    "nameFormatted": "<span style=\"color: rgba(128, 255, 26, 1)\">(Indonesian)</span> Kampong",
     "name": "[COLOR_POSITIVE_TEXT](Indonesian)[ENDCOLOR] Kampong",
     "type": "IMPROVEMENT_KAMPONG",
     "page": "improvements"
   },
   {
-    "nameFormatted": "<span class=\"positive\">(Mayan)</span> Kuna",
+    "nameFormatted": "<span style=\"color: rgba(128, 255, 26, 1)\">(Mayan)</span> Kuna",
     "name": "[COLOR_POSITIVE_TEXT](Mayan)[ENDCOLOR] Kuna",
     "type": "IMPROVEMENT_KUNA",
     "page": "improvements"
   },
   {
-    "nameFormatted": "<span class=\"positive\">(Ethiopian)</span> Monolithic Church",
+    "nameFormatted": "<span style=\"color: rgba(128, 255, 26, 1)\">(Ethiopian)</span> Monolithic Church",
     "name": "[COLOR_POSITIVE_TEXT](Ethiopian)[ENDCOLOR] Monolithic Church",
     "type": "IMPROVEMENT_MONOLITHIC_CHURCH",
     "page": "improvements"
   },
   {
-    "nameFormatted": "<span class=\"positive\">(Egyptian)</span> Obelisk",
+    "nameFormatted": "<span style=\"color: rgba(128, 255, 26, 1)\">(Egyptian)</span> Obelisk",
     "name": "[COLOR_POSITIVE_TEXT](Egyptian)[ENDCOLOR] Obelisk",
     "type": "IMPROVEMENT_OBELISK",
     "page": "improvements"
   },
   {
-    "nameFormatted": "<span class=\"positive\">(Celtic)</span> Oppidum",
+    "nameFormatted": "<span style=\"color: rgba(128, 255, 26, 1)\">(Celtic)</span> Oppidum",
     "name": "[COLOR_POSITIVE_TEXT](Celtic)[ENDCOLOR] Oppidum",
     "type": "IMPROVEMENT_OPPIDUM",
     "page": "improvements"
@@ -11016,19 +11016,19 @@ window.globalSearchIndex = [
     "page": "improvements"
   },
   {
-    "nameFormatted": "<span class=\"positive\">(Chinese)</span> Siheyuan",
+    "nameFormatted": "<span style=\"color: rgba(128, 255, 26, 1)\">(Chinese)</span> Siheyuan",
     "name": "[COLOR_POSITIVE_TEXT](Chinese)[ENDCOLOR] Siheyuan",
     "type": "IMPROVEMENT_SIHEYUAN",
     "page": "improvements"
   },
   {
-    "nameFormatted": "<span class=\"positive\">(Ottoman)</span> Tersane",
+    "nameFormatted": "<span style=\"color: rgba(128, 255, 26, 1)\">(Ottoman)</span> Tersane",
     "name": "[COLOR_POSITIVE_TEXT](Ottoman)[ENDCOLOR] Tersane",
     "type": "IMPROVEMENT_TERSANE",
     "page": "improvements"
   },
   {
-    "nameFormatted": "<span class=\"positive\">(Roman)</span> Villa",
+    "nameFormatted": "<span style=\"color: rgba(128, 255, 26, 1)\">(Roman)</span> Villa",
     "name": "[COLOR_POSITIVE_TEXT](Roman)[ENDCOLOR] Villa",
     "type": "IMPROVEMENT_VILLA",
     "page": "improvements"
@@ -12294,7 +12294,7 @@ window.globalSearchIndex = [
     "page": "greatPeople"
   },
   {
-    "nameFormatted": "<span class=\"positive\">(Mongolian)</span> Khan",
+    "nameFormatted": "<span style=\"color: rgba(128, 255, 26, 1)\">(Mongolian)</span> Khan",
     "name": "[COLOR_POSITIVE_TEXT](Mongolian)[ENDCOLOR] Khan",
     "type": "UNIT_MONGOLIAN_KHAN",
     "page": "greatPeople"
@@ -12312,7 +12312,7 @@ window.globalSearchIndex = [
     "page": "greatPeople"
   },
   {
-    "nameFormatted": "<span class=\"positive\">(Venetian)</span> Merchant of Venice",
+    "nameFormatted": "<span style=\"color: rgba(128, 255, 26, 1)\">(Venetian)</span> Merchant of Venice",
     "name": "[COLOR_POSITIVE_TEXT](Venetian)[ENDCOLOR] Merchant of Venice",
     "type": "UNIT_VENETIAN_MERCHANT",
     "page": "greatPeople"
@@ -12336,13 +12336,13 @@ window.globalSearchIndex = [
     "page": "greatPeople"
   },
   {
-    "nameFormatted": "<span class=\"positive\">(Iroquois)</span> Tadodaho",
+    "nameFormatted": "<span style=\"color: rgba(128, 255, 26, 1)\">(Iroquois)</span> Tadodaho",
     "name": "[COLOR_POSITIVE_TEXT](Iroquois)[ENDCOLOR] Tadodaho",
     "type": "UNIT_TADODAHO",
     "page": "greatPeople"
   },
   {
-    "nameFormatted": "<span class=\"positive\">(Zulu)</span> InDuna",
+    "nameFormatted": "<span style=\"color: rgba(128, 255, 26, 1)\">(Zulu)</span> InDuna",
     "name": "[COLOR_POSITIVE_TEXT](Zulu)[ENDCOLOR] InDuna",
     "type": "UNIT_INDUNA",
     "page": "greatPeople"
