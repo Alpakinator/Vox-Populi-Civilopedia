@@ -578,3 +578,14 @@ footer {
 .civ5-icon {
     vertical-align: middle;
 }
+.icon-wrap {
+    display: inline;
+}
+.icon-wrap .civ5-icon {
+    user-select: none;
+}
+.icon-alt {
+    font-size: 0;
+    color: transparent;
+    display: inline;
+}

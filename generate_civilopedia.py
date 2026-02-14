@@ -876,6 +876,17 @@ footer {
 .civ5-icon {
     vertical-align: middle;
 }
+.icon-wrap {
+    display: inline;
+}
+.icon-wrap .civ5-icon {
+    user-select: none;
+}
+.icon-alt {
+    font-size: 0;
+    color: transparent;
+    display: inline;
+}
 """
 
 
@@ -2018,8 +2029,13 @@ def convert_civ5_formatting(text):
     def replace_icon(match):
         full_tag = match.group(0)   # [ICON_RESEARCH]
         icon_name = match.group(1)  # ICON_RESEARCH
-        
-        return icons_dict.get(icon_name, full_tag)
+
+        icon_entry = icons_dict.get(icon_name)
+        if icon_entry:
+            icon_html = icon_entry['html']
+            copy_text = icon_entry['alt']
+            return f'<span class="icon-wrap">{icon_html}<span class="icon-alt">{copy_text}</span></span>'
+        return full_tag
 
     text = re.sub(r'\[(ICON_[A-Z0-9_]+)\]', replace_icon, text)
 
