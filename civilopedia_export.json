@@ -40491,6 +40491,24 @@
       "Civilopedia": "Can only be built on Marsh tiles or on featureless Lake/Coast tiles adjacent to at least 3 land tiles. Polders built on water can be traversed by land units without embarkation, as if they are land tiles.[NEWLINE][NEWLINE]A polder is a low-lying tract enclosed by dikes with the water drained. In general, polder is land reclaimed from a lake or seabed, from flood plains, or from marshes. In time, the drained land subsides so that all polder is eventually below the surrounding water level. Because of this, water seeps into the drained area and must be pumped out or otherwise drained. The dikes are usually made of readily available materials, earth or sand; in modern times these barriers might be covered or completely composed of concrete. The drained land is extremely fertile and makes excellent pasturage or cropland.[NEWLINE][NEWLINE]The first polders of reclaimed land were constructed in the 11th Century AD, although building embankments as barriers to water date back to the Romans. The Dutch have a long history of reclaiming marshes and fenland, and even the seabed, and possess half of the polder acreage in Europe. Although there are polders in other countries of Europe, and examples can be found in Asia and North America, Holland has some 3000 polders accounting for about 27 percent of the country's land. Amsterdam itself is built largely upon polder. As the Dutch homily states, \"God made the world, but the Dutch made Holland.\""
     }
   ],
+  "iconFontTextures": [
+    {
+      "IconFontTexture": "ICON_FONT_TEXTURE_DEFAULT",
+      "IconFontTextureFile": "FontIcons"
+    },
+    {
+      "IconFontTexture": "ICON_FONT_TEXTURE_EXPANSION2",
+      "IconFontTextureFile": "FontIcons_Expansion2"
+    },
+    {
+      "IconFontTexture": "ICON_FONT_TEXTURE_DLC_07",
+      "IconFontTextureFile": "FontIcons_DLC_07"
+    },
+    {
+      "IconFontTexture": "ICON_FONT_TEXTURE_CP",
+      "IconFontTextureFile": "CommunityFontIconAtlas"
+    }
+  ],
   "terrain": [
     {
       "BaseYields": [{
@@ -42009,6 +42027,1128 @@
       "IconAtlas": "EXPANSION2_WONDER_ATLAS",
       "PortraitIndex": 2,
       "IsFeature": true
+    }
+  ],
+  "iconFontMappings": [
+    {
+      "IconName": "ICON_BULLET",
+      "IconFontTexture": "ICON_FONT_TEXTURE_DEFAULT",
+      "IconMapping": 1
+    },
+    {
+      "IconName": "ICON_RESEARCH",
+      "IconFontTexture": "ICON_FONT_TEXTURE_DEFAULT",
+      "IconMapping": 2
+    },
+    {
+      "IconName": "ICON_GOLD",
+      "IconFontTexture": "ICON_FONT_TEXTURE_DEFAULT",
+      "IconMapping": 3
+    },
+    {
+      "IconName": "ICON_PRODUCTION",
+      "IconFontTexture": "ICON_FONT_TEXTURE_DEFAULT",
+      "IconMapping": 4
+    },
+    {
+      "IconName": "ICON_FOOD",
+      "IconFontTexture": "ICON_FONT_TEXTURE_DEFAULT",
+      "IconMapping": 5
+    },
+    {
+      "IconName": "ICON_CULTURE",
+      "IconFontTexture": "ICON_FONT_TEXTURE_DEFAULT",
+      "IconMapping": 6
+    },
+    {
+      "IconName": "ICON_MOVES",
+      "IconFontTexture": "ICON_FONT_TEXTURE_DEFAULT",
+      "IconMapping": 7
+    },
+    {
+      "IconName": "ICON_RANGE_STRENGTH",
+      "IconFontTexture": "ICON_FONT_TEXTURE_DEFAULT",
+      "IconMapping": 8
+    },
+    {
+      "IconName": "ICON_STRENGTH",
+      "IconFontTexture": "ICON_FONT_TEXTURE_DEFAULT",
+      "IconMapping": 9
+    },
+    {
+      "IconName": "ICON_RES_IRON",
+      "IconFontTexture": "ICON_FONT_TEXTURE_DEFAULT",
+      "IconMapping": 10
+    },
+    {
+      "IconName": "ICON_RES_HORSE",
+      "IconFontTexture": "ICON_FONT_TEXTURE_DEFAULT",
+      "IconMapping": 11
+    },
+    {
+      "IconName": "ICON_RES_COAL",
+      "IconFontTexture": "ICON_FONT_TEXTURE_DEFAULT",
+      "IconMapping": 12
+    },
+    {
+      "IconName": "ICON_RES_OIL",
+      "IconFontTexture": "ICON_FONT_TEXTURE_DEFAULT",
+      "IconMapping": 13
+    },
+    {
+      "IconName": "ICON_RES_ALUMINUM",
+      "IconFontTexture": "ICON_FONT_TEXTURE_DEFAULT",
+      "IconMapping": 14
+    },
+    {
+      "IconName": "ICON_RES_URANIUM",
+      "IconFontTexture": "ICON_FONT_TEXTURE_DEFAULT",
+      "IconMapping": 15
+    },
+    {
+      "IconName": "ICON_RES_WHEAT",
+      "IconFontTexture": "ICON_FONT_TEXTURE_DEFAULT",
+      "IconMapping": 16
+    },
+    {
+      "IconName": "ICON_RES_COW",
+      "IconFontTexture": "ICON_FONT_TEXTURE_DEFAULT",
+      "IconMapping": 17
+    },
+    {
+      "IconName": "ICON_RES_DEER",
+      "IconFontTexture": "ICON_FONT_TEXTURE_DEFAULT",
+      "IconMapping": 18
+    },
+    {
+      "IconName": "ICON_RES_FISH",
+      "IconFontTexture": "ICON_FONT_TEXTURE_DEFAULT",
+      "IconMapping": 19
+    },
+    {
+      "IconName": "ICON_RES_WHALE",
+      "IconFontTexture": "ICON_FONT_TEXTURE_DEFAULT",
+      "IconMapping": 20
+    },
+    {
+      "IconName": "ICON_RES_BANANA",
+      "IconFontTexture": "ICON_FONT_TEXTURE_DEFAULT",
+      "IconMapping": 21
+    },
+    {
+      "IconName": "ICON_RES_GOLD",
+      "IconFontTexture": "ICON_FONT_TEXTURE_DEFAULT",
+      "IconMapping": 22
+    },
+    {
+      "IconName": "ICON_RES_GEMS",
+      "IconFontTexture": "ICON_FONT_TEXTURE_DEFAULT",
+      "IconMapping": 23
+    },
+    {
+      "IconName": "ICON_RES_MARBLE",
+      "IconFontTexture": "ICON_FONT_TEXTURE_DEFAULT",
+      "IconMapping": 24
+    },
+    {
+      "IconName": "ICON_RES_IVORY",
+      "IconFontTexture": "ICON_FONT_TEXTURE_DEFAULT",
+      "IconMapping": 25
+    },
+    {
+      "IconName": "ICON_RES_DYE",
+      "IconFontTexture": "ICON_FONT_TEXTURE_DEFAULT",
+      "IconMapping": 26
+    },
+    {
+      "IconName": "ICON_RES_SPICES",
+      "IconFontTexture": "ICON_FONT_TEXTURE_DEFAULT",
+      "IconMapping": 27
+    },
+    {
+      "IconName": "ICON_RES_SILK",
+      "IconFontTexture": "ICON_FONT_TEXTURE_DEFAULT",
+      "IconMapping": 28
+    },
+    {
+      "IconName": "ICON_RES_SUGAR",
+      "IconFontTexture": "ICON_FONT_TEXTURE_DEFAULT",
+      "IconMapping": 29
+    },
+    {
+      "IconName": "ICON_RES_COTTON",
+      "IconFontTexture": "ICON_FONT_TEXTURE_DEFAULT",
+      "IconMapping": 30
+    },
+    {
+      "IconName": "ICON_HAPPINESS_1",
+      "IconFontTexture": "ICON_FONT_TEXTURE_DEFAULT",
+      "IconMapping": 31
+    },
+    {
+      "IconName": "ICON_HAPPINESS_2",
+      "IconFontTexture": "ICON_FONT_TEXTURE_DEFAULT",
+      "IconMapping": 32
+    },
+    {
+      "IconName": "ICON_HAPPINESS_3",
+      "IconFontTexture": "ICON_FONT_TEXTURE_DEFAULT",
+      "IconMapping": 33
+    },
+    {
+      "IconName": "ICON_HAPPINESS_4",
+      "IconFontTexture": "ICON_FONT_TEXTURE_DEFAULT",
+      "IconMapping": 34
+    },
+    {
+      "IconName": "ICON_GOLDEN_AGE",
+      "IconFontTexture": "ICON_FONT_TEXTURE_DEFAULT",
+      "IconMapping": 35
+    },
+    {
+      "IconName": "ICON_PLUS",
+      "IconFontTexture": "ICON_FONT_TEXTURE_DEFAULT",
+      "IconMapping": 36
+    },
+    {
+      "IconName": "ICON_MINUS",
+      "IconFontTexture": "ICON_FONT_TEXTURE_DEFAULT",
+      "IconMapping": 37
+    },
+    {
+      "IconName": "ICON_WTF1",
+      "IconFontTexture": "ICON_FONT_TEXTURE_DEFAULT",
+      "IconMapping": 38
+    },
+    {
+      "IconName": "ICON_WTF2",
+      "IconFontTexture": "ICON_FONT_TEXTURE_DEFAULT",
+      "IconMapping": 39
+    },
+    {
+      "IconName": "ICON_RES_PEARLS",
+      "IconFontTexture": "ICON_FONT_TEXTURE_DEFAULT",
+      "IconMapping": 40
+    },
+    {
+      "IconName": "ICON_RES_INCENSE",
+      "IconFontTexture": "ICON_FONT_TEXTURE_DEFAULT",
+      "IconMapping": 41
+    },
+    {
+      "IconName": "ICON_RES_WINE",
+      "IconFontTexture": "ICON_FONT_TEXTURE_DEFAULT",
+      "IconMapping": 42
+    },
+    {
+      "IconName": "ICON_RES_SILVER",
+      "IconFontTexture": "ICON_FONT_TEXTURE_DEFAULT",
+      "IconMapping": 43
+    },
+    {
+      "IconName": "ICON_RES_FUR",
+      "IconFontTexture": "ICON_FONT_TEXTURE_DEFAULT",
+      "IconMapping": 44
+    },
+    {
+      "IconName": "ICON_CITIZEN",
+      "IconFontTexture": "ICON_FONT_TEXTURE_DEFAULT",
+      "IconMapping": 45
+    },
+    {
+      "IconName": "ICON_GREAT_PEOPLE",
+      "IconFontTexture": "ICON_FONT_TEXTURE_DEFAULT",
+      "IconMapping": 46
+    },
+    {
+      "IconName": "ICON_RAZING",
+      "IconFontTexture": "ICON_FONT_TEXTURE_DEFAULT",
+      "IconMapping": 47
+    },
+    {
+      "IconName": "ICON_RESISTANCE",
+      "IconFontTexture": "ICON_FONT_TEXTURE_DEFAULT",
+      "IconMapping": 48
+    },
+    {
+      "IconName": "ICON_CONNECTED",
+      "IconFontTexture": "ICON_FONT_TEXTURE_DEFAULT",
+      "IconMapping": 49
+    },
+    {
+      "IconName": "ICON_BLOCKADED",
+      "IconFontTexture": "ICON_FONT_TEXTURE_DEFAULT",
+      "IconMapping": 50
+    },
+    {
+      "IconName": "ICON_PUPPET",
+      "IconFontTexture": "ICON_FONT_TEXTURE_DEFAULT",
+      "IconMapping": 51
+    },
+    {
+      "IconName": "ICON_OCCUPIED",
+      "IconFontTexture": "ICON_FONT_TEXTURE_DEFAULT",
+      "IconMapping": 52
+    },
+    {
+      "IconName": "ICON_INFLUENCE",
+      "IconFontTexture": "ICON_FONT_TEXTURE_DEFAULT",
+      "IconMapping": 53
+    },
+    {
+      "IconName": "ICON_CAPITAL",
+      "IconFontTexture": "ICON_FONT_TEXTURE_DEFAULT",
+      "IconMapping": 54
+    },
+    {
+      "IconName": "ICON_LOCKED",
+      "IconFontTexture": "ICON_FONT_TEXTURE_DEFAULT",
+      "IconMapping": 55
+    },
+    {
+      "IconName": "ICON_RES_SHEEP",
+      "IconFontTexture": "ICON_FONT_TEXTURE_DEFAULT",
+      "IconMapping": 56
+    },
+    {
+      "IconName": "ICON_WAR",
+      "IconFontTexture": "ICON_FONT_TEXTURE_DEFAULT",
+      "IconMapping": 57
+    },
+    {
+      "IconName": "ICON_PEACE",
+      "IconFontTexture": "ICON_FONT_TEXTURE_DEFAULT",
+      "IconMapping": 58
+    },
+    {
+      "IconName": "ICON_TRADE",
+      "IconFontTexture": "ICON_FONT_TEXTURE_DEFAULT",
+      "IconMapping": 59
+    },
+    {
+      "IconName": "ICON_TRADE_WHITE",
+      "IconFontTexture": "ICON_FONT_TEXTURE_DEFAULT",
+      "IconMapping": 60
+    },
+    {
+      "IconName": "ICON_TEAM_1",
+      "IconFontTexture": "ICON_FONT_TEXTURE_DEFAULT",
+      "IconMapping": 61
+    },
+    {
+      "IconName": "ICON_TEAM_2",
+      "IconFontTexture": "ICON_FONT_TEXTURE_DEFAULT",
+      "IconMapping": 62
+    },
+    {
+      "IconName": "ICON_TEAM_3",
+      "IconFontTexture": "ICON_FONT_TEXTURE_DEFAULT",
+      "IconMapping": 63
+    },
+    {
+      "IconName": "ICON_TEAM_4",
+      "IconFontTexture": "ICON_FONT_TEXTURE_DEFAULT",
+      "IconMapping": 64
+    },
+    {
+      "IconName": "ICON_TEAM_5",
+      "IconFontTexture": "ICON_FONT_TEXTURE_DEFAULT",
+      "IconMapping": 65
+    },
+    {
+      "IconName": "ICON_TEAM_6",
+      "IconFontTexture": "ICON_FONT_TEXTURE_DEFAULT",
+      "IconMapping": 66
+    },
+    {
+      "IconName": "ICON_TEAM_7",
+      "IconFontTexture": "ICON_FONT_TEXTURE_DEFAULT",
+      "IconMapping": 67
+    },
+    {
+      "IconName": "ICON_TEAM_8",
+      "IconFontTexture": "ICON_FONT_TEXTURE_DEFAULT",
+      "IconMapping": 68
+    },
+    {
+      "IconName": "ICON_TEAM_9",
+      "IconFontTexture": "ICON_FONT_TEXTURE_DEFAULT",
+      "IconMapping": 69
+    },
+    {
+      "IconName": "ICON_TEAM_10",
+      "IconFontTexture": "ICON_FONT_TEXTURE_DEFAULT",
+      "IconMapping": 70
+    },
+    {
+      "IconName": "ICON_TEAM_11",
+      "IconFontTexture": "ICON_FONT_TEXTURE_DEFAULT",
+      "IconMapping": 71
+    },
+    {
+      "IconName": "ICON_TEAM_USA",
+      "IconFontTexture": "ICON_FONT_TEXTURE_DEFAULT",
+      "IconMapping": 72
+    },
+    {
+      "IconName": "ICON_PIRATE",
+      "IconFontTexture": "ICON_FONT_TEXTURE_DEFAULT",
+      "IconMapping": 73
+    },
+    {
+      "IconName": "ICON_STAR",
+      "IconFontTexture": "ICON_FONT_TEXTURE_DEFAULT",
+      "IconMapping": 74
+    },
+    {
+      "IconName": "ICON_MUSHROOM",
+      "IconFontTexture": "ICON_FONT_TEXTURE_DEFAULT",
+      "IconMapping": 75
+    },
+    {
+      "IconName": "ICON_FLOWER",
+      "IconFontTexture": "ICON_FONT_TEXTURE_DEFAULT",
+      "IconMapping": 76
+    },
+    {
+      "IconName": "ICON_ALPHA",
+      "IconFontTexture": "ICON_FONT_TEXTURE_DEFAULT",
+      "IconMapping": 77
+    },
+    {
+      "IconName": "ICON_OMEGA",
+      "IconFontTexture": "ICON_FONT_TEXTURE_DEFAULT",
+      "IconMapping": 78
+    },
+    {
+      "IconName": "ICON_CITY_STATE",
+      "IconFontTexture": "ICON_FONT_TEXTURE_DEFAULT",
+      "IconMapping": 79
+    },
+    {
+      "IconName": "ICON_RES_STONE",
+      "IconFontTexture": "ICON_FONT_TEXTURE_DEFAULT",
+      "IconMapping": 80
+    },
+    {
+      "IconName": "ICON_SWAP",
+      "IconFontTexture": "ICON_FONT_TEXTURE_DEFAULT",
+      "IconMapping": 121
+    },
+    {
+      "IconName": "ICON_RES_CITRUS",
+      "IconFontTexture": "ICON_FONT_TEXTURE_DEFAULT",
+      "IconMapping": 81
+    },
+    {
+      "IconName": "ICON_RES_COPPER",
+      "IconFontTexture": "ICON_FONT_TEXTURE_DEFAULT",
+      "IconMapping": 82
+    },
+    {
+      "IconName": "ICON_RES_CRAB",
+      "IconFontTexture": "ICON_FONT_TEXTURE_DEFAULT",
+      "IconMapping": 83
+    },
+    {
+      "IconName": "ICON_RES_SALT",
+      "IconFontTexture": "ICON_FONT_TEXTURE_DEFAULT",
+      "IconMapping": 84
+    },
+    {
+      "IconName": "ICON_RES_TRUFFLES",
+      "IconFontTexture": "ICON_FONT_TEXTURE_DEFAULT",
+      "IconMapping": 85
+    },
+    {
+      "IconName": "ICON_RES_JEWELRY",
+      "IconFontTexture": "ICON_FONT_TEXTURE_DEFAULT",
+      "IconMapping": 86
+    },
+    {
+      "IconName": "ICON_RES_PORCELAIN",
+      "IconFontTexture": "ICON_FONT_TEXTURE_DEFAULT",
+      "IconMapping": 87
+    },
+    {
+      "IconName": "ICON_RELIGION_BUDDHISM",
+      "IconFontTexture": "ICON_FONT_TEXTURE_DEFAULT",
+      "IconMapping": 88
+    },
+    {
+      "IconName": "ICON_RELIGION_CHRISTIANITY",
+      "IconFontTexture": "ICON_FONT_TEXTURE_DEFAULT",
+      "IconMapping": 89
+    },
+    {
+      "IconName": "ICON_RELIGION_CONFUCIANISM",
+      "IconFontTexture": "ICON_FONT_TEXTURE_DEFAULT",
+      "IconMapping": 90
+    },
+    {
+      "IconName": "ICON_RELIGION_HINDUISM",
+      "IconFontTexture": "ICON_FONT_TEXTURE_DEFAULT",
+      "IconMapping": 91
+    },
+    {
+      "IconName": "ICON_RELIGION_ISLAM",
+      "IconFontTexture": "ICON_FONT_TEXTURE_DEFAULT",
+      "IconMapping": 92
+    },
+    {
+      "IconName": "ICON_RELIGION_JUDAISM",
+      "IconFontTexture": "ICON_FONT_TEXTURE_DEFAULT",
+      "IconMapping": 93
+    },
+    {
+      "IconName": "ICON_RELIGION_PANTHEON",
+      "IconFontTexture": "ICON_FONT_TEXTURE_DEFAULT",
+      "IconMapping": 94
+    },
+    {
+      "IconName": "ICON_RELIGION_SHINTO",
+      "IconFontTexture": "ICON_FONT_TEXTURE_DEFAULT",
+      "IconMapping": 95
+    },
+    {
+      "IconName": "ICON_RELIGION_SIKHISM",
+      "IconFontTexture": "ICON_FONT_TEXTURE_DEFAULT",
+      "IconMapping": 96
+    },
+    {
+      "IconName": "ICON_RELIGION_TAOISM",
+      "IconFontTexture": "ICON_FONT_TEXTURE_DEFAULT",
+      "IconMapping": 97
+    },
+    {
+      "IconName": "ICON_RELIGION_TENGRIISM",
+      "IconFontTexture": "ICON_FONT_TEXTURE_DEFAULT",
+      "IconMapping": 98
+    },
+    {
+      "IconName": "ICON_RELIGION_ZOROASTRIANISM",
+      "IconFontTexture": "ICON_FONT_TEXTURE_DEFAULT",
+      "IconMapping": 99
+    },
+    {
+      "IconName": "ICON_RELIGION_ORTHODOX",
+      "IconFontTexture": "ICON_FONT_TEXTURE_DEFAULT",
+      "IconMapping": 100
+    },
+    {
+      "IconName": "ICON_RELIGION_PROTESTANT",
+      "IconFontTexture": "ICON_FONT_TEXTURE_DEFAULT",
+      "IconMapping": 101
+    },
+    {
+      "IconName": "ICON_RELIGION",
+      "IconFontTexture": "ICON_FONT_TEXTURE_DEFAULT",
+      "IconMapping": 102
+    },
+    {
+      "IconName": "ICON_MISSIONARY",
+      "IconFontTexture": "ICON_FONT_TEXTURE_DEFAULT",
+      "IconMapping": 103
+    },
+    {
+      "IconName": "ICON_PROPHET",
+      "IconFontTexture": "ICON_FONT_TEXTURE_DEFAULT",
+      "IconMapping": 104
+    },
+    {
+      "IconName": "ICON_INQUISITOR",
+      "IconFontTexture": "ICON_FONT_TEXTURE_DEFAULT",
+      "IconMapping": 105
+    },
+    {
+      "IconName": "ICON_SPY",
+      "IconFontTexture": "ICON_FONT_TEXTURE_DEFAULT",
+      "IconMapping": 106
+    },
+    {
+      "IconName": "ICON_VIEW_CITY",
+      "IconFontTexture": "ICON_FONT_TEXTURE_DEFAULT",
+      "IconMapping": 107
+    },
+    {
+      "IconName": "ICON_WORKER",
+      "IconFontTexture": "ICON_FONT_TEXTURE_DEFAULT",
+      "IconMapping": 108
+    },
+    {
+      "IconName": "ICON_DENOUNCE",
+      "IconFontTexture": "ICON_FONT_TEXTURE_DEFAULT",
+      "IconMapping": 109
+    },
+    {
+      "IconName": "ICON_INVEST",
+      "IconFontTexture": "ICON_FONT_TEXTURE_DEFAULT",
+      "IconMapping": 110
+    },
+    {
+      "IconName": "ICON_SILVER_FIST",
+      "IconFontTexture": "ICON_FONT_TEXTURE_DEFAULT",
+      "IconMapping": 111
+    },
+    {
+      "IconName": "ICON_CHECKBOX",
+      "IconFontTexture": "ICON_FONT_TEXTURE_DEFAULT",
+      "IconMapping": 112
+    },
+    {
+      "IconName": "ICON_TOURISM",
+      "IconFontTexture": "ICON_FONT_TEXTURE_DEFAULT",
+      "IconMapping": 113
+    },
+    {
+      "IconName": "ICON_INTERNATIONAL_TRADE",
+      "IconFontTexture": "ICON_FONT_TEXTURE_DEFAULT",
+      "IconMapping": 114
+    },
+    {
+      "IconName": "ICON_GREAT_WORK",
+      "IconFontTexture": "ICON_FONT_TEXTURE_DEFAULT",
+      "IconMapping": 115
+    },
+    {
+      "IconName": "ICON_ARROW_LEFT",
+      "IconFontTexture": "ICON_FONT_TEXTURE_DEFAULT",
+      "IconMapping": 116
+    },
+    {
+      "IconName": "ICON_ARROW_RIGHT",
+      "IconFontTexture": "ICON_FONT_TEXTURE_DEFAULT",
+      "IconMapping": 7
+    },
+    {
+      "IconName": "ICON_VICTORY_SPACE",
+      "IconFontTexture": "ICON_FONT_TEXTURE_DEFAULT",
+      "IconMapping": 117
+    },
+    {
+      "IconName": "ICON_VICTORY_CULTURE",
+      "IconFontTexture": "ICON_FONT_TEXTURE_DEFAULT",
+      "IconMapping": 118
+    },
+    {
+      "IconName": "ICON_VICTORY_DIPLOMACY",
+      "IconFontTexture": "ICON_FONT_TEXTURE_DEFAULT",
+      "IconMapping": 119
+    },
+    {
+      "IconName": "ICON_VICTORY_DOMINATION",
+      "IconFontTexture": "ICON_FONT_TEXTURE_DEFAULT",
+      "IconMapping": 120
+    },
+    {
+      "IconName": "ICON_TURNS_REMAINING",
+      "IconFontTexture": "ICON_FONT_TEXTURE_DEFAULT",
+      "IconMapping": 121
+    },
+    {
+      "IconName": "ICON_GREAT_ENGINEER",
+      "IconFontTexture": "ICON_FONT_TEXTURE_EXPANSION2",
+      "IconMapping": 1
+    },
+    {
+      "IconName": "ICON_GREAT_GENERAL",
+      "IconFontTexture": "ICON_FONT_TEXTURE_EXPANSION2",
+      "IconMapping": 2
+    },
+    {
+      "IconName": "ICON_GREAT_SCIENTIST",
+      "IconFontTexture": "ICON_FONT_TEXTURE_EXPANSION2",
+      "IconMapping": 3
+    },
+    {
+      "IconName": "ICON_GREAT_MERCHANT",
+      "IconFontTexture": "ICON_FONT_TEXTURE_EXPANSION2",
+      "IconMapping": 4
+    },
+    {
+      "IconName": "ICON_GREAT_ARTIST",
+      "IconFontTexture": "ICON_FONT_TEXTURE_EXPANSION2",
+      "IconMapping": 5
+    },
+    {
+      "IconName": "ICON_GREAT_MUSICIAN",
+      "IconFontTexture": "ICON_FONT_TEXTURE_EXPANSION2",
+      "IconMapping": 6
+    },
+    {
+      "IconName": "ICON_GREAT_WRITER",
+      "IconFontTexture": "ICON_FONT_TEXTURE_EXPANSION2",
+      "IconMapping": 7
+    },
+    {
+      "IconName": "ICON_GREAT_ADMIRAL",
+      "IconFontTexture": "ICON_FONT_TEXTURE_EXPANSION2",
+      "IconMapping": 8
+    },
+    {
+      "IconName": "ICON_GREAT_MERCHANT_VENICE",
+      "IconFontTexture": "ICON_FONT_TEXTURE_EXPANSION2",
+      "IconMapping": 9
+    },
+    {
+      "IconName": "ICON_GREAT_EXPLORER",
+      "IconFontTexture": "ICON_FONT_TEXTURE_EXPANSION2",
+      "IconMapping": 10
+    },
+    {
+      "IconName": "ICON_RES_CLOVES",
+      "IconFontTexture": "ICON_FONT_TEXTURE_EXPANSION2",
+      "IconMapping": 11
+    },
+    {
+      "IconName": "ICON_RES_NUTMEG",
+      "IconFontTexture": "ICON_FONT_TEXTURE_EXPANSION2",
+      "IconMapping": 12
+    },
+    {
+      "IconName": "ICON_RES_PEPPER",
+      "IconFontTexture": "ICON_FONT_TEXTURE_EXPANSION2",
+      "IconMapping": 13
+    },
+    {
+      "IconName": "ICON_DIPLOMAT",
+      "IconFontTexture": "ICON_FONT_TEXTURE_EXPANSION2",
+      "IconMapping": 14
+    },
+    {
+      "IconName": "ICON_RES_ARTIFACTS",
+      "IconFontTexture": "ICON_FONT_TEXTURE_EXPANSION2",
+      "IconMapping": 15
+    },
+    {
+      "IconName": "ICON_TROPHY_GOLD",
+      "IconFontTexture": "ICON_FONT_TEXTURE_EXPANSION2",
+      "IconMapping": 16
+    },
+    {
+      "IconName": "ICON_TROPHY_SILVER",
+      "IconFontTexture": "ICON_FONT_TEXTURE_EXPANSION2",
+      "IconMapping": 17
+    },
+    {
+      "IconName": "ICON_TROPHY_BRONZE",
+      "IconFontTexture": "ICON_FONT_TEXTURE_EXPANSION2",
+      "IconMapping": 18
+    },
+    {
+      "IconName": "ICON_RES_MANPOWER",
+      "IconFontTexture": "ICON_FONT_TEXTURE_EXPANSION2",
+      "IconMapping": 19
+    },
+    {
+      "IconName": "ICON_RES_HIDDEN_ARTIFACTS",
+      "IconFontTexture": "ICON_FONT_TEXTURE_EXPANSION2",
+      "IconMapping": 20
+    },
+    {
+      "IconName": "ICON_IDEOLOGY_ORDER",
+      "IconFontTexture": "ICON_FONT_TEXTURE_EXPANSION2",
+      "IconMapping": 21
+    },
+    {
+      "IconName": "ICON_IDEOLOGY_FREEDOM",
+      "IconFontTexture": "ICON_FONT_TEXTURE_EXPANSION2",
+      "IconMapping": 22
+    },
+    {
+      "IconName": "ICON_IDEOLOGY_AUTOCRACY",
+      "IconFontTexture": "ICON_FONT_TEXTURE_EXPANSION2",
+      "IconMapping": 23
+    },
+    {
+      "IconName": "ICON_RES_COCOA",
+      "IconFontTexture": "ICON_FONT_TEXTURE_DLC_07",
+      "IconMapping": 1
+    },
+    {
+      "IconName": "ICON_RES_BISON",
+      "IconFontTexture": "ICON_FONT_TEXTURE_DLC_07",
+      "IconMapping": 2
+    },
+    {
+      "IconName": "ICON_AIRPORT",
+      "IconFontTexture": "ICON_FONT_TEXTURE_CP",
+      "IconMapping": 1
+    },
+    {
+      "IconName": "ICON_AIRSTRIKE_DEFENSE",
+      "IconFontTexture": "ICON_FONT_TEXTURE_CP",
+      "IconMapping": 2
+    },
+    {
+      "IconName": "ICON_RES_MARRIAGE",
+      "IconFontTexture": "ICON_FONT_TEXTURE_CP",
+      "IconMapping": 3
+    },
+    {
+      "IconName": "ICON_AUTOMATED",
+      "IconFontTexture": "ICON_FONT_TEXTURE_CP",
+      "IconMapping": 4
+    },
+    {
+      "IconName": "ICON_MINEFIELD",
+      "IconFontTexture": "ICON_FONT_TEXTURE_CP",
+      "IconMapping": 5
+    },
+    {
+      "IconName": "ICON_URBANIZATION",
+      "IconFontTexture": "ICON_FONT_TEXTURE_CP",
+      "IconMapping": 6
+    },
+    {
+      "IconName": "ICON_URBANIZATION_GREEN",
+      "IconFontTexture": "ICON_FONT_TEXTURE_CP",
+      "IconMapping": 7
+    },
+    {
+      "IconName": "ICON_CITIZEN_RED",
+      "IconFontTexture": "ICON_FONT_TEXTURE_CP",
+      "IconMapping": 8
+    },
+    {
+      "IconName": "ICON_CARAVAN",
+      "IconFontTexture": "ICON_FONT_TEXTURE_CP",
+      "IconMapping": 9
+    },
+    {
+      "IconName": "ICON_CARGO_SHIP",
+      "IconFontTexture": "ICON_FONT_TEXTURE_CP",
+      "IconMapping": 10
+    },
+    {
+      "IconName": "ICON_WONDER",
+      "IconFontTexture": "ICON_FONT_TEXTURE_CP",
+      "IconMapping": 11
+    },
+    {
+      "IconName": "ICON_SAPPED",
+      "IconFontTexture": "ICON_FONT_TEXTURE_CP",
+      "IconMapping": 12
+    },
+    {
+      "IconName": "ICON_WRITER",
+      "IconFontTexture": "ICON_FONT_TEXTURE_CP",
+      "IconMapping": 13
+    },
+    {
+      "IconName": "ICON_MUSICIAN",
+      "IconFontTexture": "ICON_FONT_TEXTURE_CP",
+      "IconMapping": 14
+    },
+    {
+      "IconName": "ICON_CIVIL_SERVANT",
+      "IconFontTexture": "ICON_FONT_TEXTURE_CP",
+      "IconMapping": 15
+    },
+    {
+      "IconName": "ICON_SCIENTIST",
+      "IconFontTexture": "ICON_FONT_TEXTURE_CP",
+      "IconMapping": 16
+    },
+    {
+      "IconName": "ICON_ENGINEER",
+      "IconFontTexture": "ICON_FONT_TEXTURE_CP",
+      "IconMapping": 17
+    },
+    {
+      "IconName": "ICON_MERCHANT",
+      "IconFontTexture": "ICON_FONT_TEXTURE_CP",
+      "IconMapping": 18
+    },
+    {
+      "IconName": "ICON_ARTIST",
+      "IconFontTexture": "ICON_FONT_TEXTURE_CP",
+      "IconMapping": 19
+    },
+    {
+      "IconName": "ICON_AUTOMATON",
+      "IconFontTexture": "ICON_FONT_TEXTURE_CP",
+      "IconMapping": 20
+    },
+    {
+      "IconName": "ICON_BORDER_OBSTRUCTION",
+      "IconFontTexture": "ICON_FONT_TEXTURE_CP",
+      "IconMapping": 21
+    },
+    {
+      "IconName": "ICON_NOINFLUENCE",
+      "IconFontTexture": "ICON_FONT_TEXTURE_CP",
+      "IconMapping": 22
+    },
+    {
+      "IconName": "ICON_GW_MUSIC",
+      "IconFontTexture": "ICON_FONT_TEXTURE_CP",
+      "IconMapping": 23
+    },
+    {
+      "IconName": "ICON_GW_WRITING",
+      "IconFontTexture": "ICON_FONT_TEXTURE_CP",
+      "IconMapping": 24
+    },
+    {
+      "IconName": "ICON_GW_ART",
+      "IconFontTexture": "ICON_FONT_TEXTURE_CP",
+      "IconMapping": 25
+    },
+    {
+      "IconName": "ICON_ARTIFACT",
+      "IconFontTexture": "ICON_FONT_TEXTURE_CP",
+      "IconMapping": 26
+    },
+    {
+      "IconName": "ICON_SPY_POINT",
+      "IconFontTexture": "ICON_FONT_TEXTURE_CP",
+      "IconMapping": 27
+    },
+    {
+      "IconName": "ICON_VISION",
+      "IconFontTexture": "ICON_FONT_TEXTURE_CP",
+      "IconMapping": 28
+    },
+    {
+      "IconName": "ICON_MONOPOLY",
+      "IconFontTexture": "ICON_FONT_TEXTURE_CP",
+      "IconMapping": 29
+    },
+    {
+      "IconName": "ICON_OFFICE",
+      "IconFontTexture": "ICON_FONT_TEXTURE_CP",
+      "IconMapping": 30
+    },
+    {
+      "IconName": "ICON_FRANCHISE",
+      "IconFontTexture": "ICON_FONT_TEXTURE_CP",
+      "IconMapping": 31
+    },
+    {
+      "IconName": "ICON_INDUSTRIAL_CONNECTED",
+      "IconFontTexture": "ICON_FONT_TEXTURE_CP",
+      "IconMapping": 33
+    },
+    {
+      "IconName": "ICON_HAPPINESS_CONTENT",
+      "IconFontTexture": "ICON_FONT_TEXTURE_CP",
+      "IconMapping": 34
+    },
+    {
+      "IconName": "ICON_HAPPINESS_NEUTRAL",
+      "IconFontTexture": "ICON_FONT_TEXTURE_CP",
+      "IconMapping": 35
+    },
+    {
+      "IconName": "ICON_NAVAL_SUPPLY",
+      "IconFontTexture": "ICON_FONT_TEXTURE_CP",
+      "IconMapping": 36
+    },
+    {
+      "IconName": "ICON_PANTHEON_TP",
+      "IconFontTexture": "ICON_FONT_TEXTURE_CP",
+      "IconMapping": 37
+    },
+    {
+      "IconName": "ICON_PROPHET_TP",
+      "IconFontTexture": "ICON_FONT_TEXTURE_CP",
+      "IconMapping": 38
+    },
+    {
+      "IconName": "ICON_RELIGIOUS_BUILDING",
+      "IconFontTexture": "ICON_FONT_TEXTURE_CP",
+      "IconMapping": 39
+    },
+    {
+      "IconName": "ICON_CITIZEN_CONTENT",
+      "IconFontTexture": "ICON_FONT_TEXTURE_CP",
+      "IconMapping": 40
+    },
+    {
+      "IconName": "ICON_CITIZEN_NEUTRAL",
+      "IconFontTexture": "ICON_FONT_TEXTURE_CP",
+      "IconMapping": 41
+    },
+    {
+      "IconName": "ICON_CITIZEN_UNHAPPY",
+      "IconFontTexture": "ICON_FONT_TEXTURE_CP",
+      "IconMapping": 42
+    },
+    {
+      "IconName": "ICON_CITIZEN_VERY_UNHAPPY",
+      "IconFontTexture": "ICON_FONT_TEXTURE_CP",
+      "IconMapping": 43
+    },
+    {
+      "IconName": "ICON_STRENGTH_TP",
+      "IconFontTexture": "ICON_FONT_TEXTURE_CP",
+      "IconMapping": 44
+    },
+    {
+      "IconName": "ICON_GREAT_ENGINEER_GRAY",
+      "IconFontTexture": "ICON_FONT_TEXTURE_CP",
+      "IconMapping": 45
+    },
+    {
+      "IconName": "ICON_GREAT_GENERAL_GRAY",
+      "IconFontTexture": "ICON_FONT_TEXTURE_CP",
+      "IconMapping": 46
+    },
+    {
+      "IconName": "ICON_GREAT_SCIENTIST_GRAY",
+      "IconFontTexture": "ICON_FONT_TEXTURE_CP",
+      "IconMapping": 47
+    },
+    {
+      "IconName": "ICON_GREAT_MERCHANT_GRAY",
+      "IconFontTexture": "ICON_FONT_TEXTURE_CP",
+      "IconMapping": 48
+    },
+    {
+      "IconName": "ICON_GREAT_ARTIST_GRAY",
+      "IconFontTexture": "ICON_FONT_TEXTURE_CP",
+      "IconMapping": 49
+    },
+    {
+      "IconName": "ICON_GREAT_MUSICIAN_GRAY",
+      "IconFontTexture": "ICON_FONT_TEXTURE_CP",
+      "IconMapping": 50
+    },
+    {
+      "IconName": "ICON_GREAT_WRITER_GRAY",
+      "IconFontTexture": "ICON_FONT_TEXTURE_CP",
+      "IconMapping": 51
+    },
+    {
+      "IconName": "ICON_GREAT_ADMIRAL_GRAY",
+      "IconFontTexture": "ICON_FONT_TEXTURE_CP",
+      "IconMapping": 52
+    },
+    {
+      "IconName": "ICON_GREAT_MERCHANT_VENICE_GRAY",
+      "IconFontTexture": "ICON_FONT_TEXTURE_CP",
+      "IconMapping": 53
+    },
+    {
+      "IconName": "ICON_DIPLOMAT_GRAY",
+      "IconFontTexture": "ICON_FONT_TEXTURE_CP",
+      "IconMapping": 54
+    },
+    {
+      "IconName": "ICON_RES_COCOA_ALT",
+      "IconFontTexture": "ICON_FONT_TEXTURE_CP",
+      "IconMapping": 55
+    },
+    {
+      "IconName": "ICON_RES_COFFEE",
+      "IconFontTexture": "ICON_FONT_TEXTURE_CP",
+      "IconMapping": 56
+    },
+    {
+      "IconName": "ICON_RES_TEA",
+      "IconFontTexture": "ICON_FONT_TEXTURE_CP",
+      "IconMapping": 57
+    },
+    {
+      "IconName": "ICON_RES_TOBACCO",
+      "IconFontTexture": "ICON_FONT_TEXTURE_CP",
+      "IconMapping": 58
+    },
+    {
+      "IconName": "ICON_RES_AMBER",
+      "IconFontTexture": "ICON_FONT_TEXTURE_CP",
+      "IconMapping": 59
+    },
+    {
+      "IconName": "ICON_RES_JADE",
+      "IconFontTexture": "ICON_FONT_TEXTURE_CP",
+      "IconMapping": 60
+    },
+    {
+      "IconName": "ICON_RES_OLIVE",
+      "IconFontTexture": "ICON_FONT_TEXTURE_CP",
+      "IconMapping": 61
+    },
+    {
+      "IconName": "ICON_RES_PERFUME",
+      "IconFontTexture": "ICON_FONT_TEXTURE_CP",
+      "IconMapping": 62
+    },
+    {
+      "IconName": "ICON_RES_CORAL",
+      "IconFontTexture": "ICON_FONT_TEXTURE_CP",
+      "IconMapping": 63
+    },
+    {
+      "IconName": "ICON_RES_LAPIS",
+      "IconFontTexture": "ICON_FONT_TEXTURE_CP",
+      "IconMapping": 64
+    },
+    {
+      "IconName": "ICON_RES_GLASS",
+      "IconFontTexture": "ICON_FONT_TEXTURE_CP",
+      "IconMapping": 65
+    },
+    {
+      "IconName": "ICON_RES_BRAZILWOOD",
+      "IconFontTexture": "ICON_FONT_TEXTURE_CP",
+      "IconMapping": 66
+    },
+    {
+      "IconName": "ICON_RES_MAIZE",
+      "IconFontTexture": "ICON_FONT_TEXTURE_CP",
+      "IconMapping": 67
+    },
+    {
+      "IconName": "ICON_RES_RICE",
+      "IconFontTexture": "ICON_FONT_TEXTURE_CP",
+      "IconMapping": 68
+    },
+    {
+      "IconName": "ICON_RES_FIGS",
+      "IconFontTexture": "ICON_FONT_TEXTURE_CP",
+      "IconMapping": 69
+    },
+    {
+      "IconName": "ICON_RES_PAPER",
+      "IconFontTexture": "ICON_FONT_TEXTURE_CP",
+      "IconMapping": 70
+    },
+    {
+      "IconName": "ICON_RES_CAMEL",
+      "IconFontTexture": "ICON_FONT_TEXTURE_CP",
+      "IconMapping": 71
+    },
+    {
+      "IconName": "ICON_RES_FEATHERS",
+      "IconFontTexture": "ICON_FONT_TEXTURE_CP",
+      "IconMapping": 72
+    },
+    {
+      "IconName": "ICON_RES_QUARTZ",
+      "IconFontTexture": "ICON_FONT_TEXTURE_CP",
+      "IconMapping": 73
+    },
+    {
+      "IconName": "ICON_RES_ALPACA",
+      "IconFontTexture": "ICON_FONT_TEXTURE_CP",
+      "IconMapping": 74
+    },
+    {
+      "IconName": "ICON_RES_LAKE_FISH",
+      "IconFontTexture": "ICON_FONT_TEXTURE_CP",
+      "IconMapping": 75
+    },
+    {
+      "IconName": "ICON_CULTURE_LOCAL",
+      "IconFontTexture": "ICON_FONT_TEXTURE_CP",
+      "IconMapping": 76
+    },
+    {
+      "IconName": "ICON_CITY_SECURITY",
+      "IconFontTexture": "ICON_FONT_TEXTURE_CP",
+      "IconMapping": 77
     }
   ],
   "corporations": [
@@ -43693,62 +44833,6 @@
       }
     ]
   },
-  "leagueProjects": [
-    {
-      "Type": "LEAGUE_PROJECT_INTERNATIONAL_SPACE_STATION",
-      "Name": "International Space Station",
-      "IconAtlas": "INTL_PROJECT_ATLAS_EXP2",
-      "ID": 0,
-      "Help": "[ICON_TROPHY_GOLD] Mission Control: International Space Station wonder appears in [ICON_CAPITAL] Capital. (+1 [ICON_PRODUCTION] Production from Scientists, and +1 [ICON_RESEARCH] Science from Engineers. [ICON_GREAT_SCIENTIST] Great Scientists provide 33% more [ICON_RESEARCH] Science when used to discover new Technology. +100 [ICON_PRODUCTION] in City where it is built when you unlock a new Technology, scaling with Era.)[NEWLINE][NEWLINE][ICON_TROPHY_SILVER] Crew On Board: Free Great Scientist.[NEWLINE][NEWLINE][ICON_TROPHY_BRONZE] Constructed Parts: One time Research boost.",
-      "PortraitIndex": 0,
-      "CostPerPlayer": 0
-    },
-    {
-      "Type": "LEAGUE_PROJECT_WORLD_FAIR",
-      "Name": "World's Fair",
-      "IconAtlas": "INTL_PROJECT_ATLAS_EXP2",
-      "ID": 1,
-      "Help": "[ICON_TROPHY_GOLD] Hosted Fair: Crystal Palace wonder appears in [ICON_CAPITAL] Capital. (Receive +2 [ICON_PRODUCTION] Production and +2 [ICON_RESEARCH] Science for all Factories in owned Cities. The Empire enters a [ICON_GOLDEN_AGE] Golden Age.)[NEWLINE][NEWLINE][ICON_TROPHY_SILVER] Groundbreaking Invention: [ICON_CULTURE] Culture increases by 33% for 20 Turns.[NEWLINE][NEWLINE][ICON_TROPHY_BRONZE] Exhibitor: Free Social Policy.",
-      "PortraitIndex": 0,
-      "CostPerPlayer": 0
-    },
-    {
-      "Type": "LEAGUE_PROJECT_WORLD_GAMES",
-      "Name": "International Games",
-      "IconAtlas": "INTL_PROJECT_ATLAS_EXP2",
-      "ID": 2,
-      "Help": "[ICON_TROPHY_GOLD] Hosted Games: Olympic Village wonder appears in [ICON_CAPITAL] Capital. (Receive +3 [ICON_HAPPINESS_1] Happiness and +3 [ICON_CULTURE] Culture in the City in which it is built. 25% of the [ICON_CULTURE] Culture from World Wonders and Tiles is added to the [ICON_TOURISM] Tourism output of the City. All Stadiums receive +2 [ICON_GOLD] Gold and [ICON_TOURISM] Tourism.)[NEWLINE][NEWLINE][ICON_TROPHY_SILVER] Won Medals:  Receive a free Great Person of your choice.[NEWLINE][NEWLINE][ICON_TROPHY_BRONZE] Parade of Nations: [ICON_TOURISM] Tourism increases by 50% for 20 Turns.",
-      "PortraitIndex": 0,
-      "CostPerPlayer": 0
-    },
-    {
-      "Type": "LEAGUE_PROJECT_TREASURE_FLEET",
-      "Name": "Treasure Fleet",
-      "IconAtlas": "INTL_PROJECT_ATLAS_EXP2",
-      "ID": 3,
-      "Help": "[ICON_TROPHY_GOLD] Master of the Fleet: Grand Canal wonder appears in [ICON_CAPITAL] Capital. (Receive 1 [COLOR_POSITIVE_TEXT]Additional[ENDCOLOR] [ICON_INTERNATIONAL_TRADE] Trade Route. Grants all Naval Units except Submarines and Carriers the [COLOR_POSITIVE_TEXT]Treasure Fleet[ENDCOLOR] Promotion, which grants +10% [ICON_STRENGTH] Combat Strength when attacking, +1 [ICON_VISION] Sight, and the ability to heal [COLOR_POSITIVE_TEXT]Outside of Friendly Territory[ENDCOLOR].)[NEWLINE][NEWLINE][ICON_TROPHY_SILVER] Skilled Navigator: Receive a free Great Admiral and 3 of your military units will be maintenance-free.[NEWLINE][NEWLINE][ICON_TROPHY_BRONZE] Prize Shipbuilder: Receive one Frigate. 300 points towards next [ICON_GOLDEN_AGE] Golden Age.",
-      "PortraitIndex": 0,
-      "CostPerPlayer": 0
-    },
-    {
-      "Type": "LEAGUE_PROJECT_WARGAMES",
-      "Name": "Global Wargames",
-      "IconAtlas": "INTL_PROJECT_ATLAS_EXP2",
-      "ID": 4,
-      "Help": "[ICON_TROPHY_GOLD] Field Marshal: Menin Gate wonder appears in [ICON_CAPITAL] Capital. (Receive +2 [ICON_HAPPINESS_1] Happiness in the City in which it is built. Forts, Citadels and Landmarks provide +2 [ICON_CULTURE] Culture and [ICON_GOLDEN_AGE] Golden Age Points when worked.)[NEWLINE][NEWLINE][ICON_TROPHY_SILVER] Major General: Receive a +25% attack bonus to all Military Units for the next 30 turns and 4 of your military units will be maintenance-free.[NEWLINE][NEWLINE][ICON_TROPHY_BRONZE] Colonel: Receive one Infantry and 3 of your military units will be maintenance-free.",
-      "PortraitIndex": 0,
-      "CostPerPlayer": 0
-    },
-    {
-      "Type": "LEAGUE_PROJECT_UNITED_NATIONS",
-      "Name": "United Nations",
-      "IconAtlas": "INTL_PROJECT_ATLAS_EXP2",
-      "ID": 5,
-      "Help": "[ICON_TROPHY_GOLD] Secretary-General: United Nations wonder appears in [ICON_CAPITAL] Capital. (Receive 1 [COLOR_POSITIVE_TEXT]Additional[ENDCOLOR] [ICON_DIPLOMAT] Delegate in the World Congress for every 8 [ICON_CITY_STATE] City-States originally in the World. Also, when you expend a [ICON_GREAT_PEOPLE] Great Person, earn 25 [ICON_INFLUENCE] Influence with all [ICON_CITY_STATE] City-States you have met. Triggers a [ICON_GOLDEN_AGE] Golden Age, as well as the [COLOR_POSITIVE_TEXT]United Nations[ENDCOLOR] Special Session of the World Congress if the world has reached the Atomic Era.)[NEWLINE][NEWLINE][ICON_TROPHY_SILVER] Permanent Member: Receive an immediate boost of 25 [ICON_INFLUENCE] Influence with all City-States. The Consulate National Wonder appears in [ICON_CAPITAL] Capital. (Receive 1 [COLOR_POSITIVE_TEXT]Additional[ENDCOLOR] [ICON_DIPLOMAT] Delegate in the World Congress for every 8 [ICON_CITY_STATE] City-States originally in the World.)[NEWLINE][NEWLINE][ICON_TROPHY_BRONZE] High Commissioner: Receive a free Great Diplomat.",
-      "PortraitIndex": 0,
-      "CostPerPlayer": 0
-    }
-  ],
   "resolutions": [
     {
       "ID": 0,
@@ -43929,6 +45013,1772 @@
       "Type": "RESOLUTION_UNITED_NATIONS",
       "Name": "United Nations",
       "Help": "Begins the United Nations project. Once underway, Civilizations can contribute [ICON_PRODUCTION] Production towards its completion by selecting it in the city production list. When complete, Civilizations receive bonuses based on how much they contributed.[NEWLINE][NEWLINE][ICON_TROPHY_GOLD]: United Nations wonder appears in [ICON_CAPITAL] Capital. (Receive 1 [COLOR_POSITIVE_TEXT]Additional[ENDCOLOR] [ICON_DIPLOMAT] Delegate in the World Congress for every 8 [ICON_CITY_STATE] City-States originally in the World. Also, when you expend a [ICON_GREAT_PEOPLE] Great Person, earn 25 [ICON_INFLUENCE] Influence with all [ICON_CITY_STATE] City-States you have met. Triggers a [ICON_GOLDEN_AGE] Golden Age, as well as the [COLOR_POSITIVE_TEXT]United Nations[ENDCOLOR] Special Session of the World Congress if the world has reached the Atomic Era.)[NEWLINE][ICON_TROPHY_SILVER]: Receive an immediate boost of 25 [ICON_INFLUENCE] Influence with all City-States. The Consulate National Wonder appears in [ICON_CAPITAL] Capital. (Receive 1 [COLOR_POSITIVE_TEXT]Additional[ENDCOLOR] [ICON_DIPLOMAT] Delegate in the World Congress for every 8 [ICON_CITY_STATE] City-States originally in the World.)[NEWLINE][ICON_TROPHY_BRONZE]: Receive a free Great Diplomat.[NEWLINE][NEWLINE]Available once any Civilization discovers Atomic Theory."
+    }
+  ],
+  "leagueProjects": [
+    {
+      "Type": "LEAGUE_PROJECT_INTERNATIONAL_SPACE_STATION",
+      "Name": "International Space Station",
+      "IconAtlas": "INTL_PROJECT_ATLAS_EXP2",
+      "ID": 0,
+      "Help": "[ICON_TROPHY_GOLD] Mission Control: International Space Station wonder appears in [ICON_CAPITAL] Capital. (+1 [ICON_PRODUCTION] Production from Scientists, and +1 [ICON_RESEARCH] Science from Engineers. [ICON_GREAT_SCIENTIST] Great Scientists provide 33% more [ICON_RESEARCH] Science when used to discover new Technology. +100 [ICON_PRODUCTION] in City where it is built when you unlock a new Technology, scaling with Era.)[NEWLINE][NEWLINE][ICON_TROPHY_SILVER] Crew On Board: Free Great Scientist.[NEWLINE][NEWLINE][ICON_TROPHY_BRONZE] Constructed Parts: One time Research boost.",
+      "PortraitIndex": 0,
+      "CostPerPlayer": 0
+    },
+    {
+      "Type": "LEAGUE_PROJECT_WORLD_FAIR",
+      "Name": "World's Fair",
+      "IconAtlas": "INTL_PROJECT_ATLAS_EXP2",
+      "ID": 1,
+      "Help": "[ICON_TROPHY_GOLD] Hosted Fair: Crystal Palace wonder appears in [ICON_CAPITAL] Capital. (Receive +2 [ICON_PRODUCTION] Production and +2 [ICON_RESEARCH] Science for all Factories in owned Cities. The Empire enters a [ICON_GOLDEN_AGE] Golden Age.)[NEWLINE][NEWLINE][ICON_TROPHY_SILVER] Groundbreaking Invention: [ICON_CULTURE] Culture increases by 33% for 20 Turns.[NEWLINE][NEWLINE][ICON_TROPHY_BRONZE] Exhibitor: Free Social Policy.",
+      "PortraitIndex": 0,
+      "CostPerPlayer": 0
+    },
+    {
+      "Type": "LEAGUE_PROJECT_WORLD_GAMES",
+      "Name": "International Games",
+      "IconAtlas": "INTL_PROJECT_ATLAS_EXP2",
+      "ID": 2,
+      "Help": "[ICON_TROPHY_GOLD] Hosted Games: Olympic Village wonder appears in [ICON_CAPITAL] Capital. (Receive +3 [ICON_HAPPINESS_1] Happiness and +3 [ICON_CULTURE] Culture in the City in which it is built. 25% of the [ICON_CULTURE] Culture from World Wonders and Tiles is added to the [ICON_TOURISM] Tourism output of the City. All Stadiums receive +2 [ICON_GOLD] Gold and [ICON_TOURISM] Tourism.)[NEWLINE][NEWLINE][ICON_TROPHY_SILVER] Won Medals:  Receive a free Great Person of your choice.[NEWLINE][NEWLINE][ICON_TROPHY_BRONZE] Parade of Nations: [ICON_TOURISM] Tourism increases by 50% for 20 Turns.",
+      "PortraitIndex": 0,
+      "CostPerPlayer": 0
+    },
+    {
+      "Type": "LEAGUE_PROJECT_TREASURE_FLEET",
+      "Name": "Treasure Fleet",
+      "IconAtlas": "INTL_PROJECT_ATLAS_EXP2",
+      "ID": 3,
+      "Help": "[ICON_TROPHY_GOLD] Master of the Fleet: Grand Canal wonder appears in [ICON_CAPITAL] Capital. (Receive 1 [COLOR_POSITIVE_TEXT]Additional[ENDCOLOR] [ICON_INTERNATIONAL_TRADE] Trade Route. Grants all Naval Units except Submarines and Carriers the [COLOR_POSITIVE_TEXT]Treasure Fleet[ENDCOLOR] Promotion, which grants +10% [ICON_STRENGTH] Combat Strength when attacking, +1 [ICON_VISION] Sight, and the ability to heal [COLOR_POSITIVE_TEXT]Outside of Friendly Territory[ENDCOLOR].)[NEWLINE][NEWLINE][ICON_TROPHY_SILVER] Skilled Navigator: Receive a free Great Admiral and 3 of your military units will be maintenance-free.[NEWLINE][NEWLINE][ICON_TROPHY_BRONZE] Prize Shipbuilder: Receive one Frigate. 300 points towards next [ICON_GOLDEN_AGE] Golden Age.",
+      "PortraitIndex": 0,
+      "CostPerPlayer": 0
+    },
+    {
+      "Type": "LEAGUE_PROJECT_WARGAMES",
+      "Name": "Global Wargames",
+      "IconAtlas": "INTL_PROJECT_ATLAS_EXP2",
+      "ID": 4,
+      "Help": "[ICON_TROPHY_GOLD] Field Marshal: Menin Gate wonder appears in [ICON_CAPITAL] Capital. (Receive +2 [ICON_HAPPINESS_1] Happiness in the City in which it is built. Forts, Citadels and Landmarks provide +2 [ICON_CULTURE] Culture and [ICON_GOLDEN_AGE] Golden Age Points when worked.)[NEWLINE][NEWLINE][ICON_TROPHY_SILVER] Major General: Receive a +25% attack bonus to all Military Units for the next 30 turns and 4 of your military units will be maintenance-free.[NEWLINE][NEWLINE][ICON_TROPHY_BRONZE] Colonel: Receive one Infantry and 3 of your military units will be maintenance-free.",
+      "PortraitIndex": 0,
+      "CostPerPlayer": 0
+    },
+    {
+      "Type": "LEAGUE_PROJECT_UNITED_NATIONS",
+      "Name": "United Nations",
+      "IconAtlas": "INTL_PROJECT_ATLAS_EXP2",
+      "ID": 5,
+      "Help": "[ICON_TROPHY_GOLD] Secretary-General: United Nations wonder appears in [ICON_CAPITAL] Capital. (Receive 1 [COLOR_POSITIVE_TEXT]Additional[ENDCOLOR] [ICON_DIPLOMAT] Delegate in the World Congress for every 8 [ICON_CITY_STATE] City-States originally in the World. Also, when you expend a [ICON_GREAT_PEOPLE] Great Person, earn 25 [ICON_INFLUENCE] Influence with all [ICON_CITY_STATE] City-States you have met. Triggers a [ICON_GOLDEN_AGE] Golden Age, as well as the [COLOR_POSITIVE_TEXT]United Nations[ENDCOLOR] Special Session of the World Congress if the world has reached the Atomic Era.)[NEWLINE][NEWLINE][ICON_TROPHY_SILVER] Permanent Member: Receive an immediate boost of 25 [ICON_INFLUENCE] Influence with all City-States. The Consulate National Wonder appears in [ICON_CAPITAL] Capital. (Receive 1 [COLOR_POSITIVE_TEXT]Additional[ENDCOLOR] [ICON_DIPLOMAT] Delegate in the World Congress for every 8 [ICON_CITY_STATE] City-States originally in the World.)[NEWLINE][NEWLINE][ICON_TROPHY_BRONZE] High Commissioner: Receive a free Great Diplomat.",
+      "PortraitIndex": 0,
+      "CostPerPlayer": 0
+    }
+  ],
+  "colors": [
+    {
+      "Type": "COLOR_CLEAR",
+      "Blue": 1,
+      "Green": 1,
+      "Alpha": 0,
+      "Red": 1
+    },
+    {
+      "Type": "COLOR_ALPHA_GREY",
+      "Blue": 0.1,
+      "Green": 0.1,
+      "Alpha": 0.45,
+      "Red": 0.1
+    },
+    {
+      "Type": "COLOR_WHITE",
+      "Blue": 1,
+      "Green": 1,
+      "Alpha": 1,
+      "Red": 1
+    },
+    {
+      "Type": "COLOR_BLACK",
+      "Blue": 0,
+      "Green": 0,
+      "Alpha": 1,
+      "Red": 0
+    },
+    {
+      "Type": "COLOR_DARK_GREY",
+      "Blue": 0.25,
+      "Green": 0.25,
+      "Alpha": 1,
+      "Red": 0.25
+    },
+    {
+      "Type": "COLOR_GREY",
+      "Blue": 0.5,
+      "Green": 0.5,
+      "Alpha": 1,
+      "Red": 0.5
+    },
+    {
+      "Type": "COLOR_LIGHT_GREY",
+      "Blue": 0.75,
+      "Green": 0.75,
+      "Alpha": 1,
+      "Red": 0.75
+    },
+    {
+      "Type": "COLOR_GREEN",
+      "Blue": 0,
+      "Green": 1,
+      "Alpha": 1,
+      "Red": 0
+    },
+    {
+      "Type": "COLOR_BLUE",
+      "Blue": 1,
+      "Green": 0,
+      "Alpha": 1,
+      "Red": 0
+    },
+    {
+      "Type": "COLOR_XP_BLUE",
+      "Blue": 0.99,
+      "Green": 0.47,
+      "Alpha": 1,
+      "Red": 0
+    },
+    {
+      "Type": "COLOR_CYAN",
+      "Blue": 1,
+      "Green": 1,
+      "Alpha": 1,
+      "Red": 0
+    },
+    {
+      "Type": "COLOR_YELLOW",
+      "Blue": 0,
+      "Green": 1,
+      "Alpha": 1,
+      "Red": 1
+    },
+    {
+      "Type": "COLOR_MAGENTA",
+      "Blue": 1,
+      "Green": 0,
+      "Alpha": 1,
+      "Red": 1
+    },
+    {
+      "Type": "COLOR_YIELD_FOOD",
+      "Blue": 0.16,
+      "Green": 0.58,
+      "Alpha": 1,
+      "Red": 0.99
+    },
+    {
+      "Type": "COLOR_YIELD_PRODUCTION",
+      "Blue": 0.74,
+      "Green": 0.56,
+      "Alpha": 1,
+      "Red": 0.44
+    },
+    {
+      "Type": "COLOR_YIELD_GOLD",
+      "Blue": 0.08,
+      "Green": 0.94,
+      "Alpha": 1,
+      "Red": 1
+    },
+    {
+      "Type": "COLOR_CITY_BLUE",
+      "Blue": 0.8,
+      "Green": 0.46,
+      "Alpha": 1,
+      "Red": 0.07
+    },
+    {
+      "Type": "COLOR_CITY_GREY",
+      "Blue": 0.25,
+      "Green": 0.25,
+      "Alpha": 1,
+      "Red": 0.35
+    },
+    {
+      "Type": "COLOR_CITY_BROWN",
+      "Blue": 0,
+      "Green": 0.45,
+      "Alpha": 1,
+      "Red": 0.7
+    },
+    {
+      "Type": "COLOR_CITY_GREEN",
+      "Blue": 0.42,
+      "Green": 0.53,
+      "Alpha": 1,
+      "Red": 0.18
+    },
+    {
+      "Type": "COLOR_FONT_RED",
+      "Blue": 0.15,
+      "Green": 0.3,
+      "Alpha": 1,
+      "Red": 1
+    },
+    {
+      "Type": "COLOR_FONT_GREEN",
+      "Blue": 0,
+      "Green": 0.95,
+      "Alpha": 1,
+      "Red": 0.1
+    },
+    {
+      "Type": "COLOR_RESEARCH_STORED",
+      "Blue": 1,
+      "Green": 1,
+      "Alpha": 1,
+      "Red": 0
+    },
+    {
+      "Type": "COLOR_RESEARCH_RATE",
+      "Blue": 1,
+      "Green": 1,
+      "Alpha": 0.6,
+      "Red": 0
+    },
+    {
+      "Type": "COLOR_CULTURE_STORED",
+      "Blue": 1,
+      "Green": 0,
+      "Alpha": 1,
+      "Red": 0.6
+    },
+    {
+      "Type": "COLOR_CULTURE_RATE",
+      "Blue": 1,
+      "Green": 0,
+      "Alpha": 0.6,
+      "Red": 0.6
+    },
+    {
+      "Type": "COLOR_GREAT_PEOPLE_STORED",
+      "Blue": 0,
+      "Green": 1,
+      "Alpha": 1,
+      "Red": 1
+    },
+    {
+      "Type": "COLOR_GREAT_PEOPLE_RATE",
+      "Blue": 0,
+      "Green": 1,
+      "Alpha": 0.6,
+      "Red": 1
+    },
+    {
+      "Type": "COLOR_NEGATIVE_RATE",
+      "Blue": 0,
+      "Green": 0,
+      "Alpha": 0.65,
+      "Red": 1
+    },
+    {
+      "Type": "COLOR_EMPTY",
+      "Blue": 0,
+      "Green": 0,
+      "Alpha": 0.4,
+      "Red": 0
+    },
+    {
+      "Type": "COLOR_POPUP_TEXT",
+      "Blue": 1,
+      "Green": 1,
+      "Alpha": 1,
+      "Red": 1
+    },
+    {
+      "Type": "COLOR_POPUP_SELECTED",
+      "Blue": 0,
+      "Green": 1,
+      "Alpha": 0.75,
+      "Red": 1
+    },
+    {
+      "Type": "COLOR_TECH_TEXT",
+      "Blue": 0.1,
+      "Green": 1,
+      "Alpha": 1,
+      "Red": 0.5
+    },
+    {
+      "Type": "COLOR_UNIT_TEXT",
+      "Blue": 0,
+      "Green": 1,
+      "Alpha": 1,
+      "Red": 1
+    },
+    {
+      "Type": "COLOR_BUILDING_TEXT",
+      "Blue": 0.85,
+      "Green": 0.8,
+      "Alpha": 1,
+      "Red": 0.8
+    },
+    {
+      "Type": "COLOR_PROJECT_TEXT",
+      "Blue": 0.85,
+      "Green": 0.8,
+      "Alpha": 1,
+      "Red": 0.8
+    },
+    {
+      "Type": "COLOR_HIGHLIGHT_TEXT",
+      "Blue": 1,
+      "Green": 0.9,
+      "Alpha": 1,
+      "Red": 0.4
+    },
+    {
+      "Type": "COLOR_ALT_HIGHLIGHT_TEXT",
+      "Blue": 0.1,
+      "Green": 1,
+      "Alpha": 1,
+      "Red": 0.5
+    },
+    {
+      "Type": "COLOR_WARNING_TEXT",
+      "Blue": 0.3,
+      "Green": 0.3,
+      "Alpha": 1,
+      "Red": 1
+    },
+    {
+      "Type": "COLOR_POSITIVE_TEXT",
+      "Blue": 0.1,
+      "Green": 1,
+      "Alpha": 1,
+      "Red": 0.5
+    },
+    {
+      "Type": "COLOR_NEGATIVE_TEXT",
+      "Blue": 0.3,
+      "Green": 0.3,
+      "Alpha": 1,
+      "Red": 1
+    },
+    {
+      "Type": "COLOR_BROWN_TEXT",
+      "Blue": 0.16,
+      "Green": 0.24,
+      "Alpha": 1,
+      "Red": 0.4
+    },
+    {
+      "Type": "COLOR_SELECTED_TEXT",
+      "Blue": 0.49,
+      "Green": 0.82,
+      "Alpha": 1,
+      "Red": 1
+    },
+    {
+      "Type": "COLOR_WATER_TEXT",
+      "Blue": 1,
+      "Green": 0.7,
+      "Alpha": 1,
+      "Red": 0.7
+    },
+    {
+      "Type": "COLOR_MENU_BLUE",
+      "Blue": 0.95,
+      "Green": 0.83,
+      "Alpha": 1,
+      "Red": 0.28
+    },
+    {
+      "Type": "COLOR_DAWN_OF_MAN_TEXT",
+      "Blue": 0.03,
+      "Green": 0.09,
+      "Alpha": 1,
+      "Red": 0.22
+    },
+    {
+      "Type": "COLOR_ADVISOR_HIGHLIGHT_TEXT",
+      "Blue": 0,
+      "Green": 1,
+      "Alpha": 1,
+      "Red": 1
+    },
+    {
+      "Type": "COLOR_TECH_GREEN",
+      "Blue": 0.27,
+      "Green": 0.7,
+      "Alpha": 0.5,
+      "Red": 0.16
+    },
+    {
+      "Type": "COLOR_TECH_BLUE",
+      "Blue": 0.68,
+      "Green": 0.23,
+      "Alpha": 0.5,
+      "Red": 0.21
+    },
+    {
+      "Type": "COLOR_TECH_WORKING",
+      "Blue": 0.68,
+      "Green": 0.23,
+      "Alpha": 0.5,
+      "Red": 0.21
+    },
+    {
+      "Type": "COLOR_TECH_BLACK",
+      "Blue": 0,
+      "Green": 0,
+      "Alpha": 0.5,
+      "Red": 0
+    },
+    {
+      "Type": "COLOR_TECH_RED",
+      "Blue": 0,
+      "Green": 0,
+      "Alpha": 0.5,
+      "Red": 1
+    },
+    {
+      "Type": "COLOR_RED",
+      "Blue": 0,
+      "Green": 0,
+      "Alpha": 1,
+      "Red": 1
+    },
+    {
+      "Type": "COLOR_PLAYER_BLACK",
+      "Blue": 0.13,
+      "Green": 0.13,
+      "Alpha": 1,
+      "Red": 0.13
+    },
+    {
+      "Type": "COLOR_PLAYER_BLACK_TEXT",
+      "Blue": 0.851,
+      "Green": 0.808,
+      "Alpha": 1,
+      "Red": 0.8
+    },
+    {
+      "Type": "COLOR_PLAYER_BLUE",
+      "Blue": 1,
+      "Green": 0.4,
+      "Alpha": 1,
+      "Red": 0.21
+    },
+    {
+      "Type": "COLOR_PLAYER_LIGHT_BLUE_TEXT",
+      "Blue": 1,
+      "Green": 0.8,
+      "Alpha": 1,
+      "Red": 0.7
+    },
+    {
+      "Type": "COLOR_PLAYER_BROWN",
+      "Blue": 0,
+      "Green": 0.24,
+      "Alpha": 1,
+      "Red": 0.39
+    },
+    {
+      "Type": "COLOR_PLAYER_BROWN_TEXT",
+      "Blue": 0.3,
+      "Green": 0.65,
+      "Alpha": 1,
+      "Red": 0.9
+    },
+    {
+      "Type": "COLOR_PLAYER_CYAN",
+      "Blue": 0.96,
+      "Green": 0.8,
+      "Alpha": 1,
+      "Red": 0.07
+    },
+    {
+      "Type": "COLOR_PLAYER_CYAN_TEXT",
+      "Blue": 0.973,
+      "Green": 1,
+      "Alpha": 1,
+      "Red": 0.6
+    },
+    {
+      "Type": "COLOR_PLAYER_DARK_BLUE",
+      "Blue": 0.64,
+      "Green": 0,
+      "Alpha": 1,
+      "Red": 0.16
+    },
+    {
+      "Type": "COLOR_PLAYER_DARK_BLUE_TEXT",
+      "Blue": 0.9,
+      "Green": 0.55,
+      "Alpha": 1,
+      "Red": 0.65
+    },
+    {
+      "Type": "COLOR_PLAYER_DARK_CYAN",
+      "Blue": 0.55,
+      "Green": 0.54,
+      "Alpha": 1,
+      "Red": 0
+    },
+    {
+      "Type": "COLOR_PLAYER_DARK_CYAN_TEXT",
+      "Blue": 0.788,
+      "Green": 0.831,
+      "Alpha": 1,
+      "Red": 0
+    },
+    {
+      "Type": "COLOR_PLAYER_DARK_GREEN",
+      "Blue": 0,
+      "Green": 0.39,
+      "Alpha": 1,
+      "Red": 0
+    },
+    {
+      "Type": "COLOR_PLAYER_DARK_DARK_GREEN",
+      "Blue": 0,
+      "Green": 0.27,
+      "Alpha": 1,
+      "Red": 0
+    },
+    {
+      "Type": "COLOR_PLAYER_DARK_GREEN_TEXT",
+      "Blue": 0.561,
+      "Green": 0.8,
+      "Alpha": 1,
+      "Red": 0.561
+    },
+    {
+      "Type": "COLOR_PLAYER_DARK_PINK",
+      "Blue": 0.38,
+      "Green": 0,
+      "Alpha": 1,
+      "Red": 0.69
+    },
+    {
+      "Type": "COLOR_PLAYER_DARK_PINK_TEXT",
+      "Blue": 1,
+      "Green": 0,
+      "Alpha": 1,
+      "Red": 1
+    },
+    {
+      "Type": "COLOR_PLAYER_DARK_PURPLE",
+      "Blue": 0.49,
+      "Green": 0,
+      "Alpha": 1,
+      "Red": 0.45
+    },
+    {
+      "Type": "COLOR_PLAYER_DARK_PURPLE_TEXT",
+      "Blue": 0.85,
+      "Green": 0.35,
+      "Alpha": 1,
+      "Red": 0.8
+    },
+    {
+      "Type": "COLOR_PLAYER_DARK_RED",
+      "Blue": 0,
+      "Green": 0,
+      "Alpha": 1,
+      "Red": 0.62
+    },
+    {
+      "Type": "COLOR_PLAYER_DARK_RED_TEXT",
+      "Blue": 0.22,
+      "Green": 0.22,
+      "Alpha": 1,
+      "Red": 1
+    },
+    {
+      "Type": "COLOR_PLAYER_DARK_YELLOW",
+      "Blue": 0,
+      "Green": 0.75,
+      "Alpha": 1,
+      "Red": 0.97
+    },
+    {
+      "Type": "COLOR_PLAYER_DARK_YELLOW_TEXT",
+      "Blue": 0,
+      "Green": 0.8,
+      "Alpha": 1,
+      "Red": 1
+    },
+    {
+      "Type": "COLOR_PLAYER_GRAY",
+      "Blue": 0.7,
+      "Green": 0.7,
+      "Alpha": 1,
+      "Red": 0.7
+    },
+    {
+      "Type": "COLOR_PLAYER_GRAY_TEXT",
+      "Blue": 0.8,
+      "Green": 0.8,
+      "Alpha": 1,
+      "Red": 0.8
+    },
+    {
+      "Type": "COLOR_PLAYER_GREEN",
+      "Blue": 0,
+      "Green": 0.88,
+      "Alpha": 1,
+      "Red": 0.49
+    },
+    {
+      "Type": "COLOR_PLAYER_GREEN_TEXT",
+      "Blue": 0,
+      "Green": 0.882,
+      "Alpha": 1,
+      "Red": 0.486
+    },
+    {
+      "Type": "COLOR_PLAYER_ORANGE",
+      "Blue": 0,
+      "Green": 0.35,
+      "Alpha": 1,
+      "Red": 0.99
+    },
+    {
+      "Type": "COLOR_PLAYER_ORANGE_TEXT",
+      "Blue": 0,
+      "Green": 0.459,
+      "Alpha": 1,
+      "Red": 0.996
+    },
+    {
+      "Type": "COLOR_PLAYER_PEACH",
+      "Blue": 0.56,
+      "Green": 0.85,
+      "Alpha": 1,
+      "Red": 1
+    },
+    {
+      "Type": "COLOR_PLAYER_PEACH_TEXT",
+      "Blue": 0.396,
+      "Green": 0.698,
+      "Alpha": 1,
+      "Red": 0.761
+    },
+    {
+      "Type": "COLOR_PLAYER_PINK",
+      "Blue": 0.49,
+      "Green": 0.67,
+      "Alpha": 1,
+      "Red": 0.98
+    },
+    {
+      "Type": "COLOR_PLAYER_PINK_TEXT",
+      "Blue": 0.57,
+      "Green": 0.72,
+      "Alpha": 1,
+      "Red": 0.98
+    },
+    {
+      "Type": "COLOR_PLAYER_PURPLE",
+      "Blue": 1,
+      "Green": 0.34,
+      "Alpha": 1,
+      "Red": 0.77
+    },
+    {
+      "Type": "COLOR_PLAYER_PURPLE_TEXT",
+      "Blue": 1,
+      "Green": 0.65,
+      "Alpha": 1,
+      "Red": 0.85
+    },
+    {
+      "Type": "COLOR_PLAYER_RED",
+      "Blue": 0.02,
+      "Green": 0.02,
+      "Alpha": 1,
+      "Red": 0.86
+    },
+    {
+      "Type": "COLOR_PLAYER_RED_TEXT",
+      "Blue": 0.416,
+      "Green": 0.298,
+      "Alpha": 1,
+      "Red": 1
+    },
+    {
+      "Type": "COLOR_PLAYER_WHITE",
+      "Blue": 0.9,
+      "Green": 0.9,
+      "Alpha": 1,
+      "Red": 0.9
+    },
+    {
+      "Type": "COLOR_PLAYER_WHITE_TEXT",
+      "Blue": 0.95,
+      "Green": 0.95,
+      "Alpha": 1,
+      "Red": 1
+    },
+    {
+      "Type": "COLOR_PLAYER_YELLOW",
+      "Blue": 0.17,
+      "Green": 1,
+      "Alpha": 1,
+      "Red": 1
+    },
+    {
+      "Type": "COLOR_PLAYER_YELLOW_TEXT",
+      "Blue": 0.173,
+      "Green": 1,
+      "Alpha": 1,
+      "Red": 0.996
+    },
+    {
+      "Type": "COLOR_PLAYER_LIGHT_GREEN",
+      "Blue": 0.5,
+      "Green": 1,
+      "Alpha": 1,
+      "Red": 0.5
+    },
+    {
+      "Type": "COLOR_PLAYER_LIGHT_GREEN_TEXT",
+      "Blue": 0.7,
+      "Green": 1,
+      "Alpha": 1,
+      "Red": 0.7
+    },
+    {
+      "Type": "COLOR_PLAYER_LIGHT_BLUE",
+      "Blue": 1,
+      "Green": 0.7,
+      "Alpha": 1,
+      "Red": 0.5
+    },
+    {
+      "Type": "COLOR_PLAYER_BLUE_TEXT",
+      "Blue": 1,
+      "Green": 0.7,
+      "Alpha": 1,
+      "Red": 0.5
+    },
+    {
+      "Type": "COLOR_PLAYER_LIGHT_YELLOW",
+      "Blue": 0.5,
+      "Green": 1,
+      "Alpha": 1,
+      "Red": 1
+    },
+    {
+      "Type": "COLOR_PLAYER_LIGHT_YELLOW_TEXT",
+      "Blue": 0.5,
+      "Green": 1,
+      "Alpha": 1,
+      "Red": 0.9
+    },
+    {
+      "Type": "COLOR_PLAYER_LIGHT_PURPLE",
+      "Blue": 1,
+      "Green": 0.6,
+      "Alpha": 1,
+      "Red": 0.7
+    },
+    {
+      "Type": "COLOR_PLAYER_LIGHT_PURPLE_TEXT",
+      "Blue": 1,
+      "Green": 0.6,
+      "Alpha": 1,
+      "Red": 0.7
+    },
+    {
+      "Type": "COLOR_PLAYER_LIGHT_ORANGE",
+      "Blue": 0.32,
+      "Green": 0.65,
+      "Alpha": 1,
+      "Red": 0.9
+    },
+    {
+      "Type": "COLOR_PLAYER_LIGHT_ORANGE_TEXT",
+      "Blue": 0.35,
+      "Green": 0.75,
+      "Alpha": 1,
+      "Red": 1
+    },
+    {
+      "Type": "COLOR_PLAYER_MIDDLE_PURPLE",
+      "Blue": 0.725,
+      "Green": 0.118,
+      "Alpha": 1,
+      "Red": 0.675
+    },
+    {
+      "Type": "COLOR_PLAYER_MIDDLE_PURPLE_TEXT",
+      "Blue": 0.631,
+      "Green": 0.396,
+      "Alpha": 1,
+      "Red": 0.808
+    },
+    {
+      "Type": "COLOR_PLAYER_GOLDENROD",
+      "Blue": 0,
+      "Green": 0.624,
+      "Alpha": 1,
+      "Red": 0.871
+    },
+    {
+      "Type": "COLOR_PLAYER_DARK_GRAY",
+      "Blue": 0.369,
+      "Green": 0.369,
+      "Alpha": 1,
+      "Red": 0.369
+    },
+    {
+      "Type": "COLOR_PLAYER_DARK_GRAY_TEXT",
+      "Blue": 0.565,
+      "Green": 0.565,
+      "Alpha": 1,
+      "Red": 0.565
+    },
+    {
+      "Type": "COLOR_PLAYER_MIDDLE_GREEN",
+      "Blue": 0,
+      "Green": 0.576,
+      "Alpha": 1,
+      "Red": 0.204
+    },
+    {
+      "Type": "COLOR_PLAYER_MIDDLE_GREEN_TEXT",
+      "Blue": 0,
+      "Green": 0.616,
+      "Alpha": 1,
+      "Red": 0.243
+    },
+    {
+      "Type": "COLOR_PLAYER_DARK_LEMON",
+      "Blue": 0.039,
+      "Green": 0.792,
+      "Alpha": 1,
+      "Red": 0.847
+    },
+    {
+      "Type": "COLOR_PLAYER_DARK_LEMON_TEXT",
+      "Blue": 0.098,
+      "Green": 0.851,
+      "Alpha": 1,
+      "Red": 0.906
+    },
+    {
+      "Type": "COLOR_PLAYER_MIDDLE_BLUE",
+      "Blue": 0.914,
+      "Green": 0.22,
+      "Alpha": 1,
+      "Red": 0
+    },
+    {
+      "Type": "COLOR_PLAYER_MIDDLE_BLUE_TEXT",
+      "Blue": 0.71,
+      "Green": 0.725,
+      "Alpha": 1,
+      "Red": 0.504
+    },
+    {
+      "Type": "COLOR_PLAYER_MIDDLE_CYAN",
+      "Blue": 0.71,
+      "Green": 0.639,
+      "Alpha": 1,
+      "Red": 0
+    },
+    {
+      "Type": "COLOR_PLAYER_MIDDLE_CYAN_TEXT",
+      "Blue": 0.867,
+      "Green": 0.796,
+      "Alpha": 1,
+      "Red": 0.157
+    },
+    {
+      "Type": "COLOR_PLAYER_MAROON",
+      "Blue": 0.157,
+      "Green": 0.2,
+      "Alpha": 1,
+      "Red": 0.514
+    },
+    {
+      "Type": "COLOR_PLAYER_LIGHT_BROWN",
+      "Blue": 0.075,
+      "Green": 0.345,
+      "Alpha": 1,
+      "Red": 0.518
+    },
+    {
+      "Type": "COLOR_PLAYER_LIGHT_BROWN_TEXT",
+      "Blue": 0.204,
+      "Green": 0.431,
+      "Alpha": 1,
+      "Red": 0.58
+    },
+    {
+      "Type": "COLOR_PLAYER_DARK_ORANGE",
+      "Blue": 0,
+      "Green": 0.235,
+      "Alpha": 1,
+      "Red": 0.878
+    },
+    {
+      "Type": "COLOR_PLAYER_DARK_ORANGE_TEXT",
+      "Blue": 0.071,
+      "Green": 0.306,
+      "Alpha": 1,
+      "Red": 0.949
+    },
+    {
+      "Type": "COLOR_PLAYER_DARK_DARK_GREEN_TEXT",
+      "Blue": 0.355,
+      "Green": 0.625,
+      "Alpha": 1,
+      "Red": 0.355
+    },
+    {
+      "Type": "COLOR_PLAYER_PALE_RED",
+      "Blue": 0.239,
+      "Green": 0.282,
+      "Alpha": 1,
+      "Red": 0.78
+    },
+    {
+      "Type": "COLOR_PLAYER_DARK_INDIGO",
+      "Blue": 0.835,
+      "Green": 0.02,
+      "Alpha": 1,
+      "Red": 0.306
+    },
+    {
+      "Type": "COLOR_PLAYER_DARK_INDIGO_TEXT",
+      "Blue": 0.859,
+      "Green": 0.361,
+      "Alpha": 1,
+      "Red": 0.533
+    },
+    {
+      "Type": "COLOR_PLAYER_PALE_ORANGE",
+      "Blue": 0.149,
+      "Green": 0.471,
+      "Alpha": 1,
+      "Red": 0.863
+    },
+    {
+      "Type": "COLOR_PLAYER_LIGHT_BLACK",
+      "Blue": 0.251,
+      "Green": 0.251,
+      "Alpha": 1,
+      "Red": 0.251
+    },
+    {
+      "Type": "COLOR_PLAYER_LIGHT_BLACK_TEXT",
+      "Blue": 0.392,
+      "Green": 0.392,
+      "Alpha": 1,
+      "Red": 0.392
+    },
+    {
+      "Type": "COLOR_PLAYER_MINOR_ICON",
+      "Blue": 0,
+      "Green": 0,
+      "Alpha": 1,
+      "Red": 0
+    },
+    {
+      "Type": "COLOR_PLAYER_BARBARIAN_ICON",
+      "Blue": 0,
+      "Green": 0,
+      "Alpha": 1,
+      "Red": 0.721
+    },
+    {
+      "Type": "COLOR_PLAYER_AMERICA_ICON",
+      "Blue": 1,
+      "Green": 1,
+      "Alpha": 1,
+      "Red": 1
+    },
+    {
+      "Type": "COLOR_PLAYER_ARABIA_ICON",
+      "Blue": 0.039,
+      "Green": 0.867,
+      "Alpha": 1,
+      "Red": 0.573
+    },
+    {
+      "Type": "COLOR_PLAYER_AZTEC_ICON",
+      "Blue": 0.835,
+      "Green": 0.937,
+      "Alpha": 1,
+      "Red": 0.537
+    },
+    {
+      "Type": "COLOR_PLAYER_CHINA_ICON",
+      "Blue": 1,
+      "Green": 1,
+      "Alpha": 1,
+      "Red": 1
+    },
+    {
+      "Type": "COLOR_PLAYER_EGYPT_ICON",
+      "Blue": 0.816,
+      "Green": 0,
+      "Alpha": 1,
+      "Red": 0.325
+    },
+    {
+      "Type": "COLOR_PLAYER_ENGLAND_ICON",
+      "Blue": 1,
+      "Green": 1,
+      "Alpha": 1,
+      "Red": 1
+    },
+    {
+      "Type": "COLOR_PLAYER_FRANCE_ICON",
+      "Blue": 0.545,
+      "Green": 0.922,
+      "Alpha": 1,
+      "Red": 0.922
+    },
+    {
+      "Type": "COLOR_PLAYER_GERMANY_ICON",
+      "Blue": 0.129,
+      "Green": 0.169,
+      "Alpha": 1,
+      "Red": 0.145
+    },
+    {
+      "Type": "COLOR_PLAYER_GREECE_ICON",
+      "Blue": 0.996,
+      "Green": 0.553,
+      "Alpha": 1,
+      "Red": 0.255
+    },
+    {
+      "Type": "COLOR_PLAYER_INDIA_ICON",
+      "Blue": 0.196,
+      "Green": 0.6,
+      "Alpha": 1,
+      "Red": 1
+    },
+    {
+      "Type": "COLOR_PLAYER_IROQUOIS_ICON",
+      "Blue": 0.506,
+      "Green": 0.792,
+      "Alpha": 1,
+      "Red": 0.988
+    },
+    {
+      "Type": "COLOR_PLAYER_JAPAN_ICON",
+      "Blue": 0,
+      "Green": 0,
+      "Alpha": 1,
+      "Red": 0.722
+    },
+    {
+      "Type": "COLOR_PLAYER_OTTOMAN_ICON",
+      "Blue": 0.118,
+      "Green": 0.322,
+      "Alpha": 1,
+      "Red": 0.071
+    },
+    {
+      "Type": "COLOR_PLAYER_PERSIA_ICON",
+      "Blue": 0.216,
+      "Green": 0.902,
+      "Alpha": 1,
+      "Red": 0.961
+    },
+    {
+      "Type": "COLOR_PLAYER_ROME_ICON",
+      "Blue": 0,
+      "Green": 0.78,
+      "Alpha": 1,
+      "Red": 0.941
+    },
+    {
+      "Type": "COLOR_PLAYER_RUSSIA_ICON",
+      "Blue": 0,
+      "Green": 0,
+      "Alpha": 1,
+      "Red": 0
+    },
+    {
+      "Type": "COLOR_PLAYER_SIAM_ICON",
+      "Blue": 0.012,
+      "Green": 0.031,
+      "Alpha": 1,
+      "Red": 0.694
+    },
+    {
+      "Type": "COLOR_PLAYER_SONGHAI_ICON",
+      "Blue": 0.039,
+      "Green": 0,
+      "Alpha": 1,
+      "Red": 0.353
+    },
+    {
+      "Type": "COLOR_PLAYER_BARBARIAN_BACKGROUND",
+      "Blue": 0,
+      "Green": 0,
+      "Alpha": 1,
+      "Red": 0
+    },
+    {
+      "Type": "COLOR_PLAYER_AMERICA_BACKGROUND",
+      "Blue": 0.471,
+      "Green": 0.2,
+      "Alpha": 1,
+      "Red": 0.122
+    },
+    {
+      "Type": "COLOR_PLAYER_ARABIA_BACKGROUND",
+      "Blue": 0.18,
+      "Green": 0.345,
+      "Alpha": 1,
+      "Red": 0.169
+    },
+    {
+      "Type": "COLOR_PLAYER_AZTEC_BACKGROUND",
+      "Blue": 0.137,
+      "Green": 0.224,
+      "Alpha": 1,
+      "Red": 0.633
+    },
+    {
+      "Type": "COLOR_PLAYER_CHINA_BACKGROUND",
+      "Blue": 0.322,
+      "Green": 0.584,
+      "Alpha": 1,
+      "Red": 0
+    },
+    {
+      "Type": "COLOR_PLAYER_EGYPT_BACKGROUND",
+      "Blue": 0.012,
+      "Green": 0.988,
+      "Alpha": 1,
+      "Red": 1
+    },
+    {
+      "Type": "COLOR_PLAYER_ENGLAND_BACKGROUND",
+      "Blue": 0,
+      "Green": 0.008,
+      "Alpha": 1,
+      "Red": 0.427
+    },
+    {
+      "Type": "COLOR_PLAYER_FRANCE_BACKGROUND",
+      "Blue": 0.996,
+      "Green": 0.553,
+      "Alpha": 1,
+      "Red": 0.255
+    },
+    {
+      "Type": "COLOR_PLAYER_GERMANY_BACKGROUND",
+      "Blue": 0.722,
+      "Green": 0.698,
+      "Alpha": 1,
+      "Red": 0.702
+    },
+    {
+      "Type": "COLOR_PLAYER_GREECE_BACKGROUND",
+      "Blue": 1,
+      "Green": 1,
+      "Alpha": 1,
+      "Red": 1
+    },
+    {
+      "Type": "COLOR_PLAYER_INDIA_BACKGROUND",
+      "Blue": 0.027,
+      "Green": 0.533,
+      "Alpha": 1,
+      "Red": 0.071
+    },
+    {
+      "Type": "COLOR_PLAYER_IROQUOIS_BACKGROUND",
+      "Blue": 0.341,
+      "Green": 0.341,
+      "Alpha": 1,
+      "Red": 0.255
+    },
+    {
+      "Type": "COLOR_PLAYER_JAPAN_BACKGROUND",
+      "Blue": 1,
+      "Green": 1,
+      "Alpha": 1,
+      "Red": 1
+    },
+    {
+      "Type": "COLOR_PLAYER_OTTOMAN_BACKGROUND",
+      "Blue": 0.784,
+      "Green": 0.976,
+      "Alpha": 1,
+      "Red": 0.969
+    },
+    {
+      "Type": "COLOR_PLAYER_PERSIA_BACKGROUND",
+      "Blue": 0.012,
+      "Green": 0.031,
+      "Alpha": 1,
+      "Red": 0.694
+    },
+    {
+      "Type": "COLOR_PLAYER_ROME_BACKGROUND",
+      "Blue": 0.463,
+      "Green": 0,
+      "Alpha": 1,
+      "Red": 0.275
+    },
+    {
+      "Type": "COLOR_PLAYER_RUSSIA_BACKGROUND",
+      "Blue": 0,
+      "Green": 0.706,
+      "Alpha": 1,
+      "Red": 0.937
+    },
+    {
+      "Type": "COLOR_PLAYER_SIAM_BACKGROUND",
+      "Blue": 0.216,
+      "Green": 0.902,
+      "Alpha": 1,
+      "Red": 0.961
+    },
+    {
+      "Type": "COLOR_PLAYER_SONGHAI_BACKGROUND",
+      "Blue": 0.075,
+      "Green": 0.569,
+      "Alpha": 1,
+      "Red": 0.839
+    },
+    {
+      "Type": "COLOR_PLAYER_MONGOL_ICON",
+      "Blue": 0,
+      "Green": 0.471,
+      "Alpha": 1,
+      "Red": 1
+    },
+    {
+      "Type": "COLOR_PLAYER_MONGOL_BACKGROUND",
+      "Blue": 0.035,
+      "Green": 0,
+      "Alpha": 1,
+      "Red": 0.318
+    },
+    {
+      "Type": "COLOR_PLAYER_INCA_ICON",
+      "Blue": 0.467,
+      "Green": 0.627,
+      "Alpha": 1,
+      "Red": 0.027
+    },
+    {
+      "Type": "COLOR_PLAYER_INCA_BACKGROUND",
+      "Blue": 0.133,
+      "Green": 0.725,
+      "Alpha": 1,
+      "Red": 1
+    },
+    {
+      "Type": "COLOR_PLAYER_SPAIN_ICON",
+      "Blue": 0.659,
+      "Green": 0.659,
+      "Alpha": 1,
+      "Red": 1
+    },
+    {
+      "Type": "COLOR_PLAYER_SPAIN_BACKGROUND",
+      "Blue": 0.102,
+      "Green": 0.102,
+      "Alpha": 1,
+      "Red": 0.329
+    },
+    {
+      "Type": "COLOR_PLAYER_POLYNESIA_ICON",
+      "Blue": 0.294,
+      "Green": 1,
+      "Alpha": 1,
+      "Red": 1
+    },
+    {
+      "Type": "COLOR_PLAYER_POLYNESIA_BACKGROUND",
+      "Blue": 0,
+      "Green": 0.349,
+      "Alpha": 1,
+      "Red": 0.851
+    },
+    {
+      "Type": "COLOR_PLAYER_DENMARK_ICON",
+      "Blue": 0.7058,
+      "Green": 0.9059,
+      "Alpha": 1,
+      "Red": 0.941
+    },
+    {
+      "Type": "COLOR_PLAYER_DENMARK_BACKGROUND",
+      "Blue": 0.08235,
+      "Green": 0.1686,
+      "Alpha": 1,
+      "Red": 0.4274
+    },
+    {
+      "Type": "COLOR_PLAYER_KOREA_ICON",
+      "Blue": 0,
+      "Green": 0,
+      "Alpha": 1,
+      "Red": 1
+    },
+    {
+      "Type": "COLOR_PLAYER_KOREA_BACKGROUND",
+      "Blue": 0.3765,
+      "Green": 0.1294,
+      "Alpha": 1,
+      "Red": 0.1058
+    },
+    {
+      "Type": "COLOR_PLAYER_NEBUCHADNEZZAR_ICON",
+      "Blue": 1,
+      "Green": 0.973,
+      "Alpha": 1,
+      "Red": 0.788
+    },
+    {
+      "Type": "COLOR_PLAYER_NEBUCHADNEZZAR_BACKGROUND",
+      "Blue": 0.384,
+      "Green": 0.318,
+      "Alpha": 1,
+      "Red": 0.169
+    },
+    {
+      "Type": "COLOR_PLAYER_AUSTRIA_ICON",
+      "Blue": 1,
+      "Green": 1,
+      "Alpha": 1,
+      "Red": 1
+    },
+    {
+      "Type": "COLOR_PLAYER_AUSTRIA_BACKGROUND",
+      "Blue": 0,
+      "Green": 0,
+      "Alpha": 1,
+      "Red": 0.9215
+    },
+    {
+      "Type": "COLOR_PLAYER_BYZANTIUM_ICON",
+      "Blue": 0.4274,
+      "Green": 0,
+      "Alpha": 1,
+      "Red": 0.2392
+    },
+    {
+      "Type": "COLOR_PLAYER_BYZANTIUM_BACKGROUND",
+      "Blue": 0.9137,
+      "Green": 0.6352,
+      "Alpha": 1,
+      "Red": 0.447
+    },
+    {
+      "Type": "COLOR_PLAYER_CARTHAGE_ICON",
+      "Blue": 0.5372,
+      "Green": 0,
+      "Alpha": 1,
+      "Red": 0.3176
+    },
+    {
+      "Type": "COLOR_PLAYER_CARTHAGE_BACKGROUND",
+      "Blue": 0.8039,
+      "Green": 0.8039,
+      "Alpha": 1,
+      "Red": 0.8039
+    },
+    {
+      "Type": "COLOR_PLAYER_CELTS_ICON",
+      "Blue": 1,
+      "Green": 0.6666,
+      "Alpha": 1,
+      "Red": 0.5803
+    },
+    {
+      "Type": "COLOR_PLAYER_CELTS_BACKGROUND",
+      "Blue": 0.247,
+      "Green": 0.3607,
+      "Alpha": 1,
+      "Red": 0.0862
+    },
+    {
+      "Type": "COLOR_PLAYER_HUNS_ICON",
+      "Blue": 0.0156,
+      "Green": 0,
+      "Alpha": 1,
+      "Red": 0.2745
+    },
+    {
+      "Type": "COLOR_PLAYER_HUNS_BACKGROUND",
+      "Blue": 0.6431,
+      "Green": 0.698,
+      "Alpha": 1,
+      "Red": 0.7058
+    },
+    {
+      "Type": "COLOR_PLAYER_MAYA_ICON",
+      "Blue": 0.2588,
+      "Green": 0.247,
+      "Alpha": 1,
+      "Red": 0.0941
+    },
+    {
+      "Type": "COLOR_PLAYER_MAYA_BACKGROUND",
+      "Blue": 0.3882,
+      "Green": 0.5529,
+      "Alpha": 1,
+      "Red": 0.7764
+    },
+    {
+      "Type": "COLOR_PLAYER_NETHERLANDS_ICON",
+      "Blue": 1,
+      "Green": 1,
+      "Alpha": 1,
+      "Red": 1
+    },
+    {
+      "Type": "COLOR_PLAYER_NETHERLANDS_BACKGROUND",
+      "Blue": 0,
+      "Green": 0.5647,
+      "Alpha": 1,
+      "Red": 1
+    },
+    {
+      "Type": "COLOR_PLAYER_SWEDEN_ICON",
+      "Blue": 0.0117,
+      "Green": 0.9686,
+      "Alpha": 1,
+      "Red": 0.9764
+    },
+    {
+      "Type": "COLOR_PLAYER_SWEDEN_BACKGROUND",
+      "Blue": 0.6509,
+      "Green": 0.0313,
+      "Alpha": 1,
+      "Red": 0.0313
+    },
+    {
+      "Type": "COLOR_FADING_POSITIVE_TEXT",
+      "Blue": 0.0118,
+      "Green": 0.4784,
+      "Alpha": 1,
+      "Red": 0.2188
+    },
+    {
+      "Type": "COLOR_FADING_NEGATIVE_TEXT",
+      "Blue": 0.0625,
+      "Green": 0.0625,
+      "Alpha": 1,
+      "Red": 0.5234
+    },
+    {
+      "Type": "COLOR_PLAYER_ETHIOPIA_ICON",
+      "Blue": 0.1802,
+      "Green": 0.1802,
+      "Alpha": 1,
+      "Red": 1
+    },
+    {
+      "Type": "COLOR_PLAYER_ETHIOPIA_BACKGROUND",
+      "Blue": 0.0586,
+      "Green": 0.1563,
+      "Alpha": 1,
+      "Red": 0.00664
+    },
+    {
+      "Type": "COLOR_PLAYER_ASSYRIA_ICON",
+      "Blue": 0.050980392156863,
+      "Green": 0.66274509803922,
+      "Alpha": 1,
+      "Red": 1
+    },
+    {
+      "Type": "COLOR_PLAYER_ASSYRIA_BACKGROUND",
+      "Blue": 0.68235294117647,
+      "Green": 0.95686274509804,
+      "Alpha": 1,
+      "Red": 1
+    },
+    {
+      "Type": "COLOR_PLAYER_BRAZIL_ICON",
+      "Blue": 0.17647058823529,
+      "Green": 0.32941176470588,
+      "Alpha": 1,
+      "Red": 0.16470588235294
+    },
+    {
+      "Type": "COLOR_PLAYER_BRAZIL_BACKGROUND",
+      "Blue": 0.03921568627451,
+      "Green": 0.87058823529412,
+      "Alpha": 1,
+      "Red": 0.58823529411765
+    },
+    {
+      "Type": "COLOR_PLAYER_INDONESIA_ICON",
+      "Blue": 0.11372549019608,
+      "Green": 0.1843137254902,
+      "Alpha": 1,
+      "Red": 0.62352941176471
+    },
+    {
+      "Type": "COLOR_PLAYER_INDONESIA_BACKGROUND",
+      "Blue": 0.85490196078431,
+      "Green": 0.82745098039216,
+      "Alpha": 1,
+      "Red": 0.43529411764706
+    },
+    {
+      "Type": "COLOR_PLAYER_MOROCCO_ICON",
+      "Blue": 0.31372549019608,
+      "Green": 0.70196078431373,
+      "Alpha": 1,
+      "Red": 0.15686274509804
+    },
+    {
+      "Type": "COLOR_PLAYER_MOROCCO_BACKGROUND",
+      "Blue": 0,
+      "Green": 0.007843137254902,
+      "Alpha": 1,
+      "Red": 0.56862745098039
+    },
+    {
+      "Type": "COLOR_PLAYER_POLAND_ICON",
+      "Blue": 0,
+      "Green": 0,
+      "Alpha": 1,
+      "Red": 0.22352941176471
+    },
+    {
+      "Type": "COLOR_PLAYER_POLAND_BACKGROUND",
+      "Blue": 0,
+      "Green": 0.019607843137255,
+      "Alpha": 1,
+      "Red": 0.96078431372549
+    },
+    {
+      "Type": "COLOR_PLAYER_PORTUGAL_ICON",
+      "Blue": 0.49019607843137,
+      "Green": 0.07843137254902,
+      "Alpha": 1,
+      "Red": 0.015686274509804
+    },
+    {
+      "Type": "COLOR_PLAYER_PORTUGAL_BACKGROUND",
+      "Blue": 1,
+      "Green": 1,
+      "Alpha": 1,
+      "Red": 1
+    },
+    {
+      "Type": "COLOR_PLAYER_SHOSHONE_ICON",
+      "Blue": 0.8078431372549,
+      "Green": 0.94117647058824,
+      "Alpha": 1,
+      "Red": 0.098039215686274
+    },
+    {
+      "Type": "COLOR_PLAYER_SHOSHONE_BACKGROUND",
+      "Blue": 0.18039215686275,
+      "Green": 0.23137254901961,
+      "Alpha": 1,
+      "Red": 0.29019607843137
+    },
+    {
+      "Type": "COLOR_PLAYER_VENICE_ICON",
+      "Blue": 0.84705882352941,
+      "Green": 0.99607843137255,
+      "Alpha": 1,
+      "Red": 1
+    },
+    {
+      "Type": "COLOR_PLAYER_VENICE_BACKGROUND",
+      "Blue": 0.63529411764706,
+      "Green": 0.13333333333333,
+      "Alpha": 1,
+      "Red": 0.4
+    },
+    {
+      "Type": "COLOR_PLAYER_ZULU_ICON",
+      "Blue": 0.098039215686274,
+      "Green": 0.19607843137255,
+      "Alpha": 1,
+      "Red": 0.41960784313725
+    },
+    {
+      "Type": "COLOR_PLAYER_ZULU_BACKGROUND",
+      "Blue": 0.83921568627451,
+      "Green": 0.90980392156863,
+      "Alpha": 1,
+      "Red": 1
+    },
+    {
+      "Type": "COLOR_INTENSE_POSITIVE_TEXT",
+      "Blue": 0,
+      "Green": 1,
+      "Alpha": 1,
+      "Red": 0
+    },
+    {
+      "Type": "COLOR_MODERATE_POSITIVE_TEXT",
+      "Blue": 0.0559,
+      "Green": 0.7392,
+      "Alpha": 1,
+      "Red": 0.3594
+    },
+    {
+      "Type": "COLOR_MODERATE_NEGATIVE_TEXT",
+      "Blue": 0.18125,
+      "Green": 0.18125,
+      "Alpha": 1,
+      "Red": 0.7617
+    },
+    {
+      "Type": "COLOR_INTENSE_NEGATIVE_TEXT",
+      "Blue": 0,
+      "Green": 0,
+      "Alpha": 1,
+      "Red": 1
+    },
+    {
+      "Type": "COLOR_PLAYER_AMERICA_MINOR_BACKGROUND",
+      "Blue": 0.8039215686,
+      "Green": 0.3294117647,
+      "Alpha": 1,
+      "Red": 0.2078431373
+    },
+    {
+      "Type": "COLOR_PLAYER_ARABIA_MINOR_BACKGROUND",
+      "Blue": 0.4196078431,
+      "Green": 0.8039215686,
+      "Alpha": 1,
+      "Red": 0.3921568627
+    },
+    {
+      "Type": "COLOR_PLAYER_BABYLON_MINOR_BACKGROUND",
+      "Blue": 0.8039215686,
+      "Green": 0.6549019608,
+      "Alpha": 1,
+      "Red": 0.3529411765
+    },
+    {
+      "Type": "COLOR_PLAYER_CELTS_MINOR_BACKGROUND",
+      "Blue": 0.5607843137,
+      "Green": 0.8039215686,
+      "Alpha": 1,
+      "Red": 0.1921568627
+    },
+    {
+      "Type": "COLOR_PLAYER_DENMARK_MINOR_BACKGROUND",
+      "Blue": 0.2,
+      "Green": 0.3764705882,
+      "Alpha": 1,
+      "Red": 0.6509803922
+    },
+    {
+      "Type": "COLOR_PLAYER_ETHIOPIA_MINOR_BACKGROUND",
+      "Blue": 0.3215686275,
+      "Green": 0.8039215686,
+      "Alpha": 1,
+      "Red": 0.0392156863
+    },
+    {
+      "Type": "COLOR_PLAYER_IROQUOIS_MINOR_BACKGROUND",
+      "Blue": 0.8039215686,
+      "Green": 0.8039215686,
+      "Alpha": 1,
+      "Red": 0.6039215686
+    },
+    {
+      "Type": "COLOR_PLAYER_KOREA_MINOR_BACKGROUND",
+      "Blue": 0.9019607843,
+      "Green": 0.2980392157,
+      "Alpha": 1,
+      "Red": 0.2549019608
+    },
+    {
+      "Type": "COLOR_PLAYER_ROME_MINOR_BACKGROUND",
+      "Blue": 0.9019607843,
+      "Green": 0,
+      "Alpha": 1,
+      "Red": 0.5411764706
+    },
+    {
+      "Type": "COLOR_PLAYER_SPAIN_MINOR_BACKGROUND",
+      "Blue": 0.2470588235,
+      "Green": 0.2470588235,
+      "Alpha": 1,
+      "Red": 0.8039215686
+    },
+    {
+      "Type": "COLOR_PLAYER_VENICE_MINOR_BACKGROUND",
+      "Blue": 0.8039215686,
+      "Green": 0.168627451,
+      "Alpha": 1,
+      "Red": 0.5058823529
+    },
+    {
+      "Type": "COLOR_PLAYER_SWEDEN_MINOR_BACKGROUND",
+      "Blue": 0,
+      "Green": 1,
+      "Alpha": 1,
+      "Red": 1
+    },
+    {
+      "Type": "COLOR_PLAYER_POLAND_MINOR_BACKGROUND",
+      "Blue": 0.5273,
+      "Green": 0.5195,
+      "Alpha": 1,
+      "Red": 0.9023
+    },
+    {
+      "Type": "COLOR_PLAYER_AUSTRIA_MINOR_BACKGROUND",
+      "Blue": 1,
+      "Green": 0.6823529412,
+      "Alpha": 1,
+      "Red": 1
+    },
+    {
+      "Type": "COLOR_PLAYER_PERSIA_MINOR_BACKGROUND",
+      "Blue": 0.2392156863,
+      "Green": 0.368627451,
+      "Alpha": 1,
+      "Red": 0.6549019608
+    },
+    {
+      "Type": "COLOR_PLAYER_ENGLAND_MINOR_BACKGROUND",
+      "Blue": 0.4196078431,
+      "Green": 0.4392156863,
+      "Alpha": 1,
+      "Red": 0.6901960784
+    },
+    {
+      "Type": "COLOR_PLAYER_MONGOL_MINOR_BACKGROUND",
+      "Blue": 0.2509803922,
+      "Green": 0.6274509804,
+      "Alpha": 1,
+      "Red": 1
+    },
+    {
+      "Type": "COLOR_PLAYER_MOROCCO_MINOR_BACKGROUND",
+      "Blue": 0.2156862745,
+      "Green": 0.6862745098,
+      "Alpha": 1,
+      "Red": 0.831372549
+    },
+    {
+      "Type": "COLOR_PLAYER_OVIEDO_BACKGROUND",
+      "Blue": 0.831372549,
+      "Green": 0.7647058824,
+      "Alpha": 1,
+      "Red": 0.2745098039
+    },
+    {
+      "Type": "COLOR_PLAYER_VELIGRAD_BACKGROUND",
+      "Blue": 0.2039215686,
+      "Green": 0.5019607843,
+      "Alpha": 1,
+      "Red": 0.2235294118
     }
   ],
   "cityStates": [
