@@ -660,12 +660,6 @@ window.globalSearchIndex = [
     "page": "concepts"
   },
   {
-    "nameFormatted": "Work Boats",
-    "name": "Work Boats",
-    "type": "CONCEPT_WORKERS_WORKBOATS",
-    "page": "concepts"
-  },
-  {
     "nameFormatted": "Pillaging Roads and Improvements",
     "name": "Pillaging Roads and Improvements",
     "type": "CONCEPT_WORKERS_PILLAGE",
@@ -675,12 +669,6 @@ window.globalSearchIndex = [
     "nameFormatted": "Repairing Roads and Improvements",
     "name": "Repairing Roads and Improvements",
     "type": "CONCEPT_WORKERS_REPAIR",
-    "page": "concepts"
-  },
-  {
-    "nameFormatted": "Fishing Boats and Oil Platforms",
-    "name": "Fishing Boats and Oil Platforms",
-    "type": "CONCEPT_WORKERS_REPAIR_WATER",
     "page": "concepts"
   },
   {
@@ -3420,12 +3408,6 @@ window.globalSearchIndex = [
     "page": "units"
   },
   {
-    "nameFormatted": "Work Boat",
-    "name": "Work Boat",
-    "type": "UNIT_WORKBOAT",
-    "page": "units"
-  },
-  {
     "nameFormatted": "SS Stasis Chamber",
     "name": "SS Stasis Chamber",
     "type": "UNIT_SS_STASIS_CHAMBER",
@@ -5292,9 +5274,9 @@ window.globalSearchIndex = [
     "page": "buildings"
   },
   {
-    "nameFormatted": "<span style=\"color: rgba(128, 255, 26, 1)\">(Indian)</span> Harappan Reservoir",
-    "name": "[COLOR_POSITIVE_TEXT](Indian)[ENDCOLOR] Harappan Reservoir",
-    "type": "BUILDING_HARAPPAN_RESERVOIR",
+    "nameFormatted": "<span style=\"color: rgba(128, 255, 26, 1)\">(Indian)</span> Stepwell",
+    "name": "[COLOR_POSITIVE_TEXT](Indian)[ENDCOLOR] Stepwell",
+    "type": "BUILDING_STEPWELL",
     "page": "buildings"
   },
   {
@@ -5910,6 +5892,12 @@ window.globalSearchIndex = [
     "page": "wonders"
   },
   {
+    "nameFormatted": "Master Shipwright",
+    "name": "Master Shipwright",
+    "type": "BUILDING_MASTER_SHIPWRIGHT",
+    "page": "wonders"
+  },
+  {
     "nameFormatted": "Ministerial District",
     "name": "Ministerial District",
     "type": "BUILDING_MINISTERIAL_DISTRICT",
@@ -6030,8 +6018,8 @@ window.globalSearchIndex = [
     "page": "wonders"
   },
   {
-    "nameFormatted": "Roman Forum",
-    "name": "Roman Forum",
+    "nameFormatted": "Forum Magnum",
+    "name": "Forum Magnum",
     "type": "BUILDING_ROMAN_FORUM",
     "page": "wonders"
   },
@@ -6237,6 +6225,18 @@ window.globalSearchIndex = [
     "nameFormatted": "<span style=\"color: rgba(255, 255, 255, 1)\">(Reformation)</span> Sacred Garden",
     "name": "[COLOR_WHITE](Reformation)[ENDCOLOR] Sacred Garden",
     "type": "BUILDING_SACRED_GARDEN",
+    "page": "wonders"
+  },
+  {
+    "nameFormatted": "<span style=\"color: rgba(255, 255, 255, 1)\">(Reformation)</span> Heavenly Stair",
+    "name": "[COLOR_WHITE](Reformation)[ENDCOLOR] Heavenly Stair",
+    "type": "BUILDING_HEAVENLY_STAIR",
+    "page": "wonders"
+  },
+  {
+    "nameFormatted": "<span style=\"color: rgba(255, 255, 255, 1)\">(Reformation)</span> Martial Sanctum",
+    "name": "[COLOR_WHITE](Reformation)[ENDCOLOR] Martial Sanctum",
+    "type": "BUILDING_MARTIAL_SANCTUM",
     "page": "wonders"
   },
   {
@@ -7740,8 +7740,8 @@ window.globalSearchIndex = [
     "page": "beliefs"
   },
   {
-    "nameFormatted": "Mastery",
-    "name": "Mastery",
+    "nameFormatted": "Abstinence",
+    "name": "Abstinence",
     "type": "BELIEF_RELIGIOUS_ART",
     "page": "beliefs"
   },
@@ -7752,8 +7752,8 @@ window.globalSearchIndex = [
     "page": "beliefs"
   },
   {
-    "nameFormatted": "Asceticism",
-    "name": "Asceticism",
+    "nameFormatted": "Fasting",
+    "name": "Fasting",
     "type": "BELIEF_ASCETISM",
     "page": "beliefs"
   },
@@ -7950,6 +7950,18 @@ window.globalSearchIndex = [
     "page": "beliefs"
   },
   {
+    "nameFormatted": "Eternal Glory",
+    "name": "Eternal Glory",
+    "type": "BELIEF_ETERNAL_GLORY",
+    "page": "beliefs"
+  },
+  {
+    "nameFormatted": "Mastery",
+    "name": "Mastery",
+    "type": "BELIEF_MASTERY",
+    "page": "beliefs"
+  },
+  {
     "nameFormatted": "Gurdwaras",
     "name": "Gurdwaras",
     "type": "BELIEF_GURDWARA",
@@ -8076,9 +8088,39 @@ window.globalSearchIndex = [
     "page": "promotions"
   },
   {
+    "nameFormatted": "Scouting I",
+    "name": "Scouting I",
+    "type": "PROMOTION_SCOUTING_1",
+    "page": "promotions"
+  },
+  {
+    "nameFormatted": "Scouting II",
+    "name": "Scouting II",
+    "type": "PROMOTION_SCOUTING_2",
+    "page": "promotions"
+  },
+  {
     "nameFormatted": "Scouting III",
     "name": "Scouting III",
     "type": "PROMOTION_SCOUTING_3",
+    "page": "promotions"
+  },
+  {
+    "nameFormatted": "Survivalism I",
+    "name": "Survivalism I",
+    "type": "PROMOTION_SURVIVALISM_1",
+    "page": "promotions"
+  },
+  {
+    "nameFormatted": "Survivalism II",
+    "name": "Survivalism II",
+    "type": "PROMOTION_SURVIVALISM_2",
+    "page": "promotions"
+  },
+  {
+    "nameFormatted": "Survivalism III",
+    "name": "Survivalism III",
+    "type": "PROMOTION_SURVIVALISM_3",
     "page": "promotions"
   },
   {
@@ -8229,6 +8271,12 @@ window.globalSearchIndex = [
     "nameFormatted": "Bonus vs Naval",
     "name": "Bonus vs Naval",
     "type": "PROMOTION_NAVAL_BONUS",
+    "page": "promotions"
+  },
+  {
+    "nameFormatted": "Extra Sight While Embarked",
+    "name": "Extra Sight While Embarked",
+    "type": "PROMOTION_EMBARKED_SIGHT",
     "page": "promotions"
   },
   {
@@ -8586,8 +8634,8 @@ window.globalSearchIndex = [
     "page": "promotions"
   },
   {
-    "nameFormatted": "Range",
-    "name": "Range",
+    "nameFormatted": "Air Range",
+    "name": "Air Range",
     "type": "PROMOTION_AIR_RANGE",
     "page": "promotions"
   },
@@ -8613,36 +8661,6 @@ window.globalSearchIndex = [
     "nameFormatted": "Evasion",
     "name": "Evasion",
     "type": "PROMOTION_EVASION",
-    "page": "promotions"
-  },
-  {
-    "nameFormatted": "Scouting I",
-    "name": "Scouting I",
-    "type": "PROMOTION_SCOUTING_1",
-    "page": "promotions"
-  },
-  {
-    "nameFormatted": "Scouting II",
-    "name": "Scouting II",
-    "type": "PROMOTION_SCOUTING_2",
-    "page": "promotions"
-  },
-  {
-    "nameFormatted": "Survivalism I",
-    "name": "Survivalism I",
-    "type": "PROMOTION_SURVIVALISM_1",
-    "page": "promotions"
-  },
-  {
-    "nameFormatted": "Survivalism II",
-    "name": "Survivalism II",
-    "type": "PROMOTION_SURVIVALISM_2",
-    "page": "promotions"
-  },
-  {
-    "nameFormatted": "Survivalism III",
-    "name": "Survivalism III",
-    "type": "PROMOTION_SURVIVALISM_3",
     "page": "promotions"
   },
   {
@@ -8964,30 +8982,6 @@ window.globalSearchIndex = [
     "page": "promotions"
   },
   {
-    "nameFormatted": "Extra Sight While Embarked",
-    "name": "Extra Sight While Embarked",
-    "type": "PROMOTION_EMBARKED_SIGHT",
-    "page": "promotions"
-  },
-  {
-    "nameFormatted": "Embarkation with Defense",
-    "name": "Embarkation with Defense",
-    "type": "PROMOTION_DEFENSIVE_EMBARKATION",
-    "page": "promotions"
-  },
-  {
-    "nameFormatted": "Combat Bonus When Attacking (25)",
-    "name": "Combat Bonus When Attacking (25)",
-    "type": "PROMOTION_ATTACK_BONUS",
-    "page": "promotions"
-  },
-  {
-    "nameFormatted": "No Movement Cost to Pillage",
-    "name": "No Movement Cost to Pillage",
-    "type": "PROMOTION_FREE_PILLAGE_MOVES",
-    "page": "promotions"
-  },
-  {
     "nameFormatted": "May Paradrop",
     "name": "May Paradrop",
     "type": "PROMOTION_PARADROP",
@@ -9120,15 +9114,15 @@ window.globalSearchIndex = [
     "page": "promotions"
   },
   {
-    "nameFormatted": "Withdraw Before Melee",
-    "name": "Withdraw Before Melee",
-    "type": "PROMOTION_WITHDRAW_BEFORE_MELEE",
-    "page": "promotions"
-  },
-  {
     "nameFormatted": "Phalanx",
     "name": "Phalanx",
     "type": "PROMOTION_ADJACENT_BONUS",
+    "page": "promotions"
+  },
+  {
+    "nameFormatted": "Embarkation with Defense",
+    "name": "Embarkation with Defense",
+    "type": "PROMOTION_DEFENSIVE_EMBARKATION",
     "page": "promotions"
   },
   {
@@ -9174,9 +9168,21 @@ window.globalSearchIndex = [
     "page": "promotions"
   },
   {
+    "nameFormatted": "No Movement Cost to Pillage",
+    "name": "No Movement Cost to Pillage",
+    "type": "PROMOTION_FREE_PILLAGE_MOVES",
+    "page": "promotions"
+  },
+  {
     "nameFormatted": "Tenacity",
     "name": "Tenacity",
     "type": "PROMOTION_PARTIAL_HEAL_IF_DESTROY_ENEMY",
+    "page": "promotions"
+  },
+  {
+    "nameFormatted": "Combat Bonus When Attacking (25)",
+    "name": "Combat Bonus When Attacking (25)",
+    "type": "PROMOTION_ATTACK_BONUS",
     "page": "promotions"
   },
   {
@@ -9324,6 +9330,12 @@ window.globalSearchIndex = [
     "page": "promotions"
   },
   {
+    "nameFormatted": "Withdraw Before Melee",
+    "name": "Withdraw Before Melee",
+    "type": "PROMOTION_WITHDRAW_BEFORE_MELEE",
+    "page": "promotions"
+  },
+  {
     "nameFormatted": "Invulnerability",
     "name": "Invulnerability",
     "type": "PROMOTION_INVULNERABIILITY",
@@ -9393,24 +9405,6 @@ window.globalSearchIndex = [
     "nameFormatted": "Field III",
     "name": "Field III",
     "type": "PROMOTION_FIELD_3",
-    "page": "promotions"
-  },
-  {
-    "nameFormatted": "Trailblazer I",
-    "name": "Trailblazer I",
-    "type": "PROMOTION_TRAILBLAZER_1",
-    "page": "promotions"
-  },
-  {
-    "nameFormatted": "Trailblazer II",
-    "name": "Trailblazer II",
-    "type": "PROMOTION_TRAILBLAZER_2",
-    "page": "promotions"
-  },
-  {
-    "nameFormatted": "Trailblazer III",
-    "name": "Trailblazer III",
-    "type": "PROMOTION_TRAILBLAZER_3",
     "page": "promotions"
   },
   {
@@ -9498,6 +9492,108 @@ window.globalSearchIndex = [
     "page": "promotions"
   },
   {
+    "nameFormatted": "Parthian Tactics",
+    "name": "Parthian Tactics",
+    "type": "PROMOTION_PARTHIAN_TACTICS",
+    "page": "promotions"
+  },
+  {
+    "nameFormatted": "Coup de Grace",
+    "name": "Coup de Grace",
+    "type": "PROMOTION_COUP_DE_GRACE",
+    "page": "promotions"
+  },
+  {
+    "nameFormatted": "March",
+    "name": "March",
+    "type": "PROMOTION_SKIRMISHER_MARCH",
+    "page": "promotions"
+  },
+  {
+    "nameFormatted": "Sentry",
+    "name": "Sentry",
+    "type": "PROMOTION_SKIRMISHER_SENTRY",
+    "page": "promotions"
+  },
+  {
+    "nameFormatted": "Envelopment",
+    "name": "Envelopment",
+    "type": "PROMOTION_ENVELOPMENT",
+    "page": "promotions"
+  },
+  {
+    "nameFormatted": "Verdant Trekker",
+    "name": "Verdant Trekker",
+    "type": "PROMOTION_VERDANT_TREKKER",
+    "page": "promotions"
+  },
+  {
+    "nameFormatted": "Field Runner",
+    "name": "Field Runner",
+    "type": "PROMOTION_FIELD_RUNNER",
+    "page": "promotions"
+  },
+  {
+    "nameFormatted": "Desert Dweller",
+    "name": "Desert Dweller",
+    "type": "PROMOTION_DESERT_DWELLER",
+    "page": "promotions"
+  },
+  {
+    "nameFormatted": "Frost Walker",
+    "name": "Frost Walker",
+    "type": "PROMOTION_FROST_WALKER",
+    "page": "promotions"
+  },
+  {
+    "nameFormatted": "Mountaineer",
+    "name": "Mountaineer",
+    "type": "PROMOTION_MOUNTAINEER",
+    "page": "promotions"
+  },
+  {
+    "nameFormatted": "Waterborne",
+    "name": "Waterborne",
+    "type": "PROMOTION_WATERBORNE",
+    "page": "promotions"
+  },
+  {
+    "nameFormatted": "Forager",
+    "name": "Forager",
+    "type": "PROMOTION_FORAGER",
+    "page": "promotions"
+  },
+  {
+    "nameFormatted": "Survivalism",
+    "name": "Survivalism",
+    "type": "PROMOTION_SURVIVALISM",
+    "page": "promotions"
+  },
+  {
+    "nameFormatted": "Screening I",
+    "name": "Screening I",
+    "type": "PROMOTION_SCREENING_1",
+    "page": "promotions"
+  },
+  {
+    "nameFormatted": "Screening II",
+    "name": "Screening II",
+    "type": "PROMOTION_SCREENING_2",
+    "page": "promotions"
+  },
+  {
+    "nameFormatted": "Screening III",
+    "name": "Screening III",
+    "type": "PROMOTION_SCREENING_3",
+    "page": "promotions"
+  },
+  {
+    "nameFormatted": "Halo Jumper",
+    "name": "Halo Jumper",
+    "type": "PROMOTION_HALO_JUMPER",
+    "page": "promotions"
+  },
+  {
     "nameFormatted": "Indomitable",
     "name": "Indomitable",
     "type": "PROMOTION_INDOMITABLE",
@@ -9537,30 +9633,6 @@ window.globalSearchIndex = [
     "nameFormatted": "Piracy",
     "name": "Piracy",
     "type": "PROMOTION_PIRACY",
-    "page": "promotions"
-  },
-  {
-    "nameFormatted": "Parthian Tactics",
-    "name": "Parthian Tactics",
-    "type": "PROMOTION_PARTHIAN_TACTICS",
-    "page": "promotions"
-  },
-  {
-    "nameFormatted": "Coup de Grace",
-    "name": "Coup de Grace",
-    "type": "PROMOTION_COUP_DE_GRACE",
-    "page": "promotions"
-  },
-  {
-    "nameFormatted": "March",
-    "name": "March",
-    "type": "PROMOTION_SKIRMISHER_MARCH",
-    "page": "promotions"
-  },
-  {
-    "nameFormatted": "Sentry",
-    "name": "Sentry",
-    "type": "PROMOTION_SKIRMISHER_SENTRY",
     "page": "promotions"
   },
   {
@@ -9609,24 +9681,6 @@ window.globalSearchIndex = [
     "nameFormatted": "Bomb Rack",
     "name": "Bomb Rack",
     "type": "PROMOTION_BOMB_RACK",
-    "page": "promotions"
-  },
-  {
-    "nameFormatted": "Frogman",
-    "name": "Frogman",
-    "type": "PROMOTION_FROGMAN",
-    "page": "promotions"
-  },
-  {
-    "nameFormatted": "Screening",
-    "name": "Screening",
-    "type": "PROMOTION_SCREENING",
-    "page": "promotions"
-  },
-  {
-    "nameFormatted": "Envelopment",
-    "name": "Envelopment",
-    "type": "PROMOTION_ENVELOPMENT",
     "page": "promotions"
   },
   {
@@ -9882,6 +9936,12 @@ window.globalSearchIndex = [
     "page": "promotions"
   },
   {
+    "nameFormatted": "Strategic Study",
+    "name": "Strategic Study",
+    "type": "PROMOTION_STRATEGIC_STUDY",
+    "page": "promotions"
+  },
+  {
     "nameFormatted": "Brute Force",
     "name": "Brute Force",
     "type": "PROMOTION_BRUTE_FORCE",
@@ -9954,6 +10014,12 @@ window.globalSearchIndex = [
     "page": "promotions"
   },
   {
+    "nameFormatted": "Parabolic Payload",
+    "name": "Parabolic Payload",
+    "type": "PROMOTION_PARABOLIC_PAYLOAD",
+    "page": "promotions"
+  },
+  {
     "nameFormatted": "Reconnaissance",
     "name": "Reconnaissance",
     "type": "PROMOTION_RECONNAISSANCE",
@@ -9972,9 +10038,15 @@ window.globalSearchIndex = [
     "page": "promotions"
   },
   {
-    "nameFormatted": "Commando",
-    "name": "Commando",
-    "type": "PROMOTION_COMMANDO",
+    "nameFormatted": "Voyager",
+    "name": "Voyager",
+    "type": "PROMOTION_VOYAGER",
+    "page": "promotions"
+  },
+  {
+    "nameFormatted": "Jammer",
+    "name": "Jammer",
+    "type": "PROMOTION_JAMMER",
     "page": "promotions"
   },
   {
@@ -10083,6 +10155,12 @@ window.globalSearchIndex = [
     "nameFormatted": "Assize of Arms",
     "name": "Assize of Arms",
     "type": "PROMOTION_ASSIZE_OF_ARMS",
+    "page": "promotions"
+  },
+  {
+    "nameFormatted": "Agincourt",
+    "name": "Agincourt",
+    "type": "PROMOTION_AGINCOURT",
     "page": "promotions"
   },
   {
@@ -10425,12 +10503,6 @@ window.globalSearchIndex = [
     "nameFormatted": "Invincible",
     "name": "Invincible",
     "type": "PROMOTION_INVINCIBLE",
-    "page": "promotions"
-  },
-  {
-    "nameFormatted": "Agincourt",
-    "name": "Agincourt",
-    "type": "PROMOTION_AGINCOURT",
     "page": "promotions"
   },
   {
